@@ -1,24 +1,13 @@
-# Gradle
 .gradle/
-build/
-out/
-classes/
-
-# Eclipse
-*.launch
-
-# IntelliJ IDEA
 .idea/
-*.iml
-*.ipr
-*.iws
+.build/
+build/
+NAMESPACE_GUIDE.md
+/bin/
 
-# Fabric / Forge / NeoForge
+# Build artifacts / logs
+build-out.log
+build-err.log
+build.pid
 run/
-runs/
-run-data/
-logs/
-
-# OS
-.DS_Store
-Thumbs.db
+out/

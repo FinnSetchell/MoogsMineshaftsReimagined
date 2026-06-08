@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "mvs:jungle_mineshaft",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "moogs_structures:advanced_random_spread",
+    "salt": 174382660,
+    "spacing": 40,
+    "separation": 26
+  }
+}

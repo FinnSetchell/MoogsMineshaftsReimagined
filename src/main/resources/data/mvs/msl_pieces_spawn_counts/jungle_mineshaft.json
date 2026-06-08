@@ -1,0 +1,16 @@
+{
+  "pieces_spawn_counts": [
+    {
+      "nbt_piece_name": "mvs:jungle_mineshaft/tnt_corner_1",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "mvs:jungle_mineshaft/special_corner_1",
+      "never_spawn_more_than_this_many": 2
+    },
+    {
+      "nbt_piece_name": "mvs:jungle_mineshaft/special_corner_2",
+      "never_spawn_more_than_this_many": 2
+    }
+  ]
+}
