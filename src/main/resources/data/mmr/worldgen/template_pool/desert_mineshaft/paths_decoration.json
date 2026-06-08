@@ -1,0 +1,9 @@
+{
+  "name": "mmr:desert_mineshaft/paths_decoration",
+  "fallback": "minecraft:empty",
+  "elements": [
+    { "weight": 6, "element": { "element_type": "minecraft:single_pool_element", "projection": "rigid", "location": "mmr:desert_mineshaft/path_decoration_cactus", "processors": "minecraft:empty" } },
+    { "weight": 5, "element": { "element_type": "minecraft:single_pool_element", "projection": "rigid", "location": "mmr:desert_mineshaft/path_decoration_cart", "processors": "minecraft:empty" } },
+    { "weight": 3, "element": { "element_type": "minecraft:single_pool_element", "projection": "rigid", "location": "mmr:desert_mineshaft/path_decoration_gold", "processors": "minecraft:empty" } }
+  ]
+}

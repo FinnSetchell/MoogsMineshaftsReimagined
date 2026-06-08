@@ -2,7 +2,7 @@
 """
 Batch-patches loot tables onto all empty/hardcoded containers.
 
-NOTE: This script's `classify()` function contains MVS-specific business logic
+NOTE: This script's `classify()` function contains MMR-specific business logic
 (cathedral -> cathedral_common, mineshaft -> mineshaft/common, etc.). If you copy
 this to another mod, you'll need to rewrite `classify()` for that mod's
 structure naming conventions.

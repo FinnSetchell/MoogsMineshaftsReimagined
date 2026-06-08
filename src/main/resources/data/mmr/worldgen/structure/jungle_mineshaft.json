@@ -1,0 +1,35 @@
+{
+  "type": "moogs_structures:moogs_structures_generic_nether_jigsaw_structure",
+  "start_pool": "mmr:jungle_mineshaft/start_pool",
+  "size": 7,
+  "biomes": "#c:is_jungle",
+  "land_search_direction": "HIGHEST_LAND",
+  "cannot_spawn_in_liquid": true,
+  "valid_biome_radius_check": 2,
+  "terrain_height_radius_check": 3,
+  "allowed_terrain_height_range": 5,
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "start_height": {
+    "absolute": 0
+  },
+  "max_distance_from_center": 65,
+  "pools_that_ignore_boundaries": [
+    "mmr:jungle_mineshaft/tunnels_overflow"
+  ],
+  "use_bounding_box_hack": false,
+  "enhanced_terrain_adaptation": {
+    "kernel_size": 5,
+    "kernel_distance": 5,
+    "top": "carve",
+    "bottom": "bury",
+    "bottom_offset": 1.0,
+    "padding": {
+      "x": 1,
+      "top": 1,
+      "bottom": 0,
+      "z": 1
+    }
+  },
+  "spawn_overrides": {}
+}

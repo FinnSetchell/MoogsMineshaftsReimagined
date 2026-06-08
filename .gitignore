@@ -11,3 +11,6 @@ build-err.log
 build.pid
 run/
 out/
+# Python
+__pycache__/
+*.pyc

@@ -84,7 +84,7 @@ tasks.register('buildDatapack', Zip) {
     }
     // The mod's icon becomes the datapack's pack.png at the zip root.
     from(resourcesDir) {
-        include 'assets/mvs/icon.png'
+        include 'assets/mmr/icon.png'
         includeEmptyDirs = false
         eachFile { it.path = 'pack.png' }
     }
@@ -169,7 +169,7 @@ publishMods {
         accessToken = providers.environmentVariable('MODRINTH_API_KEY')
         projectId = (project.findProperty('datapackModrinthProjectId') ?: '')
         file = tasks.named('buildDatapack').flatMap { it.archiveFile }
-        displayName = "MVS Config Pack ${project.version}-${mcVersion}"
+        displayName = "MMR Config Pack ${project.version}-${mcVersion}"
         modLoaders.set(["datapack"])
         announcementTitle = "Download the Config Pack on Modrinth"
         minecraftVersionRange {
@@ -178,7 +178,7 @@ publishMods {
         }
         extraMcVersions.each { minecraftVersions.add(it) }
         requires {
-            slug = "moogs-voyager-structures"
+            slug = "moogs-mineshafts-reimagined"
         }
     }
 
@@ -186,7 +186,7 @@ publishMods {
         accessToken = providers.environmentVariable('CURSEFORGE_API_KEY')
         projectId = (project.findProperty('datapackCurseforgeProjectId') ?: '')
         file = tasks.named('buildDatapack').flatMap { it.archiveFile }
-        displayName = "MVS Config Pack ${project.version}-${mcVersion}"
+        displayName = "MMR Config Pack ${project.version}-${mcVersion}"
         modLoaders.set(["datapack"])
         announcementTitle = "Download the Config Pack on CurseForge"
         serverRequired = false
@@ -195,7 +195,7 @@ publishMods {
             end = project.findProperty('publishMcEnd')
         }
         extraMcVersions.each { minecraftVersions.add(it) }
-        requires("moogs-voyager-structures")
+        requires("moogs-mineshafts-reimagined")
     }
 
     discord {
