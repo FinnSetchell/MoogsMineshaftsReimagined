@@ -1,5 +1,5 @@
 {
-  "name": "mmr:nether_mineshaft/start_side",
+  "name": "mmr:nether_mineshaft/start_bottom_lower",
   "fallback": "minecraft:empty",
   "elements": [
     {
