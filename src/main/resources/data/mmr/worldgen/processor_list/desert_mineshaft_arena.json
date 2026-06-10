@@ -1,0 +1,29 @@
+{
+  "processors": [
+    {
+      "processor_type": "moogs_structures:spawner_randomizing_processor",
+      "weighted_entities": [
+        { "entity": "minecraft:husk", "weight": 4 },
+        { "entity": "minecraft:zombie", "weight": 2 },
+        { "entity": "minecraft:bogged", "weight": 2 },
+        { "entity": "minecraft:cave_spider", "weight": 2 }
+      ],
+      "min_spawn_delay": 300,
+      "max_spawn_delay": 900,
+      "spawn_count": 2,
+      "max_nearby_entities": 4,
+      "required_player_range": 14,
+      "spawn_range": 4
+    },
+    {
+      "processor_type": "moogs_structures:trial_spawner_randomizing_processor",
+      "normal_config": "mmr:desert_mineshaft/normal",
+      "ominous_config": "mmr:desert_mineshaft/ominous"
+    },
+    {
+      "processor_type": "moogs_structures:vault_randomizing_processor",
+      "loot_table": "mmr:desert_mineshaft/vault",
+      "ominous_loot_table": "mmr:desert_mineshaft/vault_ominous"
+    }
+  ]
+}

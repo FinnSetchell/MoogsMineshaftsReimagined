@@ -1,0 +1,15 @@
+{
+  "name": "mmr:mesa_mineshaft/corridor_overflow",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mmr:mesa_mineshaft/dead_end_6",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

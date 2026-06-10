@@ -1,0 +1,16 @@
+{
+  "simultaneous_mobs": 2.0,
+  "simultaneous_mobs_added_per_player": 0.5,
+  "total_mobs": 6.0,
+  "total_mobs_added_per_player": 2.0,
+  "ticks_between_spawn": 40,
+  "spawn_potentials": [
+    { "weight": 3, "data": { "entity": { "id": "minecraft:husk" } } },
+    { "weight": 2, "data": { "entity": { "id": "minecraft:bogged" } } },
+    { "weight": 2, "data": { "entity": { "id": "minecraft:cave_spider" } } },
+    { "weight": 1, "data": { "entity": { "id": "minecraft:zombie" } } }
+  ],
+  "loot_tables_to_eject": [
+    { "data": "mmr:desert_mineshaft/trial_spawner", "weight": 1 }
+  ]
+}

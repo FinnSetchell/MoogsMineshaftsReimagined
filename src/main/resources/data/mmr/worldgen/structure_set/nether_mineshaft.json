@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "mmr:nether_mineshaft",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "moogs_structures:advanced_random_spread",
+    "salt": 611002285,
+    "spacing": 45,
+    "separation": 36
+  }
+}

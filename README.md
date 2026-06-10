@@ -1,75 +1,67 @@
-![banner](https://www.bisecthosting.com/images/CF/MVS/BH_NU_HEADER.png)
+![Mod Header](https://pub-24a4e0e7ea8544a5b6f73c3a23512589.r2.dev/images/7ea9047bce0d4ce99c4860e352900619.png)
 
 ---
 
-[![Discord](https://img.shields.io/discord/869218732650688543?color=0f2b52&label=DISCORD&style=for-the-badge)](https://discord.com/invite/S5nffJbuvA) [![](https://img.shields.io/badge/TOTAL-80%20STRUCTURES-0f2b52?style=for-the-badge)](https://github.com/FinnSetchell/MoogsVanillaStructuresV2/wiki) [![GitHub Sponsors](https://img.shields.io/github/sponsors/finnsetchell?color=0f2b52&style=for-the-badge)](https://github.com/sponsors/FinnSetchell) [![Twitter Follow](https://img.shields.io/twitter/follow/MoogsMods?color=0f2b52&style=for-the-badge)](https://twitter.com/MoogsMods)
-
-[![](https://img.shields.io/badge/My-projects-0f2b52?style=for-the-badge&logo=curseforge)](https://www.curseforge.com/members/finndog_123/projects)
+[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/S5nffJbuvA) [![CurseForge](https://img.shields.io/badge/CurseForge-F16436?style=for-the-badge&logo=curseforge&logoColor=white)](https://www.curseforge.com/members/finndog_123/projects) [![Modrinth](https://img.shields.io/badge/Modrinth-00AF5C?style=for-the-badge&logo=modrinth&logoColor=white)](https://modrinth.com/user/FinnDog_123)
 
 ---
 
-![Overview](https://www.bisecthosting.com/images/CF/MVS/BH_NU_BANNER1.png)
+![Overview Banner](https://pub-24a4e0e7ea8544a5b6f73c3a23512589.r2.dev/images/f2d9f09900b3424d8eff73cc5fb4f912.png)
 
 ---
-
-**FEEDBACK**
-
-Please comment any ideas you may have to improve this mod. Any and all feedback is greatly appreciated :)
-
-**FORGE AND FABRIC**
-
-Look for files marked with **\[FORGE\]** or **\[FABRIC\]**.   
-***Fabric** mods are marked with **BETA** so that they show up on the side, but they are actually **RELEASE's***
 
 **ABOUT**
 
-Moog's Mineshafts Reimagined brings life, fun and variety to Minecraft's mineshafts! Explore overhauled mineshafts made with vanilla blocks and entities, and discover new loot, enemies, and surprises along the way. This mod is compatible with any modpack and keeps the vanilla feel of the game!
+Moog's Mineshafts Reimagined replaces Minecraft's abandoned mineshafts with larger, hand built versions made from vanilla blocks and entities. Each one is a jigsaw structure of connected tunnels and rooms with reworked loot, mob spawners, and the occasional themed room. It works in any modpack and does not change how the rest of the game looks or plays.
 
-**Config pack**
+A different mineshaft generates depending on the biome above it.
 
-[link](https://github.com/FinnSetchell/MoogsMineshaftsReimagined)
+**REQUIRED**
 
-A datapack you can use to configure the mod.
+This mod needs Moog's Structure Lib installed on both the client and the server. Install both, drop them in your mods folder, and that is it. No config changes are needed.
 
-**REQUIRED ON CLIENT AND SERVER**
+**FEEDBACK**
 
-1. simply download the version you need
-2. then add it to your mods folder  
-   It does not require any settings to be changed for it and should work with all mods
+If you have an idea to improve the mineshafts, leave a comment or post it in the Discord. All feedback is welcome.
 
 ---
 
-![features](https://www.bisecthosting.com/images/CF/MVS/BH_NU_BANNER2.png)![collage](https://imgur.com/I9lNEvl.png)
+![Features Banner](https://pub-24a4e0e7ea8544a5b6f73c3a23512589.r2.dev/images/afbd41d11e454b08b7640689ed41c253.png)
 
 ---
 
-![showcase](https://www.bisecthosting.com/images/CF/MVS/BH_NU_BANNER4.png)
+**STRUCTURES**
+
+- **Mineshaft** (taiga and similar overworld biomes), 50 pieces. The base reimagined mineshaft: branching tunnels, support framing, and loot rooms.
+- **Desert Mineshaft**, 55 pieces. Generates under deserts. Sandstone tunnels with above ground paths, a quarry, an archaeology dig with suspicious sand, a stable, and a vault and trial spawner room.
+- **Jungle Mineshaft**, 43 pieces. Generates under jungles. Overgrown tunnels with a brewing room, a furnace that opens a hidden door, and a staircase down into the network.
+
+Each mineshaft is a jigsaw structure, so the layout and which rooms appear changes every time one generates. Loot ranges from common supply barrels up to rarer treasure chests and vaults.
 
 ---
 
-**If you have any modpacks/videos using this mod that you want featured here, then message me on discord!**
+![Showcase Banner](https://pub-24a4e0e7ea8544a5b6f73c3a23512589.r2.dev/images/64e77f4e040e4fb98bce47f4cc6bd5f2.png)
+
+---
+
+If you have a modpack or video using this mod that you want featured here, message me on Discord.
 
 **VIDEOS:**
 
 
 
+**MODPACKS:**
 
 
-**MODPACKS**
-
-see all modpacks [here](https://www.modpackindex.com/modpack/finder?included_mods=37802 "here")
 
 ---
 
-![](https://www.bisecthosting.com/images/CF/MVS/BH_NU_BANNER3.png)
+![Discord Banner](https://pub-24a4e0e7ea8544a5b6f73c3a23512589.r2.dev/images/55aa3d2a786944a6a241ca8850d95280.png)
 
----
-
-**The best and fastest way to get replies is to join our [discord server](https://discord.gg/S5nffJbuvA)**
+The fastest way to get a reply is the [Discord server](https://discord.gg/S5nffJbuvA).
 
 [**![discord](https://i.imgur.com/sfAmR3Y.png)**](https://discord.gg/S5nffJbuvA "discord invite")
 
 ---
 
-[![serverImage](https://i.imgur.com/kMtqORw.png)](https://moogsmodded.store.playerlands.com/ "serverShop")  
-[![BHsponser](https://www.bisecthosting.com/images/CF/MVS/BH_NU_PROMO.png)](https://bisecthosting.com/moogsmods)
+[![BH Promo](https://pub-24a4e0e7ea8544a5b6f73c3a23512589.r2.dev/images/5e2fd2e20c2b40fdb6a9aae5146e75ec.png)](https://bisecthosting.com/moogsmods)

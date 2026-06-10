@@ -1,0 +1,155 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:basalt"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:netherrack"
+          }
+        },
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:smooth_basalt"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:netherrack"
+          }
+        },
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:polished_basalt"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:netherrack"
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "moogs_structures:equip_armor_stand_processor",
+      "armor_sets": [
+        {
+          "armor": {
+            "head": {
+              "id": "minecraft:iron_helmet",
+              "count": 1
+            },
+            "chest": {
+              "id": "minecraft:iron_chestplate",
+              "count": 1
+            },
+            "legs": {
+              "id": "minecraft:iron_leggings",
+              "count": 1
+            },
+            "feet": {
+              "id": "minecraft:iron_boots",
+              "count": 1
+            }
+          },
+          "weight": 4
+        },
+        {
+          "armor": {
+            "head": {
+              "id": "minecraft:golden_helmet",
+              "count": 1
+            },
+            "chest": {
+              "id": "minecraft:golden_chestplate",
+              "count": 1
+            },
+            "legs": {
+              "id": "minecraft:golden_leggings",
+              "count": 1
+            },
+            "feet": {
+              "id": "minecraft:golden_boots",
+              "count": 1
+            }
+          },
+          "weight": 3
+        },
+        {
+          "armor": {
+            "head": {
+              "id": "minecraft:chainmail_helmet",
+              "count": 1
+            },
+            "chest": {
+              "id": "minecraft:chainmail_chestplate",
+              "count": 1
+            },
+            "legs": {
+              "id": "minecraft:chainmail_leggings",
+              "count": 1
+            },
+            "feet": {
+              "id": "minecraft:chainmail_boots",
+              "count": 1
+            }
+          },
+          "weight": 3
+        },
+        {
+          "armor": {
+            "head": {
+              "id": "minecraft:leather_helmet",
+              "count": 1
+            },
+            "chest": {
+              "id": "minecraft:leather_chestplate",
+              "count": 1
+            },
+            "legs": {
+              "id": "minecraft:leather_leggings",
+              "count": 1
+            },
+            "feet": {
+              "id": "minecraft:leather_boots",
+              "count": 1
+            }
+          },
+          "weight": 2
+        },
+        {
+          "armor": {
+            "head": {
+              "id": "minecraft:diamond_helmet",
+              "count": 1
+            },
+            "chest": {
+              "id": "minecraft:diamond_chestplate",
+              "count": 1
+            },
+            "legs": {
+              "id": "minecraft:diamond_leggings",
+              "count": 1
+            },
+            "feet": {
+              "id": "minecraft:diamond_boots",
+              "count": 1
+            }
+          },
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

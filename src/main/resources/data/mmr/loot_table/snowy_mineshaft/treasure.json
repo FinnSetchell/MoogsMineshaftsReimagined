@@ -10,7 +10,13 @@
           "name": "minecraft:diamond",
           "weight": 12,
           "functions": [
-            { "function": "minecraft:set_count", "count": { "min": 3, "max": 5 } }
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
           ]
         },
         {
@@ -18,7 +24,13 @@
           "name": "minecraft:iron_block",
           "weight": 8,
           "functions": [
-            { "function": "minecraft:set_count", "count": { "min": 1, "max": 3 } }
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
           ]
         },
         {
@@ -26,7 +38,13 @@
           "name": "minecraft:gold_ingot",
           "weight": 10,
           "functions": [
-            { "function": "minecraft:set_count", "count": { "min": 3, "max": 6 } }
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 6
+              }
+            }
           ]
         },
         {
@@ -34,7 +52,13 @@
           "name": "minecraft:emerald_block",
           "weight": 5,
           "functions": [
-            { "function": "minecraft:set_count", "count": { "min": 1, "max": 2 } }
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
           ]
         },
         {
@@ -44,22 +68,24 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": { "type": "minecraft:uniform", "min": 25, "max": 35 },
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 25,
+                "max": 35
+              },
               "options": "#minecraft:on_random_loot"
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:ward_armor_trim_smithing_template",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_block",
+          "name": "minecraft:gold_block",
           "weight": 2,
           "functions": [
-            { "function": "minecraft:set_count", "count": 1 }
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
           ]
         },
         {
@@ -67,7 +93,13 @@
           "name": "minecraft:blue_ice",
           "weight": 4,
           "functions": [
-            { "function": "minecraft:set_count", "count": { "min": 2, "max": 5 } }
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            }
           ]
         },
         {
@@ -83,7 +115,11 @@
       ]
     },
     {
-      "rolls": { "type": "minecraft:uniform", "min": 2, "max": 3 },
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 3
+      },
       "bonus_rolls": 0,
       "entries": [
         {
@@ -91,7 +127,13 @@
           "name": "minecraft:iron_ingot",
           "weight": 12,
           "functions": [
-            { "function": "minecraft:set_count", "count": { "min": 2, "max": 5 } }
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            }
           ]
         },
         {
@@ -99,7 +141,13 @@
           "name": "minecraft:gold_ingot",
           "weight": 8,
           "functions": [
-            { "function": "minecraft:set_count", "count": { "min": 2, "max": 4 } }
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
           ]
         },
         {
@@ -107,7 +155,13 @@
           "name": "minecraft:diamond",
           "weight": 4,
           "functions": [
-            { "function": "minecraft:set_count", "count": { "min": 1, "max": 2 } }
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
           ]
         },
         {
@@ -115,7 +169,13 @@
           "name": "minecraft:emerald",
           "weight": 8,
           "functions": [
-            { "function": "minecraft:set_count", "count": { "min": 2, "max": 4 } }
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
           ]
         },
         {
@@ -123,7 +183,13 @@
           "name": "minecraft:lapis_lazuli",
           "weight": 6,
           "functions": [
-            { "function": "minecraft:set_count", "count": { "min": 3, "max": 6 } }
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 6
+              }
+            }
           ]
         },
         {
@@ -131,7 +197,13 @@
           "name": "minecraft:golden_carrot",
           "weight": 6,
           "functions": [
-            { "function": "minecraft:set_count", "count": { "min": 2, "max": 4 } }
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
           ]
         },
         {
@@ -139,7 +211,13 @@
           "name": "minecraft:golden_apple",
           "weight": 5,
           "functions": [
-            { "function": "minecraft:set_count", "count": { "min": 1, "max": 2 } }
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
           ]
         },
         {
@@ -147,7 +225,9 @@
           "name": "minecraft:book",
           "weight": 5,
           "functions": [
-            { "function": "minecraft:enchant_randomly" }
+            {
+              "function": "minecraft:enchant_randomly"
+            }
           ]
         },
         {
@@ -166,7 +246,13 @@
           "name": "minecraft:gold_nugget",
           "weight": 18,
           "functions": [
-            { "function": "minecraft:set_count", "count": { "min": 3, "max": 6 } }
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 6
+              }
+            }
           ]
         },
         {
@@ -174,7 +260,13 @@
           "name": "minecraft:iron_nugget",
           "weight": 18,
           "functions": [
-            { "function": "minecraft:set_count", "count": { "min": 3, "max": 6 } }
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 6
+              }
+            }
           ]
         },
         {
@@ -182,7 +274,13 @@
           "name": "minecraft:iron_ingot",
           "weight": 8,
           "functions": [
-            { "function": "minecraft:set_count", "count": { "min": 1, "max": 2 } }
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
           ]
         },
         {
@@ -197,17 +295,16 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:ward_armor_trim_smithing_template",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:diamond_pickaxe",
           "weight": 2,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": { "type": "minecraft:uniform", "min": 20, "max": 30 },
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 30
+              },
               "options": "#minecraft:on_random_loot"
             }
           ]
@@ -215,7 +312,11 @@
       ]
     },
     {
-      "rolls": { "type": "minecraft:uniform", "min": 1, "max": 2 },
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+      },
       "bonus_rolls": 0,
       "entries": [
         {
@@ -223,7 +324,13 @@
           "name": "minecraft:cobweb",
           "weight": 8,
           "functions": [
-            { "function": "minecraft:set_count", "count": { "min": 1, "max": 2 } }
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
           ]
         },
         {
@@ -231,7 +338,13 @@
           "name": "minecraft:string",
           "weight": 6,
           "functions": [
-            { "function": "minecraft:set_count", "count": { "min": 1, "max": 3 } }
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
           ]
         },
         {
@@ -239,7 +352,13 @@
           "name": "minecraft:bone",
           "weight": 4,
           "functions": [
-            { "function": "minecraft:set_count", "count": { "min": 1, "max": 3 } }
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
           ]
         },
         {
@@ -247,7 +366,13 @@
           "name": "minecraft:snowball",
           "weight": 4,
           "functions": [
-            { "function": "minecraft:set_count", "count": { "min": 2, "max": 6 } }
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
           ]
         }
       ]
