@@ -2,6 +2,7 @@
 
 ---
 
+
 [![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/S5nffJbuvA) [![CurseForge](https://img.shields.io/badge/CurseForge-F16436?style=for-the-badge&logo=curseforge&logoColor=white)](https://www.curseforge.com/members/finndog_123/projects) [![Modrinth](https://img.shields.io/badge/Modrinth-00AF5C?style=for-the-badge&logo=modrinth&logoColor=white)](https://modrinth.com/user/FinnDog_123)
 
 ---
@@ -12,13 +13,13 @@
 
 **ABOUT**
 
-Moog's Mineshafts Reimagined replaces Minecraft's abandoned mineshafts with larger, hand built versions made from vanilla blocks and entities. Each one is a jigsaw structure of connected tunnels and rooms with reworked loot, mob spawners, and the occasional themed room. It works in any modpack and does not change how the rest of the game looks or plays.
+Moog's Mineshafts Reimagined replaces Minecraft's abandoned mineshafts with larger, hand built versions made from vanilla blocks and entities. Each one is a complex randomly generating jigsaw structure of connected tunnels and rooms with lots of loot, mob spawners, and interesting rooms. It works in any modpack and does not change how the rest of the game looks or plays.
 
 A different mineshaft generates depending on the biome above it.
 
 **REQUIRED**
 
-This mod needs Moog's Structure Lib installed on both the client and the server. Install both, drop them in your mods folder, and that is it. No config changes are needed.
+This mod needs Moog's Structure Lib installed on the server.
 
 **FEEDBACK**
 
@@ -35,8 +36,17 @@ If you have an idea to improve the mineshafts, leave a comment or post it in the
 - **Mineshaft** (taiga and similar overworld biomes), 50 pieces. The base reimagined mineshaft: branching tunnels, support framing, and loot rooms.
 - **Desert Mineshaft**, 55 pieces. Generates under deserts. Sandstone tunnels with above ground paths, a quarry, an archaeology dig with suspicious sand, a stable, and a vault and trial spawner room.
 - **Jungle Mineshaft**, 43 pieces. Generates under jungles. Overgrown tunnels with a brewing room, a furnace that opens a hidden door, and a staircase down into the network.
+- **Mesa Mineshaft**, 34 pieces. Generates under badlands. A wide spreading network of badlands themed tunnels, corners, and staircases that reaches further across the map than the other mineshafts.
+- **Snowy Mineshaft**, 34 pieces. Generates under snowy biomes. A spread out network of frozen tunnels, corners, and staircases linking the levels.
+- **Nether Mineshaft**, 41 pieces. Generates in the nether. Tunnels reworked to fit the nether, with a mess hall, a TNT trapped corner, a start room, and a rare warden corridor that appears at most once per mineshaft.
 
-Each mineshaft is a jigsaw structure, so the layout and which rooms appear changes every time one generates. Loot ranges from common supply barrels up to rarer treasure chests and vaults.
+Each mineshaft is a jigsaw structure, so the layout and which rooms appear changes every time one generates. Loot ranges from common supply barrels up to rarer treasure chests and vaults, with several themed variants of each so chests differ between rooms.
+
+**PREVIEWS**
+
+Explore the structures in 3D before you download at the [previews site](https://previews.moogsmods.com/mineshafts-reimagined/1.21.1/).
+
+<!-- TODO: confirm the previews URL slug for this project once its page is live. Voyager Structures uses https://previews.moogsmods.com/voyager-structures/1.21.1/ -->
 
 ---
 

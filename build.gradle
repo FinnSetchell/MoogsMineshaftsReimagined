@@ -112,16 +112,21 @@ if (changeLogFile.exists()) {
     }
 }
 
+def isAlpha = project.findProperty('alphaBuild')?.toString()?.toBoolean() ?: false
+def datapackModrinthId = (project.findProperty('datapackModrinthProjectId') ?: '').toString().trim()
+def datapackCurseforgeId = (project.findProperty('datapackCurseforgeProjectId') ?: '').toString().trim()
+
 publishMods {
     file = tasks.named('jar').flatMap { it.archiveFile }
     changelog = changelogText
 
     // Release metadata
     version = project.version.toString()
-    type = STABLE
+    type = isAlpha ? ALPHA : STABLE
     def displayPrefix = project.findProperty('publishDisplayPrefix')
     def displaySuffix = project.findProperty('publishDisplaySuffix')
-    displayName = "${displayPrefix} ${project.version}-${mcVersion} ${displaySuffix}"
+    def alphaMarker = isAlpha ? ' [ALPHA]' : ''
+    displayName = "${displayPrefix} ${project.version}-${mcVersion} ${displaySuffix}${alphaMarker}"
 
 
     // Mod loaders are set per-publication below so the config datapack (loader "datapack")
@@ -163,48 +168,61 @@ publishMods {
     }
 
     // Config datapack publications -> separate Modrinth/CurseForge projects.
-    // These inherit the shared changelog/version/type from above but override file,
-    // mod loader (datapack), project IDs and display name.
-    modrinth("modrinthDatapack") {
-        accessToken = providers.environmentVariable('MODRINTH_API_KEY')
-        projectId = (project.findProperty('datapackModrinthProjectId') ?: '')
-        file = tasks.named('buildDatapack').flatMap { it.archiveFile }
-        displayName = "MMR Config Pack ${project.version}-${mcVersion}"
-        modLoaders.set(["datapack"])
-        announcementTitle = "Download the Config Pack on Modrinth"
-        minecraftVersionRange {
-            start = project.findProperty('publishMcStart')
-            end = project.findProperty('publishMcEnd')
-        }
-        extraMcVersions.each { minecraftVersions.add(it) }
-        requires {
-            slug = "moogs-mineshafts-reimagined"
+    // Skipped on alpha builds, and skipped entirely when the datapack project IDs are
+    // unset (no datapack sites yet) so publishMods fails elegantly instead of erroring on
+    // an empty projectId. The config datapack zip is still built and attached to the
+    // GitHub release regardless (see release.yml).
+    if (!isAlpha && datapackModrinthId) {
+        modrinth("modrinthDatapack") {
+            accessToken = providers.environmentVariable('MODRINTH_API_KEY')
+            projectId = datapackModrinthId
+            file = tasks.named('buildDatapack').flatMap { it.archiveFile }
+            displayName = "MMR Config Pack ${project.version}-${mcVersion}"
+            modLoaders.set(["datapack"])
+            announcementTitle = "Download the Config Pack on Modrinth"
+            minecraftVersionRange {
+                start = project.findProperty('publishMcStart')
+                end = project.findProperty('publishMcEnd')
+            }
+            extraMcVersions.each { minecraftVersions.add(it) }
+            requires {
+                slug = "moogs-mineshafts-reimagined"
+            }
         }
     }
 
-    curseforge("curseforgeDatapack") {
-        accessToken = providers.environmentVariable('CURSEFORGE_API_KEY')
-        projectId = (project.findProperty('datapackCurseforgeProjectId') ?: '')
-        file = tasks.named('buildDatapack').flatMap { it.archiveFile }
-        displayName = "MMR Config Pack ${project.version}-${mcVersion}"
-        modLoaders.set(["datapack"])
-        announcementTitle = "Download the Config Pack on CurseForge"
-        serverRequired = false
-        minecraftVersionRange {
-            start = project.findProperty('publishMcStart')
-            end = project.findProperty('publishMcEnd')
+    if (!isAlpha && datapackCurseforgeId) {
+        curseforge("curseforgeDatapack") {
+            accessToken = providers.environmentVariable('CURSEFORGE_API_KEY')
+            projectId = datapackCurseforgeId
+            file = tasks.named('buildDatapack').flatMap { it.archiveFile }
+            displayName = "MMR Config Pack ${project.version}-${mcVersion}"
+            modLoaders.set(["datapack"])
+            announcementTitle = "Download the Config Pack on CurseForge"
+            serverRequired = false
+            minecraftVersionRange {
+                start = project.findProperty('publishMcStart')
+                end = project.findProperty('publishMcEnd')
+            }
+            extraMcVersions.each { minecraftVersions.add(it) }
+            requires("moogs-mineshafts-reimagined")
         }
-        extraMcVersions.each { minecraftVersions.add(it) }
-        requires("moogs-mineshafts-reimagined")
     }
 
     discord {
-        webhookUrl = providers.environmentVariable('DISCORD_WEBHOOK')
+        webhookUrl = providers.environmentVariable(isAlpha ? 'DISCORD_ALPHA_WEBHOOK_URL' : 'DISCORD_WEBHOOK')
         dryRunWebhookUrl = providers.environmentVariable('DISCORD_WEBHOOK_DRY_RUN').orElse('')
         username = "Moog's Mods"
 
-        // Keep the release announcement linking to the mod only, not the config datapack.
-        setPlatforms(publishMods.platforms.modrinth, publishMods.platforms.curseforge)
+        // Alpha: attach per-platform embed buttons (Modrinth + CurseForge) pointing at the
+        // uploaded alpha jar so testers click straight through.
+        // Stable: suppress auto-embeds; the curated links in the content block are the only
+        // download entry points.
+        if (isAlpha) {
+            setPlatforms(publishMods.platforms.modrinth, publishMods.platforms.curseforge)
+        } else {
+            setPlatforms()
+        }
 
         content = changelog.map { text ->
             def prefix = project.findProperty('publishDisplayPrefix')
@@ -212,8 +230,12 @@ publishMods {
             def mcStart = project.findProperty('publishMcStart')
             def mcEnd = project.findProperty('publishMcEnd')
             def allVersions = extraMcVersions ? "$mcStart - $mcEnd, ${extraMcVersions.join(', ')}" : (mcStart == mcEnd ? mcStart : "$mcStart - $mcEnd")
-
-            """## 🎉 **${modName} ${project.version}** has been released!
+            def header = isAlpha
+                ? "## 🧪 **${modName} ${project.version}** alpha build is up for testing!"
+                : "## 🎉 **${modName} ${project.version}** has been released!"
+            def modrinthSlug = 'moogs-mineshafts-reimagined'
+            def curseforgeSlug = (project.findProperty('curseforgeProjectSlug') ?: 'mmr-moogs-mineshafts-reimagined')
+            def body = """${header}
 
 **${prefix} ${project.version}-${mcVersion} ${suffix}**
 Versions - ${allVersions}
@@ -221,6 +243,7 @@ Versions - ${allVersions}
 ### 📝 **Changelog:**
 ${text.trim()}
 """
+            isAlpha ? body : body + "\n<:curseforge:1132291568305459250> [CurseForge](https://www.curseforge.com/minecraft/mc-mods/${curseforgeSlug}/files) | <:modrinth:1132291566019563550> [Modrinth](https://modrinth.com/mod/${modrinthSlug}/versions)\n"
         }
 
         style {
