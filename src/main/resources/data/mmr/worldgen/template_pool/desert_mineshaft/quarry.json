@@ -1,0 +1,28 @@
+{
+  "name": "mmr:desert_mineshaft/quarry",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "projection": "rigid",
+        "location": "mmr:desert_mineshaft/quarry",
+        "processors": "minecraft:empty",
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 7,
+          "kernel_distance": 5,
+          "top": "carve",
+          "bottom": "bury",
+          "bottom_offset": 8.0,
+          "padding": {
+            "x": 1,
+            "top": 3,
+            "bottom": 0,
+            "z": 1
+          }
+        }
+      }
+    }
+  ]
+}

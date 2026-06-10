@@ -158,10 +158,15 @@
     {
       "weight": 20,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:snowy_mineshaft/straight_6",
-        "processors": "minecraft:empty"
+        "location": "mmr:1_21_9/snowy_mineshaft/straight_6",
+        "processors": "minecraft:empty",
+        "locations": {
+          "1.21-1.21.8": "mmr:snowy_mineshaft/straight_6",
+          "1.21.9-1.21.11": "mmr:1_21_9/snowy_mineshaft/straight_6",
+          "26.1-26.1.2": "mmr:1_21_9/snowy_mineshaft/straight_6"
+        }
       }
     },
     {

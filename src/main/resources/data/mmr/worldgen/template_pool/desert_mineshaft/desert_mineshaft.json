@@ -7,7 +7,7 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:desert_mineshaft/mineshaft_entrance",
+        "location": "mmr:1_21_9/desert_mineshaft/mineshaft_entrance",
         "processors": "mmr:street_desert",
         "enhanced_terrain_adaptation": {
           "kernel_size": 9,
@@ -21,6 +21,11 @@
             "bottom": 0,
             "z": 2
           }
+        },
+        "locations": {
+          "1.21-1.21.8": "mmr:desert_mineshaft/mineshaft_entrance",
+          "1.21.9-1.21.11": "mmr:1_21_9/desert_mineshaft/mineshaft_entrance",
+          "26.1-26.1.2": "mmr:1_21_9/desert_mineshaft/mineshaft_entrance"
         }
       }
     }

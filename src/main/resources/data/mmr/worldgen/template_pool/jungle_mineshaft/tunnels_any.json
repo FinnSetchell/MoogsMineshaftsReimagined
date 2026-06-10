@@ -442,36 +442,6 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/special_crossing_1",
-        "processors": "mmr:jungle_mineshaft_spawner",
-        "enhanced_terrain_adaptation": {
-          "kernel_size": 5,
-          "kernel_distance": 4,
-          "top": "bury",
-          "bottom": "bury"
-        }
-      }
-    },
-    {
-      "weight": 11,
-      "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
-        "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/special_crossing_2",
-        "processors": "mmr:jungle_mineshaft_spawner",
-        "enhanced_terrain_adaptation": {
-          "kernel_size": 5,
-          "kernel_distance": 4,
-          "top": "bury",
-          "bottom": "bury"
-        }
-      }
-    },
-    {
-      "weight": 11,
-      "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
-        "projection": "rigid",
         "location": "mmr:jungle_mineshaft/special_crossing_3",
         "processors": "mmr:jungle_mineshaft_spawner",
         "enhanced_terrain_adaptation": {
@@ -487,13 +457,18 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/special_crossing_4",
+        "location": "mmr:1_21_9/jungle_mineshaft/special_crossing_4",
         "processors": "mmr:jungle_mineshaft_spawner",
         "enhanced_terrain_adaptation": {
           "kernel_size": 5,
           "kernel_distance": 4,
           "top": "bury",
           "bottom": "bury"
+        },
+        "locations": {
+          "1.21-1.21.8": "mmr:jungle_mineshaft/special_crossing_4",
+          "1.21.9-1.21.11": "mmr:1_21_9/jungle_mineshaft/special_crossing_4",
+          "26.1-26.1.2": "mmr:1_21_9/jungle_mineshaft/special_crossing_4"
         }
       }
     },
