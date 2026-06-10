@@ -1,0 +1,21 @@
+{
+  "name": "mmr:nether_mineshaft/tunnels_start_crossing",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "projection": "rigid",
+        "location": "mmr:nether_mineshaft/round_staircase_start",
+        "processors": "mmr:nether_mineshaft_no_basalt",
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 5,
+          "kernel_distance": 4,
+          "top": "bury",
+          "bottom": "bury"
+        }
+      }
+    }
+  ]
+}
