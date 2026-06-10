@@ -3,18 +3,12 @@
   "start_pool": "mmr:nether_mineshaft/start_pool",
   "size": 7,
   "biomes": "#c:is_nether",
-  "land_search_direction": "LOWEST_LAND",
+  "land_search_direction": "FIXED_HEIGHT",
   "cannot_spawn_in_liquid": false,
-  "y_allowance": {
-    "min_y_allowed": 31,
-    "max_y_allowed": 38
-  },
-  "terrain_height_radius_check": 3,
-  "allowed_terrain_height_range": 5,
   "step": "surface_structures",
   "terrain_adaptation": "none",
   "start_height": {
-    "absolute": 0
+    "absolute": 90
   },
   "max_distance_from_center": 65,
   "pools_that_ignore_boundaries": [
