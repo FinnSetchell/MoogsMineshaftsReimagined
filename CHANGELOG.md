@@ -2,6 +2,17 @@
 
 ---
 
+## [1.0.2] - 2026-06-18
+
+### Changed
+- Surface mineshaft entrances now blend into the terrain better, with flatter spawn ground and deeper-buried bases, so no more thin shelves or slope overhangs.
+- Tuned mineshaft spacing to keep generation frequency consistent.
+
+### Fixed
+- Fixed a bunch of small bugs.
+
+---
+
 ## [1.0.1] - 2026-06-10
 
 ### Added
