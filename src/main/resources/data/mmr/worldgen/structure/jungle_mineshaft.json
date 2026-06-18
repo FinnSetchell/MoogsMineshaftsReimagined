@@ -23,11 +23,11 @@
     "kernel_distance": 5,
     "top": "carve",
     "bottom": "bury",
-    "bottom_offset": 1.0,
+    "bottom_offset": 8.0,
     "padding": {
       "x": 1,
       "top": 1,
-      "bottom": 0,
+      "bottom": 8,
       "z": 1
     }
   },
