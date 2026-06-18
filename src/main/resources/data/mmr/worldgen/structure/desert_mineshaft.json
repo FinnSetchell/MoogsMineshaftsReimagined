@@ -6,8 +6,8 @@
   "land_search_direction": "HIGHEST_LAND",
   "cannot_spawn_in_liquid": true,
   "valid_biome_radius_check": 2,
-  "terrain_height_radius_check": 2,
-  "allowed_terrain_height_range": 5,
+  "terrain_height_radius_check": 3,
+  "allowed_terrain_height_range": 4,
   "step": "surface_structures",
   "terrain_adaptation": "none",
   "start_height": {
