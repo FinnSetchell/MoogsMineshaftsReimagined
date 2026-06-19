@@ -12,7 +12,7 @@
         "enhanced_terrain_adaptation": {
           "kernel_size": 9,
           "kernel_distance": 7,
-          "top": "carve",
+          "top": "bury",
           "bottom": "bury",
           "bottom_offset": 1.0,
           "padding": {

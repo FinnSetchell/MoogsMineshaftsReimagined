@@ -8,13 +8,7 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "location": "mmr:desert_mineshaft/round_staircase",
-        "processors": "minecraft:empty",
-        "enhanced_terrain_adaptation": {
-          "kernel_size": 5,
-          "kernel_distance": 4,
-          "top": "bury",
-          "bottom": "bury"
-        }
+        "processors": "minecraft:empty"
       }
     }
   ]

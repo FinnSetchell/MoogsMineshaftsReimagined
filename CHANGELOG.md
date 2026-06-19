@@ -2,10 +2,11 @@
 
 ---
 
-## [1.0.2] - 2026-06-18
+## [1.0.2] - 2026-06-19
 
 ### Changed
-- Surface mineshaft entrances now blend into the terrain better, with flatter spawn ground and deeper-buried bases, so no more thin shelves or slope overhangs.
+- Surface mineshaft entrances now spawn on flatter ground and blend cleanly into it, so no more thin shelves or slope overhangs.
+- Nether mineshafts now blend into the netherrack, with only their entrance carved open.
 - Tuned mineshaft spacing to keep generation frequency consistent.
 
 ### Fixed

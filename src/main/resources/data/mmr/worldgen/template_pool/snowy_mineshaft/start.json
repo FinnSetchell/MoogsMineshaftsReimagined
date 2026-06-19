@@ -13,19 +13,6 @@
           "1.21-1.21.8": "mmr:snowy_mineshaft/start_piece",
           "1.21.9-1.21.11": "mmr:1_21_9/snowy_mineshaft/start_piece",
           "26.1-26.1.2": "mmr:1_21_9/snowy_mineshaft/start_piece"
-        },
-        "enhanced_terrain_adaptation": {
-          "kernel_size": 5,
-          "kernel_distance": 5,
-          "top": "carve",
-          "bottom": "bury",
-          "bottom_offset": 8.0,
-          "padding": {
-            "x": 1,
-            "top": 1,
-            "bottom": 8,
-            "z": 1
-          }
         }
       }
     }
