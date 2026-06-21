@@ -24,14 +24,6 @@ def modModrinth = project.findProperty('modModrinth') as String
 def modReleases = project.findProperty('modReleases') as String
 def structureLibVersionRange = project.findProperty('structureLibVersionRange') as String
 
-// Extra MC versions outside the start/end range (e.g. 26.1.x post-1.21.11).
-// Maintained in gradle.properties as a comma-separated list so adding a new
-// version is a one-line change.
-def extraMcVersions = ((project.findProperty('publishExtraMcVersions') ?: '') as String)
-        .split(',')
-        .collect { it.trim() }
-        .findAll { it }
-
 repositories {
     mavenCentral()
 }
@@ -146,7 +138,6 @@ publishMods {
             start = project.findProperty('publishMcStart')
             end = project.findProperty('publishMcEnd')
         }
-        extraMcVersions.each { minecraftVersions.add(it) }
         requires {
             slug = "moogs-structure-lib"
         }
@@ -163,7 +154,6 @@ publishMods {
             start = project.findProperty('publishMcStart')
             end = project.findProperty('publishMcEnd')
         }
-        extraMcVersions.each { minecraftVersions.add(it) }
         requires("moogs-structure-lib")
     }
 
@@ -184,8 +174,7 @@ publishMods {
                 start = project.findProperty('publishMcStart')
                 end = project.findProperty('publishMcEnd')
             }
-            extraMcVersions.each { minecraftVersions.add(it) }
-            requires {
+                requires {
                 slug = "moogs-mineshafts-reimagined"
             }
         }
@@ -204,8 +193,7 @@ publishMods {
                 start = project.findProperty('publishMcStart')
                 end = project.findProperty('publishMcEnd')
             }
-            extraMcVersions.each { minecraftVersions.add(it) }
-            requires("moogs-mineshafts-reimagined")
+                requires("moogs-mineshafts-reimagined")
         }
     }
 
@@ -229,7 +217,7 @@ publishMods {
             def suffix = project.findProperty('publishDisplaySuffix')
             def mcStart = project.findProperty('publishMcStart')
             def mcEnd = project.findProperty('publishMcEnd')
-            def allVersions = extraMcVersions ? "$mcStart - $mcEnd, ${extraMcVersions.join(', ')}" : (mcStart == mcEnd ? mcStart : "$mcStart - $mcEnd")
+            def allVersions = mcStart == mcEnd ? mcStart : "$mcStart - $mcEnd"
             def header = isAlpha
                 ? "## 🧪 **${modName} ${project.version}** alpha build is up for testing!"
                 : "## 🎉 **${modName} ${project.version}** has been released!"
@@ -277,7 +265,7 @@ tasks.register('discordPreview') {
         def suffix = project.findProperty('publishDisplaySuffix')
         def mcStart = project.findProperty('publishMcStart')
         def mcEnd = project.findProperty('publishMcEnd')
-        def allVersions = extraMcVersions ? "$mcStart - $mcEnd, ${extraMcVersions.join(', ')}" : (mcStart == mcEnd ? mcStart : "$mcStart - $mcEnd")
+        def allVersions = mcStart == mcEnd ? mcStart : "$mcStart - $mcEnd"
 
         def description = """## 🎉 **${modName} ${project.version}** has been released! [PREVIEW]
 
