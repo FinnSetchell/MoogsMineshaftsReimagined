@@ -1,7 +1,7 @@
 {
   "values": [
-    "#c:desert",
-    "#c:is_desert",
-    "#forge:is_desert"
+    {"id": "#c:desert", "required": false},
+    {"id": "#c:is_desert", "required": false},
+    {"id": "#forge:is_desert", "required": false}
   ]
 }

@@ -1,7 +1,7 @@
 {
   "values": [
-    "#c:taiga",
-    "#c:is_taiga",
-    "#forge:is_taiga"
+    {"id": "#c:taiga", "required": false},
+    {"id": "#c:is_taiga", "required": false},
+    {"id": "#forge:is_taiga", "required": false}
   ]
 }

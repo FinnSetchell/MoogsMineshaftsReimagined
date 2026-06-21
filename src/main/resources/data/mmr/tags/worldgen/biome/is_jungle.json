@@ -1,7 +1,7 @@
 {
   "values": [
-    "#c:jungle",
-    "#c:is_jungle",
-    "#forge:is_jungle"
+    {"id": "#c:jungle", "required": false},
+    {"id": "#c:is_jungle", "required": false},
+    {"id": "#forge:is_jungle", "required": false}
   ]
 }

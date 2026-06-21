@@ -1,7 +1,7 @@
 {
   "values": [
-    "#c:in_nether",
-    "#c:is_nether",
-    "#forge:is_nether"
+    {"id": "#c:in_nether", "required": false},
+    {"id": "#c:is_nether", "required": false},
+    {"id": "#forge:is_nether", "required": false}
   ]
 }
