@@ -9,7 +9,7 @@
   "allowed_terrain_height_range": 5,
   "valid_biome_radius_check": 2,
   "liquid_settings": "ignore_waterlogging",
-  "biomes": "#c:is_desert",
+  "biomes": ["#c:desert", "#c:is_desert", "#forge:is_desert"],
   "step": "surface_structures",
   "terrain_adaptation": "beard_thin",
   "start_height": {
