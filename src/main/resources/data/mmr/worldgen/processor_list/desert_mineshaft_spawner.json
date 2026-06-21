@@ -3,10 +3,22 @@
     {
       "processor_type": "moogs_structures:spawner_randomizing_processor",
       "weighted_entities": [
-        { "entity": "minecraft:husk", "weight": 4 },
-        { "entity": "minecraft:zombie", "weight": 2 },
-        { "entity": "minecraft:bogged", "weight": 2 },
-        { "entity": "minecraft:cave_spider", "weight": 2 }
+        {
+          "entity": "minecraft:husk",
+          "weight": 4
+        },
+        {
+          "entity": "minecraft:zombie",
+          "weight": 2
+        },
+        {
+          "entity": "minecraft:stray",
+          "weight": 2
+        },
+        {
+          "entity": "minecraft:cave_spider",
+          "weight": 2
+        }
       ],
       "min_spawn_delay": 300,
       "max_spawn_delay": 900,
