@@ -2,7 +2,7 @@
   "type": "moogs_structures:moogs_structures_generic_nether_jigsaw_structure",
   "start_pool": "mmr:nether_mineshaft/start_pool",
   "size": 7,
-  "biomes": ["#c:in_nether", "#c:is_nether", "#forge:is_nether"],
+  "biomes": "#mmr:is_nether",
   "land_search_direction": "FIXED_HEIGHT",
   "cannot_spawn_in_liquid": false,
   "step": "surface_structures",
