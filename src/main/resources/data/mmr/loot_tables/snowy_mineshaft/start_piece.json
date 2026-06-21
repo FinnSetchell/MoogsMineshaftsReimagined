@@ -341,62 +341,22 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:leather_boots",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:dyed_color": {
-                  "rgb": 11393254
-                }
-              }
-            }
-          ]
+          "weight": 3
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:leather_boots",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:dyed_color": {
-                  "rgb": 16777215
-                }
-              }
-            }
-          ]
+          "weight": 3
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:leather_boots",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:dyed_color": {
-                  "rgb": 65535
-                }
-              }
-            }
-          ]
+          "weight": 2
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:leather_boots",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:dyed_color": {
-                  "rgb": 12632256
-                }
-              }
-            }
-          ]
+          "weight": 2
         },
         {
           "type": "minecraft:item",
@@ -434,14 +394,6 @@
           "name": "minecraft:leather_boots",
           "weight": 2,
           "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:dyed_color": {
-                  "rgb": 11393254
-                }
-              }
-            },
             {
               "function": "minecraft:enchant_randomly",
               "options": [
