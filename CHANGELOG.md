@@ -2,6 +2,13 @@
 
 ---
 
+## [Unreleased]
+
+### Changed
+- Ported to 1.20-1.20.6. Dropped 1.21 only content: vault rooms now use chest loot, trial spawners use vanilla spawners, crafters become droppers, tuff variants become stone variants, bogged become strays.
+
+---
+
 ## [1.0.2] - 2026-06-19
 
 ### Changed
