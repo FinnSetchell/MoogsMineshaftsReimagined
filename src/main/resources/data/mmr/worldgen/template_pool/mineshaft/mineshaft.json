@@ -7,11 +7,9 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:1_21_9/mineshaft/entrance",
+        "location": "mmr:mineshaft/entrance",
         "locations": {
-          "1.21-1.21.8": "mmr:mineshaft/entrance",
-          "1.21.9-1.21.11": "mmr:1_21_9/mineshaft/entrance",
-          "26.1-26.1.2": "mmr:1_21_9/mineshaft/entrance"
+          "1.20-1.20.4": "mmr:mineshaft/entrance"
         },
         "processors": "minecraft:empty"
       }

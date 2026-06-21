@@ -7,7 +7,7 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:1_21_9/nether_mineshaft/start_room",
+        "location": "mmr:nether_mineshaft/start_room",
         "processors": "mmr:nether_mineshaft_start",
         "enhanced_terrain_adaptation": {
           "kernel_size": 9,
@@ -23,9 +23,7 @@
           }
         },
         "locations": {
-          "1.21-1.21.8": "mmr:nether_mineshaft/start_room",
-          "1.21.9-1.21.11": "mmr:1_21_9/nether_mineshaft/start_room",
-          "26.1-26.1.2": "mmr:1_21_9/nether_mineshaft/start_room"
+          "1.20-1.20.4": "mmr:nether_mineshaft/start_room"
         }
       }
     }

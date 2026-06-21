@@ -34,12 +34,10 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:1_21_9/desert_mineshaft/straight_4",
+        "location": "mmr:desert_mineshaft/straight_4",
         "processors": "minecraft:empty",
         "locations": {
-          "1.21-1.21.8": "mmr:desert_mineshaft/straight_4",
-          "1.21.9-1.21.11": "mmr:1_21_9/desert_mineshaft/straight_4",
-          "26.1-26.1.2": "mmr:1_21_9/desert_mineshaft/straight_4"
+          "1.20-1.20.4": "mmr:desert_mineshaft/straight_4"
         }
       }
     },
@@ -210,12 +208,10 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:1_21_9/desert_mineshaft/special_crossing_2",
+        "location": "mmr:desert_mineshaft/special_crossing_2",
         "processors": "minecraft:empty",
         "locations": {
-          "1.21-1.21.8": "mmr:desert_mineshaft/special_crossing_2",
-          "1.21.9-1.21.11": "mmr:1_21_9/desert_mineshaft/special_crossing_2",
-          "26.1-26.1.2": "mmr:1_21_9/desert_mineshaft/special_crossing_2"
+          "1.20-1.20.4": "mmr:desert_mineshaft/special_crossing_2"
         }
       }
     },
@@ -224,12 +220,10 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:1_21_9/desert_mineshaft/special_crossing_3",
+        "location": "mmr:desert_mineshaft/special_crossing_3",
         "processors": "minecraft:empty",
         "locations": {
-          "1.21-1.21.8": "mmr:desert_mineshaft/special_crossing_3",
-          "1.21.9-1.21.11": "mmr:1_21_9/desert_mineshaft/special_crossing_3",
-          "26.1-26.1.2": "mmr:1_21_9/desert_mineshaft/special_crossing_3"
+          "1.20-1.20.4": "mmr:desert_mineshaft/special_crossing_3"
         }
       }
     },
@@ -238,12 +232,10 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:1_21_9/desert_mineshaft/special_crossing_4",
+        "location": "mmr:desert_mineshaft/special_crossing_4",
         "processors": "minecraft:empty",
         "locations": {
-          "1.21-1.21.8": "mmr:desert_mineshaft/special_crossing_4",
-          "1.21.9-1.21.11": "mmr:1_21_9/desert_mineshaft/special_crossing_4",
-          "26.1-26.1.2": "mmr:1_21_9/desert_mineshaft/special_crossing_4"
+          "1.20-1.20.4": "mmr:desert_mineshaft/special_crossing_4"
         }
       }
     },
