@@ -163,7 +163,7 @@
         "location": "mmr:snowy_mineshaft/straight_6",
         "processors": "minecraft:empty",
         "locations": {
-          "1.20-1.20.4": "mmr:snowy_mineshaft/straight_6"
+          "1.20-1.20.4": "mmr:snowy_mineshaft/straight_6", "1.20.5-1.20.6": "mmr:snowy_mineshaft/straight_6"
         }
       }
     },
@@ -301,7 +301,7 @@
         "location": "mmr:snowy_mineshaft/dog_intersection",
         "processors": "minecraft:empty",
         "locations": {
-          "1.20-1.20.4": "mmr:snowy_mineshaft/dog_intersection"
+          "1.20-1.20.4": "mmr:snowy_mineshaft/dog_intersection", "1.20.5-1.20.6": "mmr:snowy_mineshaft/dog_intersection"
         }
       }
     }

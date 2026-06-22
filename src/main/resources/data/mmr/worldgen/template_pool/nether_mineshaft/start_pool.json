@@ -23,7 +23,7 @@
           }
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/start_room"
+          "1.20-1.20.4": "mmr:nether_mineshaft/start_room", "1.20.5-1.20.6": "mmr:nether_mineshaft/start_room"
         }
       }
     }

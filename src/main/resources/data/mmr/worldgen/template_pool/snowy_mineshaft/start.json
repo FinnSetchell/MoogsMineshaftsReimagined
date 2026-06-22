@@ -10,7 +10,7 @@
         "location": "mmr:snowy_mineshaft/start_piece",
         "processors": "minecraft:empty",
         "locations": {
-          "1.20-1.20.4": "mmr:snowy_mineshaft/start_piece"
+          "1.20-1.20.4": "mmr:snowy_mineshaft/start_piece", "1.20.5-1.20.6": "mmr:snowy_mineshaft/start_piece"
         }
       }
     }

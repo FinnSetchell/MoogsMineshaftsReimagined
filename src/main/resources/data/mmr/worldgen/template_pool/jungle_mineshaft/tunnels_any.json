@@ -280,7 +280,7 @@
         "location": "mmr:jungle_mineshaft/special_crossing_4",
         "processors": "mmr:jungle_mineshaft_spawner",
         "locations": {
-          "1.20-1.20.4": "mmr:jungle_mineshaft/special_crossing_4"
+          "1.20-1.20.4": "mmr:jungle_mineshaft/special_crossing_4", "1.20.5-1.20.6": "mmr:jungle_mineshaft/special_crossing_4"
         }
       }
     },

@@ -163,7 +163,7 @@
         "location": "mmr:mesa_mineshaft/straight_6",
         "processors": "minecraft:empty",
         "locations": {
-          "1.20-1.20.4": "mmr:mesa_mineshaft/straight_6"
+          "1.20-1.20.4": "mmr:mesa_mineshaft/straight_6", "1.20.5-1.20.6": "mmr:mesa_mineshaft/straight_6"
         }
       }
     },

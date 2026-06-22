@@ -31,7 +31,7 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/crossing_2"
+          "1.20-1.20.4": "mmr:nether_mineshaft/crossing_2", "1.20.5-1.20.6": "mmr:nether_mineshaft/crossing_2"
         }
       }
     },
@@ -49,7 +49,7 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/crossing_3"
+          "1.20-1.20.4": "mmr:nether_mineshaft/crossing_3", "1.20.5-1.20.6": "mmr:nether_mineshaft/crossing_3"
         }
       }
     },
@@ -82,7 +82,7 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/corner_1"
+          "1.20-1.20.4": "mmr:nether_mineshaft/corner_1", "1.20.5-1.20.6": "mmr:nether_mineshaft/corner_1"
         }
       }
     },
@@ -100,7 +100,7 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/corner_2"
+          "1.20-1.20.4": "mmr:nether_mineshaft/corner_2", "1.20.5-1.20.6": "mmr:nether_mineshaft/corner_2"
         }
       }
     },
@@ -118,7 +118,7 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/corner_3"
+          "1.20-1.20.4": "mmr:nether_mineshaft/corner_3", "1.20.5-1.20.6": "mmr:nether_mineshaft/corner_3"
         }
       }
     },
@@ -136,7 +136,7 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/corner_4"
+          "1.20-1.20.4": "mmr:nether_mineshaft/corner_4", "1.20.5-1.20.6": "mmr:nether_mineshaft/corner_4"
         }
       }
     },
@@ -154,7 +154,7 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/corner_5"
+          "1.20-1.20.4": "mmr:nether_mineshaft/corner_5", "1.20.5-1.20.6": "mmr:nether_mineshaft/corner_5"
         }
       }
     },
@@ -232,7 +232,7 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/straight_5"
+          "1.20-1.20.4": "mmr:nether_mineshaft/straight_5", "1.20.5-1.20.6": "mmr:nether_mineshaft/straight_5"
         }
       }
     },
@@ -250,7 +250,7 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/straight_6"
+          "1.20-1.20.4": "mmr:nether_mineshaft/straight_6", "1.20.5-1.20.6": "mmr:nether_mineshaft/straight_6"
         }
       }
     },
@@ -268,7 +268,7 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/straight_7"
+          "1.20-1.20.4": "mmr:nether_mineshaft/straight_7", "1.20.5-1.20.6": "mmr:nether_mineshaft/straight_7"
         }
       }
     },
@@ -286,7 +286,7 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/straight_8"
+          "1.20-1.20.4": "mmr:nether_mineshaft/straight_8", "1.20.5-1.20.6": "mmr:nether_mineshaft/straight_8"
         }
       }
     },
@@ -319,7 +319,7 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/end_2"
+          "1.20-1.20.4": "mmr:nether_mineshaft/end_2", "1.20.5-1.20.6": "mmr:nether_mineshaft/end_2"
         }
       }
     },
@@ -337,7 +337,7 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/end_3"
+          "1.20-1.20.4": "mmr:nether_mineshaft/end_3", "1.20.5-1.20.6": "mmr:nether_mineshaft/end_3"
         }
       }
     },
@@ -370,7 +370,7 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/long_end_1"
+          "1.20-1.20.4": "mmr:nether_mineshaft/long_end_1", "1.20.5-1.20.6": "mmr:nether_mineshaft/long_end_1"
         }
       }
     },
@@ -418,7 +418,7 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/staircase_2"
+          "1.20-1.20.4": "mmr:nether_mineshaft/staircase_2", "1.20.5-1.20.6": "mmr:nether_mineshaft/staircase_2"
         }
       }
     },
@@ -496,7 +496,7 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/special_corner_1"
+          "1.20-1.20.4": "mmr:nether_mineshaft/special_corner_1", "1.20.5-1.20.6": "mmr:nether_mineshaft/special_corner_1"
         }
       }
     },
@@ -514,7 +514,7 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/special_corner_2"
+          "1.20-1.20.4": "mmr:nether_mineshaft/special_corner_2", "1.20.5-1.20.6": "mmr:nether_mineshaft/special_corner_2"
         }
       }
     },
@@ -532,7 +532,7 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/tnt_corner_1"
+          "1.20-1.20.4": "mmr:nether_mineshaft/tnt_corner_1", "1.20.5-1.20.6": "mmr:nether_mineshaft/tnt_corner_1"
         }
       }
     },
@@ -565,7 +565,7 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/special_crossing_2"
+          "1.20-1.20.4": "mmr:nether_mineshaft/special_crossing_2", "1.20.5-1.20.6": "mmr:nether_mineshaft/special_crossing_2"
         }
       }
     },
@@ -583,7 +583,7 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/mess_hall"
+          "1.20-1.20.4": "mmr:nether_mineshaft/mess_hall", "1.20.5-1.20.6": "mmr:nether_mineshaft/mess_hall"
         }
       }
     },
@@ -601,7 +601,7 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/warden_corridor"
+          "1.20-1.20.4": "mmr:nether_mineshaft/warden_corridor", "1.20.5-1.20.6": "mmr:nether_mineshaft/warden_corridor"
         }
       }
     }

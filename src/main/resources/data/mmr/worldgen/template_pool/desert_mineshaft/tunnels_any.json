@@ -37,7 +37,7 @@
         "location": "mmr:desert_mineshaft/straight_4",
         "processors": "minecraft:empty",
         "locations": {
-          "1.20-1.20.4": "mmr:desert_mineshaft/straight_4"
+          "1.20-1.20.4": "mmr:desert_mineshaft/straight_4", "1.20.5-1.20.6": "mmr:desert_mineshaft/straight_4"
         }
       }
     },
@@ -211,7 +211,7 @@
         "location": "mmr:desert_mineshaft/special_crossing_2",
         "processors": "minecraft:empty",
         "locations": {
-          "1.20-1.20.4": "mmr:desert_mineshaft/special_crossing_2"
+          "1.20-1.20.4": "mmr:desert_mineshaft/special_crossing_2", "1.20.5-1.20.6": "mmr:desert_mineshaft/special_crossing_2"
         }
       }
     },
@@ -223,7 +223,7 @@
         "location": "mmr:desert_mineshaft/special_crossing_3",
         "processors": "minecraft:empty",
         "locations": {
-          "1.20-1.20.4": "mmr:desert_mineshaft/special_crossing_3"
+          "1.20-1.20.4": "mmr:desert_mineshaft/special_crossing_3", "1.20.5-1.20.6": "mmr:desert_mineshaft/special_crossing_3"
         }
       }
     },
@@ -235,7 +235,7 @@
         "location": "mmr:desert_mineshaft/special_crossing_4",
         "processors": "minecraft:empty",
         "locations": {
-          "1.20-1.20.4": "mmr:desert_mineshaft/special_crossing_4"
+          "1.20-1.20.4": "mmr:desert_mineshaft/special_crossing_4", "1.20.5-1.20.6": "mmr:desert_mineshaft/special_crossing_4"
         }
       }
     },
