@@ -2,10 +2,22 @@
 
 ---
 
-## [1.0.3] - 2026-06-21
+## [1.0.3] - 2026-06-22
+
+### Added
+- Minecraft 26.2 support (validator and pack format range extended to 1.21–26.2).
 
 ### Changed
-- mc 26.2 support
+- Tuned overworld mineshaft spacing for mansion-tier rarity (mineshaft, mesa_mineshaft, nether_mineshaft) based on /locate grid measurements against woodland mansion spacing.
+
+### Fixed
+- Restored compatibility with Minecraft 1.21–1.21.4 by fixing item-component shape mismatches the pre-1.21.5 codec rejected:
+  - `minecraft:dyed_color` in `snowy_mineshaft` loot now uses the integer form instead of `{"rgb": N}`.
+  - `minecraft:written_book_content` page text in `jungle_mineshaft` special crossings is now JSON-encoded so the strict Component codec accepts it.
+  - `minecraft:enchantments` in `mineshaft/intersection_8` and `_9` now uses the flat enchant-ID map instead of the post-1.21.5 `levels` wrapper.
+  - Sign messages across 28 NBTs are now JSON-encoded `""` so the `FilteredText<Component>` codec accepts them.
+- `pack.mcmeta` now declares `supported_formats: [48, 107]` so MC 1.21.9+ doesn't reject the pack range.
+- Removed a stray evoker spawn egg left in a dispenser in `mineshaft/intersection_8`.
 
 ---
 
