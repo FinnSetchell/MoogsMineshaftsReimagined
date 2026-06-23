@@ -73,18 +73,7 @@ jobs:
           echo "displaySuffix=$(get publishDisplaySuffix)"   >> "$GITHUB_OUTPUT"
           MC_VERSION=$(get minecraftVersion)
           echo "branch=${MC_VERSION}-datapack"               >> "$GITHUB_OUTPUT"
-          EXTRA_RAW=$(get publishExtraMcVersions)
-          if [ -n "$EXTRA_RAW" ]; then
-            EXTRA_JSON=$(echo "$EXTRA_RAW" | tr ',' '\n' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//' | grep -v '^$' | jq -R . | jq -sc .)
-          else
-            EXTRA_JSON="[]"
-          fi
-          {
-            echo 'mcExtra<<__DELIM__'
-            printf '%s' "$EXTRA_JSON"
-            echo
-            echo '__DELIM__'
-          } >> "$GITHUB_OUTPUT"
+          echo "mcExtraRaw=$(get publishExtraMcVersions)"    >> "$GITHUB_OUTPUT"
 
       - name: Extract Changelog
         id: changelog
@@ -104,10 +93,15 @@ jobs:
         env:
           WORKER_API_KEY: ${{ secrets.WORKER_API_KEY }}
           CHANGELOG_RAW: ${{ steps.changelog.outputs.body }}
-          MC_EXTRA_JSON: ${{ steps.props.outputs.mcExtra }}
+          MC_EXTRA_RAW: ${{ steps.props.outputs.mcExtraRaw }}
         run: |
           IMAGE_URLS=$(echo "$CHANGELOG_RAW" | grep -oP '!\[.*?\]\(\K[^)]+' | head -4 | jq -R . | jq -sc . 2>/dev/null || echo "[]")
           CLEAN=$(echo "$CHANGELOG_RAW" | sed 's/!\[.*\]([^)]*)//g' | sed '/^[[:space:]]*$/d' | sed -e '${/^$/d}')
+          if [ -n "$MC_EXTRA_RAW" ]; then
+            MC_EXTRA_JSON=$(echo "$MC_EXTRA_RAW" | tr ',' '\n' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//' | grep -v '^$' | jq -R . | jq -sc .)
+          else
+            MC_EXTRA_JSON="[]"
+          fi
 
           PAYLOAD=$(jq -n \
             --arg project       "${{ github.repository }}" \
