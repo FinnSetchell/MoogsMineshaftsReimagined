@@ -54,7 +54,7 @@ jobs:
         id: props
         shell: bash
         run: |
-          get() { grep -E "^$1=" gradle.properties | cut -d= -f2 | tr -d ' \r\n'; }
+          get() { grep -E "^$1=" gradle.properties | cut -d= -f2 | tr -d ' \r\n' || true; }
           ALPHA=$(get alphaBuild)
           RELEASE_TYPE="minor"
           [ "$ALPHA" = "true" ] && RELEASE_TYPE="alpha"
@@ -79,7 +79,12 @@ jobs:
           else
             EXTRA_JSON="[]"
           fi
-          echo "mcExtra=$EXTRA_JSON"                         >> "$GITHUB_OUTPUT"
+          {
+            echo 'mcExtra<<__DELIM__'
+            printf '%s' "$EXTRA_JSON"
+            echo
+            echo '__DELIM__'
+          } >> "$GITHUB_OUTPUT"
 
       - name: Extract Changelog
         id: changelog
@@ -94,24 +99,16 @@ jobs:
           " "$VERSION")
           printf "body<<DELIMITER\n%s\nDELIMITER\n" "$BODY" >> "$GITHUB_OUTPUT"
 
-      - name: Extract image URLs from changelog
-        id: images
-        shell: bash
-        env:
-          CHANGELOG: ${{ steps.changelog.outputs.body }}
-        run: |
-          IMAGE_URLS=$(echo "$CHANGELOG" | grep -oP '!\[.*?\]\(\K[^)]+' | head -4 | jq -R . | jq -sc . 2>/dev/null || echo "[]")
-          CLEAN=$(echo "$CHANGELOG" | sed 's/!\[.*\]([^)]*)//g' | sed '/^[[:space:]]*$/d' | sed -e '${/^$/d}')
-          echo "imageUrls=$IMAGE_URLS" >> "$GITHUB_OUTPUT"
-          printf "changelog<<DELIM\n%s\nDELIM\n" "$CLEAN" >> "$GITHUB_OUTPUT"
-
       - name: Send to Worker
         shell: bash
         env:
           WORKER_API_KEY: ${{ secrets.WORKER_API_KEY }}
-          IMAGE_URLS_JSON: ${{ steps.images.outputs.imageUrls }}
+          CHANGELOG_RAW: ${{ steps.changelog.outputs.body }}
           MC_EXTRA_JSON: ${{ steps.props.outputs.mcExtra }}
         run: |
+          IMAGE_URLS=$(echo "$CHANGELOG_RAW" | grep -oP '!\[.*?\]\(\K[^)]+' | head -4 | jq -R . | jq -sc . 2>/dev/null || echo "[]")
+          CLEAN=$(echo "$CHANGELOG_RAW" | sed 's/!\[.*\]([^)]*)//g' | sed '/^[[:space:]]*$/d' | sed -e '${/^$/d}')
+
           PAYLOAD=$(jq -n \
             --arg project       "${{ github.repository }}" \
             --arg tag           "${{ github.ref_name }}" \
@@ -133,8 +130,8 @@ jobs:
             --arg color         "${{ steps.props.outputs.color }}" \
             --arg displayPrefix "${{ steps.props.outputs.displayPrefix }}" \
             --arg displaySuffix "${{ steps.props.outputs.displaySuffix }}" \
-            --arg changelog     "${{ steps.images.outputs.changelog }}" \
-            --argjson imageUrls "$IMAGE_URLS_JSON" \
+            --arg changelog     "$CLEAN" \
+            --argjson imageUrls "$IMAGE_URLS" \
             --argjson mcExtra   "$MC_EXTRA_JSON" \
             '{
               project:       $project,
