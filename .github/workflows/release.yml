@@ -14,19 +14,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout mod project
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
         with:
           path: project
 
       - name: Checkout validator
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
         with:
           repository: FinnSetchell/moogs-structure-validator
           ref: v1
           path: validator
 
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
@@ -36,43 +36,56 @@ jobs:
       - name: Run validator
         run: python validator/validator.py --config project/validator.json --project-root project
 
-  release:
-    name: Release
-    runs-on: ubuntu-latest
+  discord:
+    name: Discord Review
     needs: validate
-    outputs:
-      is_alpha: ${{ steps.alpha.outputs.is_alpha }}
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
-        with:
-          fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v4
 
-      - name: Set up Java 21
-        uses: actions/setup-java@v5
-        with:
-          java-version: '21'
-          distribution: 'temurin'
-
-      - name: Setup Gradle
-        uses: gradle/actions/setup-gradle@v5
-
-      - name: Build
+      - name: Set alpha flag from tag
         shell: bash
         run: |
-          set -eo pipefail
-          chmod +x gradlew
-          ./gradlew build buildDatapack
-          echo "---- build/libs contents ----"
-          ls -la build/libs/
-          echo "---- build/datapack contents ----"
-          ls -la build/datapack/
+          if echo "${GITHUB_REF_NAME}" | grep -qP '-alpha\.\d+$'; then
+            sed -i 's|^alphaBuild=.*$|alphaBuild=true|' gradle.properties
+          fi
+
+      - name: Read properties
+        id: props
+        shell: bash
+        run: |
+          get() { grep -E "^$1=" gradle.properties | cut -d= -f2 | tr -d ' \r\n'; }
+          ALPHA=$(get alphaBuild)
+          RELEASE_TYPE="minor"
+          [ "$ALPHA" = "true" ] && RELEASE_TYPE="alpha"
+          echo "releaseType=$RELEASE_TYPE"                   >> "$GITHUB_OUTPUT"
+          echo "version=$(get modVersion)"                   >> "$GITHUB_OUTPUT"
+          echo "mcVersion=$(get minecraftVersion)"           >> "$GITHUB_OUTPUT"
+          echo "mcStart=$(get publishMcStart)"               >> "$GITHUB_OUTPUT"
+          echo "mcEnd=$(get publishMcEnd)"                   >> "$GITHUB_OUTPUT"
+          echo "avatarUrl=$(get discordAvatarUrl)"           >> "$GITHUB_OUTPUT"
+          echo "bannerUrl=$(get discordBannerUrl)"           >> "$GITHUB_OUTPUT"
+          echo "color=$(get discordEmbedColor)"              >> "$GITHUB_OUTPUT"
+          echo "thumbnailUrl=$(get discordThumbnailUrl)"     >> "$GITHUB_OUTPUT"
+          echo "cfSlug=$(get curseforgeProjectSlug)"         >> "$GITHUB_OUTPUT"
+          echo "mrSlug=$(get modrinthProjectSlug)"           >> "$GITHUB_OUTPUT"
+          echo "displayPrefix=$(get publishDisplayPrefix)"   >> "$GITHUB_OUTPUT"
+          echo "displaySuffix=$(get publishDisplaySuffix)"   >> "$GITHUB_OUTPUT"
+          MC_VERSION=$(get minecraftVersion)
+          echo "branch=${MC_VERSION}-datapack"               >> "$GITHUB_OUTPUT"
+          EXTRA_RAW=$(get publishExtraMcVersions)
+          if [ -n "$EXTRA_RAW" ]; then
+            EXTRA_JSON=$(echo "$EXTRA_RAW" | tr ',' '\n' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//' | grep -v '^$' | jq -R . | jq -sc .)
+          else
+            EXTRA_JSON="[]"
+          fi
+          echo "mcExtra=$EXTRA_JSON"                         >> "$GITHUB_OUTPUT"
 
       - name: Extract Changelog
         id: changelog
         shell: bash
         run: |
-          VERSION="${GITHUB_REF_NAME%%-*}"
+          VERSION=$(grep '^modVersion=' gradle.properties | cut -d= -f2 | tr -d ' \r\n')
           BODY=$(python3 -c "
           import re, sys
           content = open('CHANGELOG.md').read()
@@ -81,107 +94,81 @@ jobs:
           " "$VERSION")
           printf "body<<DELIMITER\n%s\nDELIMITER\n" "$BODY" >> "$GITHUB_OUTPUT"
 
-      - name: Read alphaBuild flag
-        id: alpha
-        shell: bash
-        run: |
-          IS_ALPHA=$(grep -E '^alphaBuild=' gradle.properties | cut -d= -f2 | tr -d ' \r\n' || true)
-          echo "is_alpha=${IS_ALPHA:-false}" >> "$GITHUB_OUTPUT"
-
-      - name: Post Discord Banner
+      - name: Extract image URLs from changelog
+        id: images
         shell: bash
         env:
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-          DISCORD_ALPHA_WEBHOOK_URL: ${{ secrets.DISCORD_ALPHA_WEBHOOK_URL }}
-          IS_ALPHA: ${{ steps.alpha.outputs.is_alpha }}
+          CHANGELOG: ${{ steps.changelog.outputs.body }}
         run: |
-          if [ "$IS_ALPHA" = "true" ]; then
-            WEBHOOK="$DISCORD_ALPHA_WEBHOOK_URL"
-          else
-            WEBHOOK="$DISCORD_WEBHOOK"
-          fi
-          if [ -z "$WEBHOOK" ]; then
-            echo "Discord webhook not set, skipping."
-            exit 0
-          fi
-          BANNER_URL=$(grep 'discordBannerUrl=' gradle.properties | cut -d'=' -f2)
-          ROLE_ID=$(grep 'discordRoleId=' gradle.properties | cut -d'=' -f2)
-          AVATAR_URL=$(grep 'discordAvatarUrl=' gradle.properties | cut -d'=' -f2)
-          PING=$(grep 'discordPing=' gradle.properties | cut -d'=' -f2)
-          # alphaBuild=true forces no ping (alpha test builds never mention subscribers).
-          if [ "$IS_ALPHA" = "true" ]; then
-            PING=false
-          fi
-          if [ "$PING" = "true" ]; then
-            CONTENT="<@&$ROLE_ID>\n$BANNER_URL"
-            ALLOWED="{\"parse\":[],\"roles\":[\"$ROLE_ID\"]}"
-          else
-            CONTENT="$BANNER_URL"
-            ALLOWED="{\"parse\":[]}"
-          fi
-          curl -X POST "$WEBHOOK" \
+          IMAGE_URLS=$(echo "$CHANGELOG" | grep -oP '!\[.*?\]\(\K[^)]+' | head -4 | jq -R . | jq -sc . 2>/dev/null || echo "[]")
+          CLEAN=$(echo "$CHANGELOG" | sed 's/!\[.*\]([^)]*)//g' | sed '/^[[:space:]]*$/d' | sed -e '${/^$/d}')
+          echo "imageUrls=$IMAGE_URLS" >> "$GITHUB_OUTPUT"
+          printf "changelog<<DELIM\n%s\nDELIM\n" "$CLEAN" >> "$GITHUB_OUTPUT"
+
+      - name: Send to Worker
+        shell: bash
+        env:
+          WORKER_API_KEY: ${{ secrets.WORKER_API_KEY }}
+          IMAGE_URLS_JSON: ${{ steps.images.outputs.imageUrls }}
+          MC_EXTRA_JSON: ${{ steps.props.outputs.mcExtra }}
+        run: |
+          PAYLOAD=$(jq -n \
+            --arg project       "${{ github.repository }}" \
+            --arg tag           "${{ github.ref_name }}" \
+            --arg branch        "${{ steps.props.outputs.branch }}" \
+            --arg configPack    "" \
+            --arg javaVersion   "21" \
+            --arg modName       "Moogs Mineshafts Reimagined" \
+            --arg version       "${{ steps.props.outputs.version }}" \
+            --arg mcVersion     "${{ steps.props.outputs.mcVersion }}" \
+            --arg mcStart       "${{ steps.props.outputs.mcStart }}" \
+            --arg mcEnd         "${{ steps.props.outputs.mcEnd }}" \
+            --arg releaseType   "${{ steps.props.outputs.releaseType }}" \
+            --argjson discordPing false \
+            --arg cfSlug        "${{ steps.props.outputs.cfSlug }}" \
+            --arg mrSlug        "${{ steps.props.outputs.mrSlug }}" \
+            --arg bannerUrl     "${{ steps.props.outputs.bannerUrl }}" \
+            --arg avatarUrl     "${{ steps.props.outputs.avatarUrl }}" \
+            --arg thumbnailUrl  "${{ steps.props.outputs.thumbnailUrl }}" \
+            --arg color         "${{ steps.props.outputs.color }}" \
+            --arg displayPrefix "${{ steps.props.outputs.displayPrefix }}" \
+            --arg displaySuffix "${{ steps.props.outputs.displaySuffix }}" \
+            --arg changelog     "${{ steps.images.outputs.changelog }}" \
+            --argjson imageUrls "$IMAGE_URLS_JSON" \
+            --argjson mcExtra   "$MC_EXTRA_JSON" \
+            '{
+              project:       $project,
+              tag:           $tag,
+              branch:        $branch,
+              configPack:    $configPack,
+              javaVersion:   $javaVersion,
+              modName:       $modName,
+              version:       $version,
+              mcVersion:     $mcVersion,
+              mcStart:       $mcStart,
+              mcEnd:         $mcEnd,
+              mcExtra:       $mcExtra,
+              releaseType:   $releaseType,
+              discordPing:   $discordPing,
+              cfSlug:        $cfSlug,
+              mrSlug:        $mrSlug,
+              bannerUrl:     $bannerUrl,
+              avatarUrl:     $avatarUrl,
+              thumbnailUrl:  $thumbnailUrl,
+              color:         $color,
+              displayPrefix: $displayPrefix,
+              displaySuffix: $displaySuffix,
+              changelog:     $changelog,
+              imageUrls:     $imageUrls
+            }')
+
+          HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" \
+            -X POST https://moogsmods-bot.finndog176.workers.dev/release \
             -H "Content-Type: application/json" \
-            -d "{\"username\":\"Moog's Mods\",\"avatar_url\":\"$AVATAR_URL\",\"content\":\"$CONTENT\",\"allowed_mentions\":$ALLOWED}"
+            -H "X-API-Key: $WORKER_API_KEY" \
+            -d "$PAYLOAD")
 
-      - name: Publish to CurseForge, Modrinth & Discord
-        shell: bash
-        run: |
-          set -eo pipefail
-          chmod +x gradlew
-          ./gradlew publishMods
-        env:
-          MODRINTH_API_KEY: ${{ secrets.MODRINTH_API_KEY }}
-          CURSEFORGE_API_KEY: ${{ secrets.CURSEFORGE_API_KEY }}
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-          DISCORD_ALPHA_WEBHOOK_URL: ${{ secrets.DISCORD_ALPHA_WEBHOOK_URL }}
-
-      - name: Build release title and body
-        id: release_meta
-        shell: bash
-        env:
-          IS_ALPHA: ${{ steps.alpha.outputs.is_alpha }}
-          CHANGELOG_BODY: ${{ steps.changelog.outputs.body }}
-        run: |
-          if [ "$IS_ALPHA" = "true" ]; then
-            TITLE="${GITHUB_REF_NAME} (Alpha)"
-            BANNER="> 🧪 **Alpha test build.** Feedback welcome at https://github.com/${GITHUB_REPOSITORY}/issues."
-            BODY=$(printf "%s\n\n%s" "$BANNER" "$CHANGELOG_BODY")
-          else
-            TITLE="${GITHUB_REF_NAME}"
-            BODY="$CHANGELOG_BODY"
+          echo "Worker responded: $HTTP_CODE"
+          if [ "$HTTP_CODE" != "200" ]; then
+            echo "::warning::Discord Worker returned $HTTP_CODE — review card may not have posted"
           fi
-          echo "title=${TITLE}" >> "$GITHUB_OUTPUT"
-          printf "body<<DELIMITER\n%s\nDELIMITER\n" "$BODY" >> "$GITHUB_OUTPUT"
-
-      - name: Create GitHub Release
-        uses: softprops/action-gh-release@v3
-        with:
-          name: ${{ steps.release_meta.outputs.title }}
-          body: ${{ steps.release_meta.outputs.body }}
-          prerelease: ${{ steps.alpha.outputs.is_alpha == 'true' }}
-          files: |
-            build/libs/*.jar
-            build/datapack/*.zip
-          fail_on_unmatched_files: true
-
-      - name: Bump patch version for next release
-        # Skip on alpha. The eventual stable release reuses the same modVersion,
-        # so we only bump after a real stable ships.
-        if: success() && steps.alpha.outputs.is_alpha != 'true'
-        shell: bash
-        run: |
-          MC=$(grep '^minecraftVersion=' gradle.properties | cut -d= -f2)
-          BRANCH="${MC}-datapack"
-          TODAY=$(date -u +%Y-%m-%d)
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git fetch origin "$BRANCH"
-          git checkout "$BRANCH"
-          OLD=$(grep '^modVersion=' gradle.properties | cut -d= -f2)
-          IFS='.' read -r -a P <<< "$OLD"
-          NEW="${P[0]}.${P[1]}.$((P[2]+1))"
-          sed -i "s|^modVersion=.*$|modVersion=${NEW}|" gradle.properties
-          NEW_VERSION="$NEW" RELEASE_DATE="$TODAY" python3 .github/scripts/post_release_bump.py
-          git add gradle.properties CHANGELOG.md
-          git commit -m "Post-release: bump ${OLD} -> ${NEW} + stub CHANGELOG section"
-          git push origin "$BRANCH"
