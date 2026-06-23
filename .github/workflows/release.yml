@@ -103,6 +103,7 @@ jobs:
             MC_EXTRA_JSON="[]"
           fi
 
+          echo "DEBUG imageUrls=${IMAGE_URLS}|mcExtra=${MC_EXTRA_JSON}|"
           PAYLOAD=$(jq -n \
             --arg project       "${{ github.repository }}" \
             --arg tag           "${{ github.ref_name }}" \
