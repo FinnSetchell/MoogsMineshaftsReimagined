@@ -95,15 +95,15 @@ jobs:
           CHANGELOG_RAW: ${{ steps.changelog.outputs.body }}
           MC_EXTRA_RAW: ${{ steps.props.outputs.mcExtraRaw }}
         run: |
-          IMAGE_URLS=$(echo "$CHANGELOG_RAW" | grep -oP '!\[.*?\]\(\K[^)]+' | head -4 | jq -R . | jq -sc . 2>/dev/null || echo "[]")
+          IMAGE_URLS=$(echo "$CHANGELOG_RAW" | grep -oP '!\[.*?\]\(\K[^)]+' | head -4 | jq -R . | jq -sc . 2>/dev/null) || IMAGE_URLS="[]"
+          [ -z "$IMAGE_URLS" ] && IMAGE_URLS="[]"
           CLEAN=$(echo "$CHANGELOG_RAW" | sed 's/!\[.*\]([^)]*)//g' | sed '/^[[:space:]]*$/d' | sed -e '${/^$/d}')
           if [ -n "$MC_EXTRA_RAW" ]; then
-            MC_EXTRA_JSON=$(echo "$MC_EXTRA_RAW" | tr ',' '\n' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//' | grep -v '^$' | jq -R . | jq -sc .)
+            MC_EXTRA_JSON=$(echo "$MC_EXTRA_RAW" | tr ',' '\n' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//' | grep -v '^$' | jq -R . | jq -sc .) || MC_EXTRA_JSON="[]"
+            [ -z "$MC_EXTRA_JSON" ] && MC_EXTRA_JSON="[]"
           else
             MC_EXTRA_JSON="[]"
           fi
-
-          echo "DEBUG imageUrls=${IMAGE_URLS}|mcExtra=${MC_EXTRA_JSON}|"
           PAYLOAD=$(jq -n \
             --arg project       "${{ github.repository }}" \
             --arg tag           "${{ github.ref_name }}" \
