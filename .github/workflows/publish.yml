@@ -69,15 +69,17 @@ jobs:
       - name: Build release title
         id: release_meta
         shell: bash
+        env:
+          CHANGELOG_BODY: ${{ steps.changelog.outputs.body }}
         run: |
           if [ "${{ inputs.releaseType }}" = "alpha" ]; then
             TITLE="${{ inputs.tag }} (Alpha)"
             BANNER="> 🧪 **Alpha test build.** Feedback welcome at https://github.com/${GITHUB_REPOSITORY}/issues."
             printf "title=%s\n" "$TITLE" >> "$GITHUB_OUTPUT"
-            printf "body<<DELIMITER\n%s\n\n%s\nDELIMITER\n" "$BANNER" "${{ steps.changelog.outputs.body }}" >> "$GITHUB_OUTPUT"
+            printf "body<<DELIMITER\n%s\n\n%s\nDELIMITER\n" "$BANNER" "$CHANGELOG_BODY" >> "$GITHUB_OUTPUT"
           else
             printf "title=%s\n" "${{ inputs.tag }}" >> "$GITHUB_OUTPUT"
-            printf "body<<DELIMITER\n%s\nDELIMITER\n" "${{ steps.changelog.outputs.body }}" >> "$GITHUB_OUTPUT"
+            printf "body<<DELIMITER\n%s\nDELIMITER\n" "$CHANGELOG_BODY" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Publish to CurseForge & Modrinth
@@ -88,6 +90,7 @@ jobs:
         env:
           MODRINTH_API_KEY: ${{ secrets.MODRINTH_API_KEY }}
           CURSEFORGE_API_KEY: ${{ secrets.CURSEFORGE_API_KEY }}
+          DISCORD_WEBHOOK: "skip"
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v3
