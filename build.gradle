@@ -197,50 +197,6 @@ publishMods {
         }
     }
 
-    discord {
-        webhookUrl = providers.environmentVariable(isAlpha ? 'DISCORD_ALPHA_WEBHOOK_URL' : 'DISCORD_WEBHOOK')
-        dryRunWebhookUrl = providers.environmentVariable('DISCORD_WEBHOOK_DRY_RUN').orElse('')
-        username = "Moog's Mods"
-
-        // Alpha: attach per-platform embed buttons (Modrinth + CurseForge) pointing at the
-        // uploaded alpha jar so testers click straight through.
-        // Stable: suppress auto-embeds; the curated links in the content block are the only
-        // download entry points.
-        if (isAlpha) {
-            setPlatforms(publishMods.platforms.modrinth, publishMods.platforms.curseforge)
-        } else {
-            setPlatforms()
-        }
-
-        content = changelog.map { text ->
-            def prefix = project.findProperty('publishDisplayPrefix')
-            def suffix = project.findProperty('publishDisplaySuffix')
-            def mcStart = project.findProperty('publishMcStart')
-            def mcEnd = project.findProperty('publishMcEnd')
-            def allVersions = mcStart == mcEnd ? mcStart : "$mcStart - $mcEnd"
-            def header = isAlpha
-                ? "## 🧪 **${modName} ${project.version}** alpha build is up for testing!"
-                : "## 🎉 **${modName} ${project.version}** has been released!"
-            def modrinthSlug = 'moogs-mineshafts-reimagined'
-            def curseforgeSlug = (project.findProperty('curseforgeProjectSlug') ?: 'mmr-moogs-mineshafts-reimagined')
-            def body = """${header}
-
-**${prefix} ${project.version}-${mcVersion} ${suffix}**
-Versions - ${allVersions}
-
-### 📝 **Changelog:**
-${text.trim()}
-"""
-            isAlpha ? body : body + "\n<:curseforge:1132291568305459250> [CurseForge](https://www.curseforge.com/minecraft/mc-mods/${curseforgeSlug}/files) | <:modrinth:1132291566019563550> [Modrinth](https://modrinth.com/mod/${modrinthSlug}/versions)\n"
-        }
-
-        style {
-            look = "MODERN"
-            link = "EMBED"
-            color = (project.findProperty('discordEmbedColor') ?: '#0f2b52')
-            thumbnailUrl = project.findProperty('discordThumbnailUrl')
-        }
-    }
 }
 
 // Ensure the jar and config datapack are built before publishing
