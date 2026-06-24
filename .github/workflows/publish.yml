@@ -86,7 +86,7 @@ jobs:
         shell: bash
         run: |
           set -eo pipefail
-          ./gradlew publishMods -x announceDiscord
+          ./gradlew publishMods
         env:
           MODRINTH_API_KEY: ${{ secrets.MODRINTH_API_KEY }}
           CURSEFORGE_API_KEY: ${{ secrets.CURSEFORGE_API_KEY }}
