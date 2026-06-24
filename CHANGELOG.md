@@ -2,6 +2,12 @@
 
 ---
 
+## [1.0.4] - 2026-06-24
+
+_Pending. Update this section before tagging._
+
+---
+
 ## [1.0.3] - 2026-06-22
 
 ### Added
