@@ -2,6 +2,12 @@
 
 ---
 
+## [1.0.3] - 2026-06-24
+
+_Pending. Update this section before tagging._
+
+---
+
 ## [1.0.2] - 2026-06-22
 
 First port of MMR to Minecraft 1.20–1.20.6.
