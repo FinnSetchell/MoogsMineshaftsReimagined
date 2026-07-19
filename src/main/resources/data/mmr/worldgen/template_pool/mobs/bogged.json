@@ -1,0 +1,15 @@
+{
+  "name": "mmr:mobs/bogged",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 69,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mmr:mobs/bogged",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}
