@@ -1,0 +1,37 @@
+# v2 publish manifest — FinnSetchell/MoogsMineshaftsReimagined
+# Lives on the default branch (1.21-datapack) only; every branch reads it from there.
+# Schema per release-actions docs/v2-contracts.md.
+schema: 1
+mod:
+  id: mmr
+  displayName: "Moog's Mineshafts Reimagined"
+  environments: [Server]   # verified against live CF files 2026-07-26 (both files carry 'Server')
+  name: MoogsMineshaftsReimagined
+  validate: true
+platforms:
+  curseforge: { projectId: 1570795, slug: mmr-moogs-mineshafts-reimagined }   # CF /mods API 403 — verified via files endpoint only
+  modrinth:   { projectId: z25hqseO, slug: mmr-moogs-mineshafts-reimagined }  # live-verified 2026-07-26
+discord:
+  embedColor: "#41515a"
+  avatarUrl: "https://media.forgecdn.net/avatars/thumbnails/1856/852/64/64/639166818425492570.png"
+  bannerUrl: "https://pub-24a4e0e7ea8544a5b6f73c3a23512589.r2.dev/images/7ea9047bce0d4ce99c4860e352900619.png"
+  thumbnailUrl: "https://media.forgecdn.net/avatars/thumbnails/1856/852/64/64/639166818425492570.png"
+  pingDefault: true
+# Required dependencies (verified against live Modrinth versions 2026-07-26 — every live
+# version declares exactly one required dependency, Moog's Structure Lib).
+dependencies:
+  - { modrinth: 1oUDhxuy, curseforge: moogs-structure-lib, type: required }
+artifacts:
+  # No config-pack: the datapack project ids were EMPTY in gradle.properties on both
+  # branches, so no config pack has ever been published for this mod. `buildDatapack`
+  # still exists as a local build task.
+  - type: universal-jar
+targets:
+  - branch: 1.20-datapack
+    mc: { start: "1.20", end: "1.20.6" }
+    java: 21
+    displaySuffix: "[UNIVERSAL]"
+  - branch: 1.21-datapack
+    mc: { start: "1.21", end: "26.2" }   # fleet standard for universal 1.21 targets
+    java: 21
+    displaySuffix: "[UNIVERSAL]"
