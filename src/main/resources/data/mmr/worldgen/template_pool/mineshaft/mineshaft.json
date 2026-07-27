@@ -11,7 +11,7 @@
         "locations": {
           "1.21-1.21.8": "mmr:mineshaft/entrance",
           "1.21.9-1.21.11": "mmr:1_21_9/mineshaft/entrance",
-          "26.1-26.1.2": "mmr:1_21_9/mineshaft/entrance"
+          "26.1-26.2": "mmr:1_21_9/mineshaft/entrance"
         },
         "processors": "minecraft:empty"
       }

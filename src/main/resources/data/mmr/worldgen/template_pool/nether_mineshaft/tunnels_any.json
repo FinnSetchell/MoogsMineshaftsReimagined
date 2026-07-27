@@ -33,7 +33,7 @@
         "locations": {
           "1.21-1.21.8": "mmr:nether_mineshaft/crossing_2",
           "1.21.9-1.21.11": "mmr:1_21_9/nether_mineshaft/crossing_2",
-          "26.1-26.1.2": "mmr:1_21_9/nether_mineshaft/crossing_2"
+          "26.1-26.2": "mmr:1_21_9/nether_mineshaft/crossing_2"
         }
       }
     },
@@ -53,7 +53,7 @@
         "locations": {
           "1.21-1.21.8": "mmr:nether_mineshaft/crossing_3",
           "1.21.9-1.21.11": "mmr:1_21_9/nether_mineshaft/crossing_3",
-          "26.1-26.1.2": "mmr:1_21_9/nether_mineshaft/crossing_3"
+          "26.1-26.2": "mmr:1_21_9/nether_mineshaft/crossing_3"
         }
       }
     },
@@ -88,7 +88,7 @@
         "locations": {
           "1.21-1.21.8": "mmr:nether_mineshaft/corner_1",
           "1.21.9-1.21.11": "mmr:1_21_9/nether_mineshaft/corner_1",
-          "26.1-26.1.2": "mmr:1_21_9/nether_mineshaft/corner_1"
+          "26.1-26.2": "mmr:1_21_9/nether_mineshaft/corner_1"
         }
       }
     },
@@ -108,7 +108,7 @@
         "locations": {
           "1.21-1.21.8": "mmr:nether_mineshaft/corner_2",
           "1.21.9-1.21.11": "mmr:1_21_9/nether_mineshaft/corner_2",
-          "26.1-26.1.2": "mmr:1_21_9/nether_mineshaft/corner_2"
+          "26.1-26.2": "mmr:1_21_9/nether_mineshaft/corner_2"
         }
       }
     },
@@ -128,7 +128,7 @@
         "locations": {
           "1.21-1.21.8": "mmr:nether_mineshaft/corner_3",
           "1.21.9-1.21.11": "mmr:1_21_9/nether_mineshaft/corner_3",
-          "26.1-26.1.2": "mmr:1_21_9/nether_mineshaft/corner_3"
+          "26.1-26.2": "mmr:1_21_9/nether_mineshaft/corner_3"
         }
       }
     },
@@ -148,7 +148,7 @@
         "locations": {
           "1.21-1.21.8": "mmr:nether_mineshaft/corner_4",
           "1.21.9-1.21.11": "mmr:1_21_9/nether_mineshaft/corner_4",
-          "26.1-26.1.2": "mmr:1_21_9/nether_mineshaft/corner_4"
+          "26.1-26.2": "mmr:1_21_9/nether_mineshaft/corner_4"
         }
       }
     },
@@ -168,7 +168,7 @@
         "locations": {
           "1.21-1.21.8": "mmr:nether_mineshaft/corner_5",
           "1.21.9-1.21.11": "mmr:1_21_9/nether_mineshaft/corner_5",
-          "26.1-26.1.2": "mmr:1_21_9/nether_mineshaft/corner_5"
+          "26.1-26.2": "mmr:1_21_9/nether_mineshaft/corner_5"
         }
       }
     },
@@ -248,7 +248,7 @@
         "locations": {
           "1.21-1.21.8": "mmr:nether_mineshaft/straight_5",
           "1.21.9-1.21.11": "mmr:1_21_9/nether_mineshaft/straight_5",
-          "26.1-26.1.2": "mmr:1_21_9/nether_mineshaft/straight_5"
+          "26.1-26.2": "mmr:1_21_9/nether_mineshaft/straight_5"
         }
       }
     },
@@ -268,7 +268,7 @@
         "locations": {
           "1.21-1.21.8": "mmr:nether_mineshaft/straight_6",
           "1.21.9-1.21.11": "mmr:1_21_9/nether_mineshaft/straight_6",
-          "26.1-26.1.2": "mmr:1_21_9/nether_mineshaft/straight_6"
+          "26.1-26.2": "mmr:1_21_9/nether_mineshaft/straight_6"
         }
       }
     },
@@ -288,7 +288,7 @@
         "locations": {
           "1.21-1.21.8": "mmr:nether_mineshaft/straight_7",
           "1.21.9-1.21.11": "mmr:1_21_9/nether_mineshaft/straight_7",
-          "26.1-26.1.2": "mmr:1_21_9/nether_mineshaft/straight_7"
+          "26.1-26.2": "mmr:1_21_9/nether_mineshaft/straight_7"
         }
       }
     },
@@ -308,7 +308,7 @@
         "locations": {
           "1.21-1.21.8": "mmr:nether_mineshaft/straight_8",
           "1.21.9-1.21.11": "mmr:1_21_9/nether_mineshaft/straight_8",
-          "26.1-26.1.2": "mmr:1_21_9/nether_mineshaft/straight_8"
+          "26.1-26.2": "mmr:1_21_9/nether_mineshaft/straight_8"
         }
       }
     },
@@ -343,7 +343,7 @@
         "locations": {
           "1.21-1.21.8": "mmr:nether_mineshaft/end_2",
           "1.21.9-1.21.11": "mmr:1_21_9/nether_mineshaft/end_2",
-          "26.1-26.1.2": "mmr:1_21_9/nether_mineshaft/end_2"
+          "26.1-26.2": "mmr:1_21_9/nether_mineshaft/end_2"
         }
       }
     },
@@ -363,7 +363,7 @@
         "locations": {
           "1.21-1.21.8": "mmr:nether_mineshaft/end_3",
           "1.21.9-1.21.11": "mmr:1_21_9/nether_mineshaft/end_3",
-          "26.1-26.1.2": "mmr:1_21_9/nether_mineshaft/end_3"
+          "26.1-26.2": "mmr:1_21_9/nether_mineshaft/end_3"
         }
       }
     },
@@ -398,7 +398,7 @@
         "locations": {
           "1.21-1.21.8": "mmr:nether_mineshaft/long_end_1",
           "1.21.9-1.21.11": "mmr:1_21_9/nether_mineshaft/long_end_1",
-          "26.1-26.1.2": "mmr:1_21_9/nether_mineshaft/long_end_1"
+          "26.1-26.2": "mmr:1_21_9/nether_mineshaft/long_end_1"
         }
       }
     },
@@ -448,7 +448,7 @@
         "locations": {
           "1.21-1.21.8": "mmr:nether_mineshaft/staircase_2",
           "1.21.9-1.21.11": "mmr:1_21_9/nether_mineshaft/staircase_2",
-          "26.1-26.1.2": "mmr:1_21_9/nether_mineshaft/staircase_2"
+          "26.1-26.2": "mmr:1_21_9/nether_mineshaft/staircase_2"
         }
       }
     },
@@ -528,7 +528,7 @@
         "locations": {
           "1.21-1.21.8": "mmr:nether_mineshaft/special_corner_1",
           "1.21.9-1.21.11": "mmr:1_21_9/nether_mineshaft/special_corner_1",
-          "26.1-26.1.2": "mmr:1_21_9/nether_mineshaft/special_corner_1"
+          "26.1-26.2": "mmr:1_21_9/nether_mineshaft/special_corner_1"
         }
       }
     },
@@ -548,7 +548,7 @@
         "locations": {
           "1.21-1.21.8": "mmr:nether_mineshaft/special_corner_2",
           "1.21.9-1.21.11": "mmr:1_21_9/nether_mineshaft/special_corner_2",
-          "26.1-26.1.2": "mmr:1_21_9/nether_mineshaft/special_corner_2"
+          "26.1-26.2": "mmr:1_21_9/nether_mineshaft/special_corner_2"
         }
       }
     },
@@ -568,7 +568,7 @@
         "locations": {
           "1.21-1.21.8": "mmr:nether_mineshaft/tnt_corner_1",
           "1.21.9-1.21.11": "mmr:1_21_9/nether_mineshaft/tnt_corner_1",
-          "26.1-26.1.2": "mmr:1_21_9/nether_mineshaft/tnt_corner_1"
+          "26.1-26.2": "mmr:1_21_9/nether_mineshaft/tnt_corner_1"
         }
       }
     },
@@ -603,7 +603,7 @@
         "locations": {
           "1.21-1.21.8": "mmr:nether_mineshaft/special_crossing_2",
           "1.21.9-1.21.11": "mmr:1_21_9/nether_mineshaft/special_crossing_2",
-          "26.1-26.1.2": "mmr:1_21_9/nether_mineshaft/special_crossing_2"
+          "26.1-26.2": "mmr:1_21_9/nether_mineshaft/special_crossing_2"
         }
       }
     },
@@ -623,7 +623,7 @@
         "locations": {
           "1.21-1.21.8": "mmr:nether_mineshaft/mess_hall",
           "1.21.9-1.21.11": "mmr:1_21_9/nether_mineshaft/mess_hall",
-          "26.1-26.1.2": "mmr:1_21_9/nether_mineshaft/mess_hall"
+          "26.1-26.2": "mmr:1_21_9/nether_mineshaft/mess_hall"
         }
       }
     },
@@ -643,7 +643,7 @@
         "locations": {
           "1.21-1.21.8": "mmr:nether_mineshaft/warden_corridor",
           "1.21.9-1.21.11": "mmr:1_21_9/nether_mineshaft/warden_corridor",
-          "26.1-26.1.2": "mmr:1_21_9/nether_mineshaft/warden_corridor"
+          "26.1-26.2": "mmr:1_21_9/nether_mineshaft/warden_corridor"
         }
       }
     }
