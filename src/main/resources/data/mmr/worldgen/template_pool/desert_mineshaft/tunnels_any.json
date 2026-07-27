@@ -5,7 +5,7 @@
     {
       "weight": 12,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mmr:desert_mineshaft/straight_1",
         "processors": "minecraft:empty"
@@ -14,7 +14,7 @@
     {
       "weight": 12,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mmr:desert_mineshaft/straight_2",
         "processors": "minecraft:empty"
@@ -23,7 +23,7 @@
     {
       "weight": 12,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mmr:desert_mineshaft/straight_3",
         "processors": "minecraft:empty"
@@ -44,7 +44,7 @@
     {
       "weight": 10,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mmr:desert_mineshaft/straight_5",
         "processors": "minecraft:empty"
@@ -53,7 +53,7 @@
     {
       "weight": 10,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mmr:desert_mineshaft/straight_6",
         "processors": "minecraft:empty"
@@ -62,7 +62,7 @@
     {
       "weight": 9,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mmr:desert_mineshaft/straight_7",
         "processors": "minecraft:empty"
@@ -71,7 +71,7 @@
     {
       "weight": 9,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mmr:desert_mineshaft/straight_8",
         "processors": "minecraft:empty"
@@ -80,7 +80,7 @@
     {
       "weight": 6,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mmr:desert_mineshaft/long_straight_1",
         "processors": "minecraft:empty"
@@ -89,7 +89,7 @@
     {
       "weight": 14,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mmr:desert_mineshaft/corner_1",
         "processors": "minecraft:empty"
@@ -98,7 +98,7 @@
     {
       "weight": 14,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mmr:desert_mineshaft/corner_2",
         "processors": "minecraft:empty"
@@ -107,7 +107,7 @@
     {
       "weight": 14,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mmr:desert_mineshaft/corner_3",
         "processors": "minecraft:empty"
@@ -116,7 +116,7 @@
     {
       "weight": 14,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mmr:desert_mineshaft/corner_4",
         "processors": "minecraft:empty"
@@ -125,7 +125,7 @@
     {
       "weight": 14,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mmr:desert_mineshaft/corner_5",
         "processors": "minecraft:empty"
@@ -134,7 +134,7 @@
     {
       "weight": 8,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mmr:desert_mineshaft/special_corner_1",
         "processors": "minecraft:empty"
@@ -143,7 +143,7 @@
     {
       "weight": 8,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mmr:desert_mineshaft/special_corner_2",
         "processors": "minecraft:empty"
@@ -152,7 +152,7 @@
     {
       "weight": 4,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mmr:desert_mineshaft/tnt_corner_1",
         "processors": "minecraft:empty"
@@ -161,7 +161,7 @@
     {
       "weight": 18,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mmr:desert_mineshaft/crossing_1",
         "processors": "minecraft:empty"
@@ -170,7 +170,7 @@
     {
       "weight": 18,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mmr:desert_mineshaft/crossing_2",
         "processors": "minecraft:empty"
@@ -179,7 +179,7 @@
     {
       "weight": 18,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mmr:desert_mineshaft/crossing_3",
         "processors": "mmr:desert_mineshaft_spawner"
@@ -188,7 +188,7 @@
     {
       "weight": 18,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mmr:desert_mineshaft/crossing_4",
         "processors": "minecraft:empty"
@@ -197,7 +197,7 @@
     {
       "weight": 6,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mmr:desert_mineshaft/special_crossing_1",
         "processors": "minecraft:empty"
@@ -242,7 +242,7 @@
     {
       "weight": 5,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mmr:desert_mineshaft/special_crossing_5",
         "processors": "mmr:desert_mineshaft_arena"
@@ -251,7 +251,7 @@
     {
       "weight": 10,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mmr:desert_mineshaft/staircase_1",
         "processors": "minecraft:empty"
@@ -260,7 +260,7 @@
     {
       "weight": 10,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mmr:desert_mineshaft/staircase_2",
         "processors": "minecraft:empty"
@@ -269,7 +269,7 @@
     {
       "weight": 10,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mmr:desert_mineshaft/staircase_3",
         "processors": "minecraft:empty"
@@ -278,7 +278,7 @@
     {
       "weight": 5,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mmr:desert_mineshaft/round_staircase_1",
         "processors": "minecraft:empty"
@@ -287,7 +287,7 @@
     {
       "weight": 5,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mmr:desert_mineshaft/round_staircase_2",
         "processors": "minecraft:empty"
@@ -296,7 +296,7 @@
     {
       "weight": 5,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mmr:desert_mineshaft/round_staircase_3",
         "processors": "minecraft:empty"
@@ -305,7 +305,7 @@
     {
       "weight": 5,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mmr:desert_mineshaft/end_1",
         "processors": "minecraft:empty"
@@ -314,7 +314,7 @@
     {
       "weight": 5,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mmr:desert_mineshaft/end_2",
         "processors": "minecraft:empty"
@@ -323,7 +323,7 @@
     {
       "weight": 5,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mmr:desert_mineshaft/end_3",
         "processors": "minecraft:empty"
@@ -332,7 +332,7 @@
     {
       "weight": 5,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mmr:desert_mineshaft/end_4",
         "processors": "minecraft:empty"
@@ -341,7 +341,7 @@
     {
       "weight": 5,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mmr:desert_mineshaft/long_end_1",
         "processors": "mmr:desert_mineshaft_spawner"
