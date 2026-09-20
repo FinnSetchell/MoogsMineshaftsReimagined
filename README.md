@@ -3,7 +3,7 @@
 ---
 
 
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/S5nffJbuvA) [![CurseForge](https://img.shields.io/badge/CurseForge-F16436?style=for-the-badge&logo=curseforge&logoColor=white)](https://www.curseforge.com/members/finndog_123/projects) [![Modrinth](https://img.shields.io/badge/Modrinth-00AF5C?style=for-the-badge&logo=modrinth&logoColor=white)](https://modrinth.com/user/FinnDog_123)
+[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://moogsmods.com/discord?r=readme-mmr) [![CurseForge](https://img.shields.io/badge/CurseForge-F16436?style=for-the-badge&logo=curseforge&logoColor=white)](https://www.curseforge.com/members/finndog_123/projects) [![Modrinth](https://img.shields.io/badge/Modrinth-00AF5C?style=for-the-badge&logo=modrinth&logoColor=white)](https://modrinth.com/user/FinnDog_123)
 
 ---
 
@@ -68,9 +68,9 @@ If you have a modpack or video using this mod that you want featured here, messa
 
 ![Discord Banner](https://pub-24a4e0e7ea8544a5b6f73c3a23512589.r2.dev/images/55aa3d2a786944a6a241ca8850d95280.png)
 
-The fastest way to get a reply is the [Discord server](https://discord.gg/S5nffJbuvA).
+The fastest way to get a reply is the [Discord server](https://moogsmods.com/discord?r=readme-mmr).
 
-[**![discord](https://i.imgur.com/sfAmR3Y.png)**](https://discord.gg/S5nffJbuvA "discord invite")
+[**![discord](https://i.imgur.com/sfAmR3Y.png)**](https://moogsmods.com/discord?r=readme-mmr "discord invite")
 
 ---
 
