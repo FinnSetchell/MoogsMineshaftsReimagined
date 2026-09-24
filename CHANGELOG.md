@@ -18,6 +18,7 @@
 ### Fixed
 - Parrots are back in the desert mineshaft room
 - Item frames and paintings now appear correctly on every version
+- Two rooms in the Nether mineshaft had empty spawners; they now spawn piglin brutes, wither skeletons and blazes
 - The jungle, mesa, Nether and regular mineshafts now generate on Forge 1.20.1
 
 ---
