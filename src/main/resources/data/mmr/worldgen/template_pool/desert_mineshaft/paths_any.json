@@ -5,91 +5,131 @@
     {
       "weight": 10,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "terrain_matching",
-        "location": "mmr:desert_mineshaft/path_short_straight",
-        "processors": "mmr:street_desert"
+        "location": "mmr:1_20_5/desert_mineshaft/path_short_straight",
+        "processors": "mmr:street_desert",
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/desert_mineshaft/path_short_straight",
+          "1.20.5-1.20.6": "mmr:1_20_5/desert_mineshaft/path_short_straight"
+        }
       }
     },
     {
       "weight": 10,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "terrain_matching",
-        "location": "mmr:desert_mineshaft/path_medium_straight",
-        "processors": "mmr:street_desert"
+        "location": "mmr:1_20_5/desert_mineshaft/path_medium_straight",
+        "processors": "mmr:street_desert",
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/desert_mineshaft/path_medium_straight",
+          "1.20.5-1.20.6": "mmr:1_20_5/desert_mineshaft/path_medium_straight"
+        }
       }
     },
     {
       "weight": 6,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "terrain_matching",
-        "location": "mmr:desert_mineshaft/path_long_straight",
-        "processors": "mmr:street_desert"
+        "location": "mmr:1_20_5/desert_mineshaft/path_long_straight",
+        "processors": "mmr:street_desert",
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/desert_mineshaft/path_long_straight",
+          "1.20.5-1.20.6": "mmr:1_20_5/desert_mineshaft/path_long_straight"
+        }
       }
     },
     {
       "weight": 8,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "terrain_matching",
-        "location": "mmr:desert_mineshaft/path_small_corner",
-        "processors": "mmr:street_desert"
+        "location": "mmr:1_20_5/desert_mineshaft/path_small_corner",
+        "processors": "mmr:street_desert",
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/desert_mineshaft/path_small_corner",
+          "1.20.5-1.20.6": "mmr:1_20_5/desert_mineshaft/path_small_corner"
+        }
       }
     },
     {
       "weight": 7,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "terrain_matching",
-        "location": "mmr:desert_mineshaft/path_large_corner_1",
-        "processors": "mmr:street_desert"
+        "location": "mmr:1_20_5/desert_mineshaft/path_large_corner_1",
+        "processors": "mmr:street_desert",
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/desert_mineshaft/path_large_corner_1",
+          "1.20.5-1.20.6": "mmr:1_20_5/desert_mineshaft/path_large_corner_1"
+        }
       }
     },
     {
       "weight": 7,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "terrain_matching",
-        "location": "mmr:desert_mineshaft/path_large_corner_2",
-        "processors": "mmr:street_desert"
+        "location": "mmr:1_20_5/desert_mineshaft/path_large_corner_2",
+        "processors": "mmr:street_desert",
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/desert_mineshaft/path_large_corner_2",
+          "1.20.5-1.20.6": "mmr:1_20_5/desert_mineshaft/path_large_corner_2"
+        }
       }
     },
     {
       "weight": 5,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "terrain_matching",
-        "location": "mmr:desert_mineshaft/path_three_way",
-        "processors": "mmr:street_desert"
+        "location": "mmr:1_20_5/desert_mineshaft/path_three_way",
+        "processors": "mmr:street_desert",
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/desert_mineshaft/path_three_way",
+          "1.20.5-1.20.6": "mmr:1_20_5/desert_mineshaft/path_three_way"
+        }
       }
     },
     {
       "weight": 4,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "terrain_matching",
-        "location": "mmr:desert_mineshaft/path_crossing_1",
-        "processors": "mmr:street_desert"
+        "location": "mmr:1_20_5/desert_mineshaft/path_crossing_1",
+        "processors": "mmr:street_desert",
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/desert_mineshaft/path_crossing_1",
+          "1.20.5-1.20.6": "mmr:1_20_5/desert_mineshaft/path_crossing_1"
+        }
       }
     },
     {
       "weight": 4,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "terrain_matching",
-        "location": "mmr:desert_mineshaft/path_crossing_2",
-        "processors": "mmr:street_desert"
+        "location": "mmr:1_20_5/desert_mineshaft/path_crossing_2",
+        "processors": "mmr:street_desert",
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/desert_mineshaft/path_crossing_2",
+          "1.20.5-1.20.6": "mmr:1_20_5/desert_mineshaft/path_crossing_2"
+        }
       }
     },
     {
       "weight": 23,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "terrain_matching",
-        "location": "mmr:desert_mineshaft/path_end",
-        "processors": "mmr:street_desert"
+        "location": "mmr:1_20_5/desert_mineshaft/path_end",
+        "processors": "mmr:street_desert",
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/desert_mineshaft/path_end",
+          "1.20.5-1.20.6": "mmr:1_20_5/desert_mineshaft/path_end"
+        }
       }
     }
   ]

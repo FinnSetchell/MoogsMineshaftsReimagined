@@ -7,13 +7,17 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:nether_mineshaft/crossing_1",
+        "location": "mmr:1_20_5/nether_mineshaft/crossing_1",
         "processors": "mmr:nether_mineshaft_no_basalt",
         "enhanced_terrain_adaptation": {
           "kernel_size": 5,
           "kernel_distance": 4,
           "top": "bury",
           "bottom": "bury"
+        },
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/crossing_1",
+          "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/crossing_1"
         }
       }
     },
@@ -22,7 +26,7 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:nether_mineshaft/crossing_2",
+        "location": "mmr:1_20_5/nether_mineshaft/crossing_2",
         "processors": "mmr:nether_mineshaft_no_basalt",
         "enhanced_terrain_adaptation": {
           "kernel_size": 5,
@@ -31,7 +35,8 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/crossing_2", "1.20.5-1.20.6": "mmr:nether_mineshaft/crossing_2"
+          "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/crossing_2",
+          "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/crossing_2"
         }
       }
     },
@@ -40,8 +45,8 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:nether_mineshaft/crossing_3",
-        "processors": "mmr:nether_mineshaft_no_basalt",
+        "location": "mmr:1_20_5/nether_mineshaft/crossing_3",
+        "processors": "mmr:nether_mineshaft_no_basalt_brute_spawner",
         "enhanced_terrain_adaptation": {
           "kernel_size": 5,
           "kernel_distance": 4,
@@ -49,7 +54,8 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/crossing_3", "1.20.5-1.20.6": "mmr:nether_mineshaft/crossing_3"
+          "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/crossing_3",
+          "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/crossing_3"
         }
       }
     },
@@ -58,13 +64,17 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:nether_mineshaft/crossing_4",
+        "location": "mmr:1_20_5/nether_mineshaft/crossing_4",
         "processors": "mmr:nether_mineshaft_no_basalt",
         "enhanced_terrain_adaptation": {
           "kernel_size": 5,
           "kernel_distance": 4,
           "top": "bury",
           "bottom": "bury"
+        },
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/crossing_4",
+          "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/crossing_4"
         }
       }
     },
@@ -73,7 +83,7 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:nether_mineshaft/corner_1",
+        "location": "mmr:1_20_5/nether_mineshaft/corner_1",
         "processors": "mmr:nether_mineshaft_no_basalt",
         "enhanced_terrain_adaptation": {
           "kernel_size": 5,
@@ -82,7 +92,8 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/corner_1", "1.20.5-1.20.6": "mmr:nether_mineshaft/corner_1"
+          "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/corner_1",
+          "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/corner_1"
         }
       }
     },
@@ -91,7 +102,7 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:nether_mineshaft/corner_2",
+        "location": "mmr:1_20_5/nether_mineshaft/corner_2",
         "processors": "mmr:nether_mineshaft_no_basalt",
         "enhanced_terrain_adaptation": {
           "kernel_size": 5,
@@ -100,7 +111,8 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/corner_2", "1.20.5-1.20.6": "mmr:nether_mineshaft/corner_2"
+          "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/corner_2",
+          "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/corner_2"
         }
       }
     },
@@ -109,7 +121,7 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:nether_mineshaft/corner_3",
+        "location": "mmr:1_20_5/nether_mineshaft/corner_3",
         "processors": "mmr:nether_mineshaft_no_basalt",
         "enhanced_terrain_adaptation": {
           "kernel_size": 5,
@@ -118,7 +130,8 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/corner_3", "1.20.5-1.20.6": "mmr:nether_mineshaft/corner_3"
+          "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/corner_3",
+          "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/corner_3"
         }
       }
     },
@@ -127,7 +140,7 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:nether_mineshaft/corner_4",
+        "location": "mmr:1_20_5/nether_mineshaft/corner_4",
         "processors": "mmr:nether_mineshaft_no_basalt",
         "enhanced_terrain_adaptation": {
           "kernel_size": 5,
@@ -136,7 +149,8 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/corner_4", "1.20.5-1.20.6": "mmr:nether_mineshaft/corner_4"
+          "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/corner_4",
+          "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/corner_4"
         }
       }
     },
@@ -145,7 +159,7 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:nether_mineshaft/corner_5",
+        "location": "mmr:1_20_5/nether_mineshaft/corner_5",
         "processors": "mmr:nether_mineshaft_no_basalt",
         "enhanced_terrain_adaptation": {
           "kernel_size": 5,
@@ -154,7 +168,8 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/corner_5", "1.20.5-1.20.6": "mmr:nether_mineshaft/corner_5"
+          "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/corner_5",
+          "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/corner_5"
         }
       }
     },
@@ -163,67 +178,7 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:nether_mineshaft/straight_1",
-        "processors": "mmr:nether_mineshaft_no_basalt",
-        "enhanced_terrain_adaptation": {
-          "kernel_size": 5,
-          "kernel_distance": 4,
-          "top": "bury",
-          "bottom": "bury"
-        }
-      }
-    },
-    {
-      "weight": 10,
-      "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
-        "projection": "rigid",
-        "location": "mmr:nether_mineshaft/straight_2",
-        "processors": "mmr:nether_mineshaft_no_basalt",
-        "enhanced_terrain_adaptation": {
-          "kernel_size": 5,
-          "kernel_distance": 4,
-          "top": "bury",
-          "bottom": "bury"
-        }
-      }
-    },
-    {
-      "weight": 10,
-      "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
-        "projection": "rigid",
-        "location": "mmr:nether_mineshaft/straight_3",
-        "processors": "mmr:nether_mineshaft_no_basalt",
-        "enhanced_terrain_adaptation": {
-          "kernel_size": 5,
-          "kernel_distance": 4,
-          "top": "bury",
-          "bottom": "bury"
-        }
-      }
-    },
-    {
-      "weight": 10,
-      "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
-        "projection": "rigid",
-        "location": "mmr:nether_mineshaft/straight_4",
-        "processors": "mmr:nether_mineshaft_no_basalt",
-        "enhanced_terrain_adaptation": {
-          "kernel_size": 5,
-          "kernel_distance": 4,
-          "top": "bury",
-          "bottom": "bury"
-        }
-      }
-    },
-    {
-      "weight": 10,
-      "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
-        "projection": "rigid",
-        "location": "mmr:nether_mineshaft/straight_5",
+        "location": "mmr:1_20_5/nether_mineshaft/straight_1",
         "processors": "mmr:nether_mineshaft_no_basalt",
         "enhanced_terrain_adaptation": {
           "kernel_size": 5,
@@ -232,7 +187,8 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/straight_5", "1.20.5-1.20.6": "mmr:nether_mineshaft/straight_5"
+          "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/straight_1",
+          "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/straight_1"
         }
       }
     },
@@ -241,7 +197,7 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:nether_mineshaft/straight_6",
+        "location": "mmr:1_20_5/nether_mineshaft/straight_2",
         "processors": "mmr:nether_mineshaft_no_basalt",
         "enhanced_terrain_adaptation": {
           "kernel_size": 5,
@@ -250,7 +206,8 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/straight_6", "1.20.5-1.20.6": "mmr:nether_mineshaft/straight_6"
+          "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/straight_2",
+          "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/straight_2"
         }
       }
     },
@@ -259,7 +216,7 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:nether_mineshaft/straight_7",
+        "location": "mmr:1_20_5/nether_mineshaft/straight_3",
         "processors": "mmr:nether_mineshaft_no_basalt",
         "enhanced_terrain_adaptation": {
           "kernel_size": 5,
@@ -268,7 +225,8 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/straight_7", "1.20.5-1.20.6": "mmr:nether_mineshaft/straight_7"
+          "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/straight_3",
+          "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/straight_3"
         }
       }
     },
@@ -277,7 +235,7 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:nether_mineshaft/straight_8",
+        "location": "mmr:1_20_5/nether_mineshaft/straight_4",
         "processors": "mmr:nether_mineshaft_no_basalt",
         "enhanced_terrain_adaptation": {
           "kernel_size": 5,
@@ -286,7 +244,84 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/straight_8", "1.20.5-1.20.6": "mmr:nether_mineshaft/straight_8"
+          "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/straight_4",
+          "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/straight_4"
+        }
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "projection": "rigid",
+        "location": "mmr:1_20_5/nether_mineshaft/straight_5",
+        "processors": "mmr:nether_mineshaft_no_basalt",
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 5,
+          "kernel_distance": 4,
+          "top": "bury",
+          "bottom": "bury"
+        },
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/straight_5",
+          "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/straight_5"
+        }
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "projection": "rigid",
+        "location": "mmr:1_20_5/nether_mineshaft/straight_6",
+        "processors": "mmr:nether_mineshaft_no_basalt",
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 5,
+          "kernel_distance": 4,
+          "top": "bury",
+          "bottom": "bury"
+        },
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/straight_6",
+          "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/straight_6"
+        }
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "projection": "rigid",
+        "location": "mmr:1_20_5/nether_mineshaft/straight_7",
+        "processors": "mmr:nether_mineshaft_no_basalt",
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 5,
+          "kernel_distance": 4,
+          "top": "bury",
+          "bottom": "bury"
+        },
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/straight_7",
+          "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/straight_7"
+        }
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "projection": "rigid",
+        "location": "mmr:1_20_5/nether_mineshaft/straight_8",
+        "processors": "mmr:nether_mineshaft_no_basalt",
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 5,
+          "kernel_distance": 4,
+          "top": "bury",
+          "bottom": "bury"
+        },
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/straight_8",
+          "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/straight_8"
         }
       }
     },
@@ -295,22 +330,7 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:nether_mineshaft/end_1",
-        "processors": "mmr:nether_mineshaft_no_basalt",
-        "enhanced_terrain_adaptation": {
-          "kernel_size": 5,
-          "kernel_distance": 4,
-          "top": "bury",
-          "bottom": "bury"
-        }
-      }
-    },
-    {
-      "weight": 5,
-      "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
-        "projection": "rigid",
-        "location": "mmr:nether_mineshaft/end_2",
+        "location": "mmr:1_20_5/nether_mineshaft/end_1",
         "processors": "mmr:nether_mineshaft_no_basalt",
         "enhanced_terrain_adaptation": {
           "kernel_size": 5,
@@ -319,7 +339,8 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/end_2", "1.20.5-1.20.6": "mmr:nether_mineshaft/end_2"
+          "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/end_1",
+          "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/end_1"
         }
       }
     },
@@ -328,7 +349,7 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:nether_mineshaft/end_3",
+        "location": "mmr:1_20_5/nether_mineshaft/end_2",
         "processors": "mmr:nether_mineshaft_no_basalt",
         "enhanced_terrain_adaptation": {
           "kernel_size": 5,
@@ -337,7 +358,8 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/end_3", "1.20.5-1.20.6": "mmr:nether_mineshaft/end_3"
+          "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/end_2",
+          "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/end_2"
         }
       }
     },
@@ -346,22 +368,7 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:nether_mineshaft/end_4",
-        "processors": "mmr:nether_mineshaft_no_basalt",
-        "enhanced_terrain_adaptation": {
-          "kernel_size": 5,
-          "kernel_distance": 4,
-          "top": "bury",
-          "bottom": "bury"
-        }
-      }
-    },
-    {
-      "weight": 5,
-      "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
-        "projection": "rigid",
-        "location": "mmr:nether_mineshaft/long_end_1",
+        "location": "mmr:1_20_5/nether_mineshaft/end_3",
         "processors": "mmr:nether_mineshaft_no_basalt",
         "enhanced_terrain_adaptation": {
           "kernel_size": 5,
@@ -370,7 +377,46 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/long_end_1", "1.20.5-1.20.6": "mmr:nether_mineshaft/long_end_1"
+          "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/end_3",
+          "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/end_3"
+        }
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "projection": "rigid",
+        "location": "mmr:1_20_5/nether_mineshaft/end_4",
+        "processors": "mmr:nether_mineshaft_no_basalt",
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 5,
+          "kernel_distance": 4,
+          "top": "bury",
+          "bottom": "bury"
+        },
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/end_4",
+          "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/end_4"
+        }
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "projection": "rigid",
+        "location": "mmr:1_20_5/nether_mineshaft/long_end_1",
+        "processors": "mmr:nether_mineshaft_no_basalt",
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 5,
+          "kernel_distance": 4,
+          "top": "bury",
+          "bottom": "bury"
+        },
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/long_end_1",
+          "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/long_end_1"
         }
       }
     },
@@ -379,37 +425,7 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:nether_mineshaft/long_straight_1",
-        "processors": "mmr:nether_mineshaft_no_basalt",
-        "enhanced_terrain_adaptation": {
-          "kernel_size": 5,
-          "kernel_distance": 4,
-          "top": "bury",
-          "bottom": "bury"
-        }
-      }
-    },
-    {
-      "weight": 10,
-      "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
-        "projection": "rigid",
-        "location": "mmr:nether_mineshaft/staircase_1",
-        "processors": "mmr:nether_mineshaft_no_basalt",
-        "enhanced_terrain_adaptation": {
-          "kernel_size": 5,
-          "kernel_distance": 4,
-          "top": "bury",
-          "bottom": "bury"
-        }
-      }
-    },
-    {
-      "weight": 10,
-      "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
-        "projection": "rigid",
-        "location": "mmr:nether_mineshaft/staircase_2",
+        "location": "mmr:1_20_5/nether_mineshaft/long_straight_1",
         "processors": "mmr:nether_mineshaft_no_basalt",
         "enhanced_terrain_adaptation": {
           "kernel_size": 5,
@@ -418,7 +434,8 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/staircase_2", "1.20.5-1.20.6": "mmr:nether_mineshaft/staircase_2"
+          "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/long_straight_1",
+          "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/long_straight_1"
         }
       }
     },
@@ -427,13 +444,55 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:nether_mineshaft/staircase_3",
+        "location": "mmr:1_20_5/nether_mineshaft/staircase_1",
         "processors": "mmr:nether_mineshaft_no_basalt",
         "enhanced_terrain_adaptation": {
           "kernel_size": 5,
           "kernel_distance": 4,
           "top": "bury",
           "bottom": "bury"
+        },
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/staircase_1",
+          "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/staircase_1"
+        }
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "projection": "rigid",
+        "location": "mmr:1_20_5/nether_mineshaft/staircase_2",
+        "processors": "mmr:nether_mineshaft_no_basalt",
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 5,
+          "kernel_distance": 4,
+          "top": "bury",
+          "bottom": "bury"
+        },
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/staircase_2",
+          "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/staircase_2"
+        }
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "projection": "rigid",
+        "location": "mmr:1_20_5/nether_mineshaft/staircase_3",
+        "processors": "mmr:nether_mineshaft_no_basalt",
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 5,
+          "kernel_distance": 4,
+          "top": "bury",
+          "bottom": "bury"
+        },
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/staircase_3",
+          "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/staircase_3"
         }
       }
     },
@@ -442,13 +501,17 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:nether_mineshaft/round_staircase_1",
+        "location": "mmr:1_20_5/nether_mineshaft/round_staircase_1",
         "processors": "mmr:nether_mineshaft_no_basalt",
         "enhanced_terrain_adaptation": {
           "kernel_size": 5,
           "kernel_distance": 4,
           "top": "bury",
           "bottom": "bury"
+        },
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/round_staircase_1",
+          "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/round_staircase_1"
         }
       }
     },
@@ -457,13 +520,17 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:nether_mineshaft/round_staircase_2",
+        "location": "mmr:1_20_5/nether_mineshaft/round_staircase_2",
         "processors": "mmr:nether_mineshaft_no_basalt",
         "enhanced_terrain_adaptation": {
           "kernel_size": 5,
           "kernel_distance": 4,
           "top": "bury",
           "bottom": "bury"
+        },
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/round_staircase_2",
+          "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/round_staircase_2"
         }
       }
     },
@@ -472,13 +539,17 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:nether_mineshaft/round_staircase_3",
+        "location": "mmr:1_20_5/nether_mineshaft/round_staircase_3",
         "processors": "mmr:nether_mineshaft_no_basalt",
         "enhanced_terrain_adaptation": {
           "kernel_size": 5,
           "kernel_distance": 4,
           "top": "bury",
           "bottom": "bury"
+        },
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/round_staircase_3",
+          "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/round_staircase_3"
         }
       }
     },
@@ -487,7 +558,7 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:nether_mineshaft/special_corner_1",
+        "location": "mmr:1_20_5/nether_mineshaft/special_corner_1",
         "processors": "mmr:nether_mineshaft_no_basalt",
         "enhanced_terrain_adaptation": {
           "kernel_size": 5,
@@ -496,7 +567,8 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/special_corner_1", "1.20.5-1.20.6": "mmr:nether_mineshaft/special_corner_1"
+          "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/special_corner_1",
+          "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/special_corner_1"
         }
       }
     },
@@ -505,7 +577,7 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:nether_mineshaft/special_corner_2",
+        "location": "mmr:1_20_5/nether_mineshaft/special_corner_2",
         "processors": "mmr:nether_mineshaft_no_basalt",
         "enhanced_terrain_adaptation": {
           "kernel_size": 5,
@@ -514,7 +586,8 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/special_corner_2", "1.20.5-1.20.6": "mmr:nether_mineshaft/special_corner_2"
+          "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/special_corner_2",
+          "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/special_corner_2"
         }
       }
     },
@@ -523,7 +596,7 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:nether_mineshaft/tnt_corner_1",
+        "location": "mmr:1_20_5/nether_mineshaft/tnt_corner_1",
         "processors": "mmr:nether_mineshaft_no_basalt",
         "enhanced_terrain_adaptation": {
           "kernel_size": 5,
@@ -532,7 +605,8 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/tnt_corner_1", "1.20.5-1.20.6": "mmr:nether_mineshaft/tnt_corner_1"
+          "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/tnt_corner_1",
+          "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/tnt_corner_1"
         }
       }
     },
@@ -541,13 +615,17 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:nether_mineshaft/special_crossing_1",
+        "location": "mmr:1_20_5/nether_mineshaft/special_crossing_1",
         "processors": "mmr:nether_mineshaft_no_basalt",
         "enhanced_terrain_adaptation": {
           "kernel_size": 5,
           "kernel_distance": 4,
           "top": "bury",
           "bottom": "bury"
+        },
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/special_crossing_1",
+          "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/special_crossing_1"
         }
       }
     },
@@ -556,7 +634,7 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:nether_mineshaft/special_crossing_2",
+        "location": "mmr:1_20_5/nether_mineshaft/special_crossing_2",
         "processors": "mmr:nether_mineshaft_no_basalt",
         "enhanced_terrain_adaptation": {
           "kernel_size": 5,
@@ -565,7 +643,10 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/special_crossing_2", "1.20.5-1.20.6": "mmr:nether_mineshaft/special_crossing_2"
+          "1.20-1.20.1": "mmr:1_20_0/nether_mineshaft/special_crossing_2",
+          "1.20.2": "mmr:1_20_2/nether_mineshaft/special_crossing_2",
+          "1.20.3-1.20.4": "mmr:1_20_3/nether_mineshaft/special_crossing_2",
+          "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/special_crossing_2"
         }
       }
     },
@@ -574,7 +655,7 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:nether_mineshaft/mess_hall",
+        "location": "mmr:1_20_5/nether_mineshaft/mess_hall",
         "processors": "mmr:nether_mineshaft_no_basalt",
         "enhanced_terrain_adaptation": {
           "kernel_size": 5,
@@ -583,25 +664,8 @@
           "bottom": "bury"
         },
         "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/mess_hall", "1.20.5-1.20.6": "mmr:nether_mineshaft/mess_hall"
-        }
-      }
-    },
-    {
-      "weight": 3,
-      "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
-        "projection": "rigid",
-        "location": "mmr:nether_mineshaft/warden_corridor",
-        "processors": "mmr:nether_mineshaft_no_basalt",
-        "enhanced_terrain_adaptation": {
-          "kernel_size": 5,
-          "kernel_distance": 4,
-          "top": "bury",
-          "bottom": "bury"
-        },
-        "locations": {
-          "1.20-1.20.4": "mmr:nether_mineshaft/warden_corridor", "1.20.5-1.20.6": "mmr:nether_mineshaft/warden_corridor"
+          "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/mess_hall",
+          "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/mess_hall"
         }
       }
     }

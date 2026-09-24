@@ -1,0 +1,188 @@
+{
+  "name": "mmr:mobs/snowy/sled_dog",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mmr:1_20_5/mobs/snowy/akira",
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/mobs/snowy/akira",
+          "1.20.5-1.20.6": "mmr:1_20_5/mobs/snowy/akira"
+        },
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mmr:1_20_5/mobs/snowy/alisha",
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/mobs/snowy/alisha",
+          "1.20.5-1.20.6": "mmr:1_20_5/mobs/snowy/alisha"
+        },
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mmr:1_20_5/mobs/snowy/echo",
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/mobs/snowy/echo",
+          "1.20.5-1.20.6": "mmr:1_20_5/mobs/snowy/echo"
+        },
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mmr:1_20_5/mobs/snowy/kavik",
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/mobs/snowy/kavik",
+          "1.20.5-1.20.6": "mmr:1_20_5/mobs/snowy/kavik"
+        },
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mmr:1_20_5/mobs/snowy/keiko",
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/mobs/snowy/keiko",
+          "1.20.5-1.20.6": "mmr:1_20_5/mobs/snowy/keiko"
+        },
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mmr:1_20_5/mobs/snowy/kodiak",
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/mobs/snowy/kodiak",
+          "1.20.5-1.20.6": "mmr:1_20_5/mobs/snowy/kodiak"
+        },
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mmr:1_20_5/mobs/snowy/nanook",
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/mobs/snowy/nanook",
+          "1.20.5-1.20.6": "mmr:1_20_5/mobs/snowy/nanook"
+        },
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mmr:1_20_5/mobs/snowy/odin",
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/mobs/snowy/odin",
+          "1.20.5-1.20.6": "mmr:1_20_5/mobs/snowy/odin"
+        },
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mmr:1_20_5/mobs/snowy/rex",
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/mobs/snowy/rex",
+          "1.20.5-1.20.6": "mmr:1_20_5/mobs/snowy/rex"
+        },
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mmr:1_20_5/mobs/snowy/suka",
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/mobs/snowy/suka",
+          "1.20.5-1.20.6": "mmr:1_20_5/mobs/snowy/suka"
+        },
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mmr:1_20_5/mobs/snowy/tasha",
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/mobs/snowy/tasha",
+          "1.20.5-1.20.6": "mmr:1_20_5/mobs/snowy/tasha"
+        },
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mmr:1_20_5/mobs/snowy/togo",
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/mobs/snowy/togo",
+          "1.20.5-1.20.6": "mmr:1_20_5/mobs/snowy/togo"
+        },
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mmr:1_20_5/mobs/snowy/waxer",
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/mobs/snowy/waxer",
+          "1.20.5-1.20.6": "mmr:1_20_5/mobs/snowy/waxer"
+        },
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mmr:1_20_5/mobs/snowy/yukon",
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/mobs/snowy/yukon",
+          "1.20.5-1.20.6": "mmr:1_20_5/mobs/snowy/yukon"
+        },
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    }
+  ]
+}
