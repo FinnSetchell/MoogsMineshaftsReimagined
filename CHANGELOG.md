@@ -4,7 +4,21 @@
 
 ## [1.0.3] - 2026-06-24
 
-_Pending. Update this section before tagging._
+### Added
+- Villagers now have a mix of jobs, including unemployed villagers, nitwits and children, and new trades every time
+- Armour stands in the regular mineshaft now wear random armour
+- Structure preview links in Moog's Structure Lib's config screen
+
+### Changed
+- Horses, donkeys, parrots and villagers look different every time a mineshaft generates
+- Mineshafts have fewer mobs standing around in them
+- The regular mineshaft's bogged spawners are now skeleton spawners
+- Every structure has been rebuilt for each Minecraft version it supports, fixing a range of small visual and loading problems
+
+### Fixed
+- Parrots are back in the desert mineshaft room
+- Item frames and paintings now appear correctly on every version
+- The jungle, mesa, Nether and regular mineshafts now generate on Forge 1.20.1
 
 ---
 
