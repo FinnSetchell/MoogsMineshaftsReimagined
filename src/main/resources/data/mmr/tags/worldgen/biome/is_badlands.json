@@ -1,7 +1,17 @@
 {
   "values": [
-    {"id": "#c:mesa", "required": false},
-    {"id": "#c:is_badlands", "required": false},
-    {"id": "#forge:is_badlands", "required": false}
+    "#minecraft:is_badlands",
+    {
+      "id": "#c:mesa",
+      "required": false
+    },
+    {
+      "id": "#c:is_badlands",
+      "required": false
+    },
+    {
+      "id": "#forge:is_badlands",
+      "required": false
+    }
   ]
 }
