@@ -12,7 +12,7 @@
 ### Changed
 - Horses, donkeys, parrots and villagers look different every time a mineshaft generates
 - Mineshafts have fewer mobs standing around in them
-- The regular mineshaft's bogged spawners are now skeleton spawners
+- Spawners in the regular mineshaft now spawn skeletons
 - Every structure has been rebuilt for each Minecraft version it supports, fixing a range of small visual and loading problems
 
 ### Fixed
