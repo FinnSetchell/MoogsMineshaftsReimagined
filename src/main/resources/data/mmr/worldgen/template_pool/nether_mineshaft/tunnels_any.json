@@ -405,7 +405,7 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "location": "mmr:1_21_9/nether_mineshaft/long_end_1",
-        "processors": "mmr:nether_mineshaft_no_basalt",
+        "processors": "mmr:nether_mineshaft_no_basalt_nether_spawner",
         "enhanced_terrain_adaptation": {
           "kernel_size": 5,
           "kernel_distance": 4,
@@ -629,7 +629,7 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "location": "mmr:1_21_9/nether_mineshaft/special_crossing_2",
-        "processors": "mmr:nether_mineshaft_no_basalt",
+        "processors": "mmr:nether_mineshaft_no_basalt_nether_spawner",
         "enhanced_terrain_adaptation": {
           "kernel_size": 5,
           "kernel_distance": 4,
