@@ -23,9 +23,8 @@
           }
         },
         "locations": {
-          "1.21-1.21.8": "mmr:nether_mineshaft/mineshaft_entrance",
-          "1.21.9-1.21.11": "mmr:1_21_9/nether_mineshaft/mineshaft_entrance",
-          "26.1-26.2": "mmr:1_21_9/nether_mineshaft/mineshaft_entrance"
+          "1.21-1.21.8": "mmr:1_21_0/nether_mineshaft/mineshaft_entrance",
+          "1.21.9-26.3": "mmr:1_21_9/nether_mineshaft/mineshaft_entrance"
         }
       }
     }

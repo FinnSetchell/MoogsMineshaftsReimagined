@@ -10,9 +10,10 @@
         "location": "mmr:1_21_9/snowy_mineshaft/start_piece",
         "processors": "minecraft:empty",
         "locations": {
-          "1.21-1.21.8": "mmr:snowy_mineshaft/start_piece",
-          "1.21.9-1.21.11": "mmr:1_21_9/snowy_mineshaft/start_piece",
-          "26.1-26.2": "mmr:1_21_9/snowy_mineshaft/start_piece"
+          "1.21-1.21.1": "mmr:1_21_0/snowy_mineshaft/start_piece",
+          "1.21.2-1.21.4": "mmr:1_21_2/snowy_mineshaft/start_piece",
+          "1.21.5-1.21.8": "mmr:1_21_5/snowy_mineshaft/start_piece",
+          "1.21.9-26.3": "mmr:1_21_9/snowy_mineshaft/start_piece"
         }
       }
     }

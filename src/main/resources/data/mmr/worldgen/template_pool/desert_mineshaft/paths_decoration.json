@@ -10,28 +10,35 @@
         "location": "mmr:1_21_9/desert_mineshaft/path_decoration_cactus",
         "processors": "minecraft:empty",
         "locations": {
-          "1.21-1.21.8": "mmr:desert_mineshaft/path_decoration_cactus",
-          "1.21.9-1.21.11": "mmr:1_21_9/desert_mineshaft/path_decoration_cactus",
-          "26.1-26.2": "mmr:1_21_9/desert_mineshaft/path_decoration_cactus"
+          "1.21-1.21.4": "mmr:1_21_0/desert_mineshaft/path_decoration_cactus",
+          "1.21.5-1.21.8": "mmr:1_21_5/desert_mineshaft/path_decoration_cactus",
+          "1.21.9-26.3": "mmr:1_21_9/desert_mineshaft/path_decoration_cactus"
         }
       }
     },
     {
       "weight": 5,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:desert_mineshaft/path_decoration_cart",
-        "processors": "minecraft:empty"
+        "location": "mmr:1_21_5/desert_mineshaft/path_decoration_cart",
+        "processors": "minecraft:empty",
+        "locations": {
+          "1.21-1.21.4": "mmr:1_21_0/desert_mineshaft/path_decoration_cart",
+          "1.21.5-26.3": "mmr:1_21_5/desert_mineshaft/path_decoration_cart"
+        }
       }
     },
     {
       "weight": 3,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:desert_mineshaft/path_decoration_gold",
-        "processors": "minecraft:empty"
+        "location": "mmr:1_21_0/desert_mineshaft/path_decoration_gold",
+        "processors": "minecraft:empty",
+        "locations": {
+          "1.21-26.3": "mmr:1_21_0/desert_mineshaft/path_decoration_gold"
+        }
       }
     }
   ]

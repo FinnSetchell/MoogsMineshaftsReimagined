@@ -23,9 +23,11 @@
           }
         },
         "locations": {
-          "1.21-1.21.8": "mmr:nether_mineshaft/start_room",
-          "1.21.9-1.21.11": "mmr:1_21_9/nether_mineshaft/start_room",
-          "26.1-26.2": "mmr:1_21_9/nether_mineshaft/start_room"
+          "1.21-1.21.1": "mmr:1_21_0/nether_mineshaft/start_room",
+          "1.21.2-1.21.3": "mmr:1_21_2/nether_mineshaft/start_room",
+          "1.21.4": "mmr:1_21_4/nether_mineshaft/start_room",
+          "1.21.5-1.21.8": "mmr:1_21_5/nether_mineshaft/start_room",
+          "1.21.9-26.3": "mmr:1_21_9/nether_mineshaft/start_room"
         }
       }
     }

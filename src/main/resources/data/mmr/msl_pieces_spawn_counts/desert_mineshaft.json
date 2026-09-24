@@ -1,19 +1,27 @@
 {
   "pieces_spawn_counts": [
     {
-      "nbt_piece_name": "mmr:desert_mineshaft/path_decoration_cactus",
+      "nbt_piece_name": "mmr:1_21_0/desert_mineshaft/path_decoration_cactus",
       "never_spawn_more_than_this_many": 1
     },
     {
-      "nbt_piece_name": "mmr:desert_mineshaft/path_decoration_cart",
-      "never_spawn_more_than_this_many": 1
-    },
-    {
-      "nbt_piece_name": "mmr:desert_mineshaft/path_decoration_gold",
+      "nbt_piece_name": "mmr:1_21_5/desert_mineshaft/path_decoration_cactus",
       "never_spawn_more_than_this_many": 1
     },
     {
       "nbt_piece_name": "mmr:1_21_9/desert_mineshaft/path_decoration_cactus",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "mmr:1_21_0/desert_mineshaft/path_decoration_cart",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "mmr:1_21_5/desert_mineshaft/path_decoration_cart",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "mmr:1_21_0/desert_mineshaft/path_decoration_gold",
       "never_spawn_more_than_this_many": 1
     }
   ]

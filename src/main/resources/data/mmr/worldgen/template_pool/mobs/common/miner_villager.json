@@ -1,0 +1,104 @@
+{
+  "name": "mmr:mobs/common/miner_villager",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mmr:1_21_5/mobs/common/villager_armorer",
+        "locations": {
+          "1.21-1.21.1": "mmr:1_21_0/mobs/common/villager_armorer",
+          "1.21.2-1.21.4": "mmr:1_21_2/mobs/common/villager_armorer",
+          "1.21.5-26.3": "mmr:1_21_5/mobs/common/villager_armorer"
+        },
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mmr:1_21_5/mobs/common/villager_toolsmith",
+        "locations": {
+          "1.21-1.21.1": "mmr:1_21_0/mobs/common/villager_toolsmith",
+          "1.21.2-1.21.4": "mmr:1_21_2/mobs/common/villager_toolsmith",
+          "1.21.5-26.3": "mmr:1_21_5/mobs/common/villager_toolsmith"
+        },
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mmr:1_21_5/mobs/common/villager_leatherworker",
+        "locations": {
+          "1.21-1.21.1": "mmr:1_21_0/mobs/common/villager_leatherworker",
+          "1.21.2-1.21.4": "mmr:1_21_2/mobs/common/villager_leatherworker",
+          "1.21.5-26.3": "mmr:1_21_5/mobs/common/villager_leatherworker"
+        },
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mmr:1_21_5/mobs/common/villager_weaponsmith",
+        "locations": {
+          "1.21-1.21.1": "mmr:1_21_0/mobs/common/villager_weaponsmith",
+          "1.21.2-1.21.4": "mmr:1_21_2/mobs/common/villager_weaponsmith",
+          "1.21.5-26.3": "mmr:1_21_5/mobs/common/villager_weaponsmith"
+        },
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mmr:1_21_5/mobs/common/villager_unemployed",
+        "locations": {
+          "1.21-1.21.1": "mmr:1_21_0/mobs/common/villager_unemployed",
+          "1.21.2-1.21.4": "mmr:1_21_2/mobs/common/villager_unemployed",
+          "1.21.5-26.3": "mmr:1_21_5/mobs/common/villager_unemployed"
+        },
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mmr:1_21_5/mobs/common/villager_nitwit",
+        "locations": {
+          "1.21-1.21.1": "mmr:1_21_0/mobs/common/villager_nitwit",
+          "1.21.2-1.21.4": "mmr:1_21_2/mobs/common/villager_nitwit",
+          "1.21.5-26.3": "mmr:1_21_5/mobs/common/villager_nitwit"
+        },
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mmr:1_21_5/mobs/common/villager_baby",
+        "locations": {
+          "1.21-1.21.1": "mmr:1_21_0/mobs/common/villager_baby",
+          "1.21.2-1.21.4": "mmr:1_21_2/mobs/common/villager_baby",
+          "1.21.5-26.3": "mmr:1_21_5/mobs/common/villager_baby"
+        },
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

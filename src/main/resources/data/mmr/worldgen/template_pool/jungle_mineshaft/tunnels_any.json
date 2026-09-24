@@ -5,271 +5,376 @@
     {
       "weight": 5,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/straight_1",
-        "processors": "minecraft:empty"
+        "location": "mmr:1_21_4/jungle_mineshaft/straight_1",
+        "processors": "minecraft:empty",
+        "locations": {
+          "1.21-1.21.3": "mmr:1_21_0/jungle_mineshaft/straight_1",
+          "1.21.4-26.3": "mmr:1_21_4/jungle_mineshaft/straight_1"
+        }
       }
     },
     {
       "weight": 5,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/straight_2",
-        "processors": "minecraft:empty"
+        "location": "mmr:1_21_0/jungle_mineshaft/straight_2",
+        "processors": "minecraft:empty",
+        "locations": {
+          "1.21-26.3": "mmr:1_21_0/jungle_mineshaft/straight_2"
+        }
       }
     },
     {
       "weight": 5,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/straight_3",
-        "processors": "minecraft:empty"
+        "location": "mmr:1_21_0/jungle_mineshaft/straight_3",
+        "processors": "minecraft:empty",
+        "locations": {
+          "1.21-26.3": "mmr:1_21_0/jungle_mineshaft/straight_3"
+        }
       }
     },
     {
       "weight": 5,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/straight_4",
-        "processors": "minecraft:empty"
+        "location": "mmr:1_21_0/jungle_mineshaft/straight_4",
+        "processors": "minecraft:empty",
+        "locations": {
+          "1.21-26.3": "mmr:1_21_0/jungle_mineshaft/straight_4"
+        }
       }
     },
     {
       "weight": 5,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/straight_5",
-        "processors": "minecraft:empty"
+        "location": "mmr:1_21_0/jungle_mineshaft/straight_5",
+        "processors": "minecraft:empty",
+        "locations": {
+          "1.21-26.3": "mmr:1_21_0/jungle_mineshaft/straight_5"
+        }
       }
     },
     {
       "weight": 5,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/straight_6",
-        "processors": "minecraft:empty"
+        "location": "mmr:1_21_4/jungle_mineshaft/straight_6",
+        "processors": "minecraft:empty",
+        "locations": {
+          "1.21-1.21.3": "mmr:1_21_0/jungle_mineshaft/straight_6",
+          "1.21.4-26.3": "mmr:1_21_4/jungle_mineshaft/straight_6"
+        }
       }
     },
     {
       "weight": 5,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/straight_7",
-        "processors": "minecraft:empty"
+        "location": "mmr:1_21_0/jungle_mineshaft/straight_7",
+        "processors": "minecraft:empty",
+        "locations": {
+          "1.21-26.3": "mmr:1_21_0/jungle_mineshaft/straight_7"
+        }
       }
     },
     {
       "weight": 5,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/straight_8",
-        "processors": "minecraft:empty"
+        "location": "mmr:1_21_4/jungle_mineshaft/straight_8",
+        "processors": "minecraft:empty",
+        "locations": {
+          "1.21-1.21.3": "mmr:1_21_0/jungle_mineshaft/straight_8",
+          "1.21.4-26.3": "mmr:1_21_4/jungle_mineshaft/straight_8"
+        }
       }
     },
     {
       "weight": 2,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/long_straight_1",
-        "processors": "minecraft:empty"
+        "location": "mmr:1_21_4/jungle_mineshaft/long_straight_1",
+        "processors": "minecraft:empty",
+        "locations": {
+          "1.21-1.21.3": "mmr:1_21_0/jungle_mineshaft/long_straight_1",
+          "1.21.4-26.3": "mmr:1_21_4/jungle_mineshaft/long_straight_1"
+        }
       }
     },
     {
       "weight": 15,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/corner_1",
-        "processors": "minecraft:empty"
+        "location": "mmr:1_21_0/jungle_mineshaft/corner_1",
+        "processors": "minecraft:empty",
+        "locations": {
+          "1.21-26.3": "mmr:1_21_0/jungle_mineshaft/corner_1"
+        }
       }
     },
     {
       "weight": 15,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/corner_2",
-        "processors": "minecraft:empty"
+        "location": "mmr:1_21_0/jungle_mineshaft/corner_2",
+        "processors": "minecraft:empty",
+        "locations": {
+          "1.21-26.3": "mmr:1_21_0/jungle_mineshaft/corner_2"
+        }
       }
     },
     {
       "weight": 15,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/corner_3",
-        "processors": "minecraft:empty"
+        "location": "mmr:1_21_0/jungle_mineshaft/corner_3",
+        "processors": "minecraft:empty",
+        "locations": {
+          "1.21-26.3": "mmr:1_21_0/jungle_mineshaft/corner_3"
+        }
       }
     },
     {
       "weight": 15,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/corner_4",
-        "processors": "minecraft:empty"
+        "location": "mmr:1_21_0/jungle_mineshaft/corner_4",
+        "processors": "minecraft:empty",
+        "locations": {
+          "1.21-26.3": "mmr:1_21_0/jungle_mineshaft/corner_4"
+        }
       }
     },
     {
       "weight": 15,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/corner_5",
-        "processors": "minecraft:empty"
+        "location": "mmr:1_21_0/jungle_mineshaft/corner_5",
+        "processors": "minecraft:empty",
+        "locations": {
+          "1.21-26.3": "mmr:1_21_0/jungle_mineshaft/corner_5"
+        }
       }
     },
     {
       "weight": 10,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/special_corner_1",
-        "processors": "minecraft:empty"
+        "location": "mmr:1_21_0/jungle_mineshaft/special_corner_1",
+        "processors": "minecraft:empty",
+        "locations": {
+          "1.21-26.3": "mmr:1_21_0/jungle_mineshaft/special_corner_1"
+        }
       }
     },
     {
       "weight": 10,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/special_corner_2",
-        "processors": "minecraft:empty"
+        "location": "mmr:1_21_5/jungle_mineshaft/special_corner_2",
+        "processors": "minecraft:empty",
+        "locations": {
+          "1.21-1.21.4": "mmr:1_21_0/jungle_mineshaft/special_corner_2",
+          "1.21.5-26.3": "mmr:1_21_5/jungle_mineshaft/special_corner_2"
+        }
       }
     },
     {
       "weight": 13,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/tnt_corner_1",
-        "processors": "minecraft:empty"
+        "location": "mmr:1_21_0/jungle_mineshaft/tnt_corner_1",
+        "processors": "minecraft:empty",
+        "locations": {
+          "1.21-26.3": "mmr:1_21_0/jungle_mineshaft/tnt_corner_1"
+        }
       }
     },
     {
       "weight": 30,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/crossing_1",
-        "processors": "minecraft:empty"
+        "location": "mmr:1_21_5/jungle_mineshaft/crossing_1",
+        "processors": "minecraft:empty",
+        "locations": {
+          "1.21-1.21.4": "mmr:1_21_0/jungle_mineshaft/crossing_1",
+          "1.21.5-26.3": "mmr:1_21_5/jungle_mineshaft/crossing_1"
+        }
       }
     },
     {
       "weight": 30,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/crossing_2",
-        "processors": "minecraft:empty"
+        "location": "mmr:1_21_5/jungle_mineshaft/crossing_2",
+        "processors": "minecraft:empty",
+        "locations": {
+          "1.21-1.21.4": "mmr:1_21_0/jungle_mineshaft/crossing_2",
+          "1.21.5-26.3": "mmr:1_21_5/jungle_mineshaft/crossing_2"
+        }
       }
     },
     {
       "weight": 30,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/crossing_3",
-        "processors": "mmr:jungle_mineshaft_spawner"
+        "location": "mmr:1_21_5/jungle_mineshaft/crossing_3",
+        "processors": "mmr:jungle_mineshaft_spawner",
+        "locations": {
+          "1.21-1.21.4": "mmr:1_21_0/jungle_mineshaft/crossing_3",
+          "1.21.5-26.3": "mmr:1_21_5/jungle_mineshaft/crossing_3"
+        }
       }
     },
     {
       "weight": 30,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/crossing_4",
-        "processors": "mmr:jungle_mineshaft_spawner"
+        "location": "mmr:1_21_5/jungle_mineshaft/crossing_4",
+        "processors": "mmr:jungle_mineshaft_spawner",
+        "locations": {
+          "1.21-1.21.4": "mmr:1_21_0/jungle_mineshaft/crossing_4",
+          "1.21.5-26.3": "mmr:1_21_5/jungle_mineshaft/crossing_4"
+        }
       }
     },
     {
       "weight": 25,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/staircase_1",
-        "processors": "minecraft:empty"
+        "location": "mmr:1_21_4/jungle_mineshaft/staircase_1",
+        "processors": "minecraft:empty",
+        "locations": {
+          "1.21-1.21.3": "mmr:1_21_0/jungle_mineshaft/staircase_1",
+          "1.21.4-26.3": "mmr:1_21_4/jungle_mineshaft/staircase_1"
+        }
       }
     },
     {
       "weight": 25,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/staircase_2",
-        "processors": "minecraft:empty"
+        "location": "mmr:1_21_0/jungle_mineshaft/staircase_2",
+        "processors": "minecraft:empty",
+        "locations": {
+          "1.21-26.3": "mmr:1_21_0/jungle_mineshaft/staircase_2"
+        }
       }
     },
     {
       "weight": 25,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/staircase_3",
-        "processors": "minecraft:empty"
+        "location": "mmr:1_21_0/jungle_mineshaft/staircase_3",
+        "processors": "minecraft:empty",
+        "locations": {
+          "1.21-26.3": "mmr:1_21_0/jungle_mineshaft/staircase_3"
+        }
       }
     },
     {
       "weight": 6,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/end_1",
-        "processors": "minecraft:empty"
+        "location": "mmr:1_21_4/jungle_mineshaft/end_1",
+        "processors": "minecraft:empty",
+        "locations": {
+          "1.21-1.21.3": "mmr:1_21_0/jungle_mineshaft/end_1",
+          "1.21.4-26.3": "mmr:1_21_4/jungle_mineshaft/end_1"
+        }
       }
     },
     {
       "weight": 6,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/end_2",
-        "processors": "minecraft:empty"
+        "location": "mmr:1_21_0/jungle_mineshaft/end_2",
+        "processors": "minecraft:empty",
+        "locations": {
+          "1.21-26.3": "mmr:1_21_0/jungle_mineshaft/end_2"
+        }
       }
     },
     {
       "weight": 6,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/end_3",
-        "processors": "minecraft:empty"
+        "location": "mmr:1_21_4/jungle_mineshaft/end_3",
+        "processors": "minecraft:empty",
+        "locations": {
+          "1.21-1.21.3": "mmr:1_21_0/jungle_mineshaft/end_3",
+          "1.21.4-26.3": "mmr:1_21_4/jungle_mineshaft/end_3"
+        }
       }
     },
     {
       "weight": 6,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/end_4",
-        "processors": "minecraft:empty"
+        "location": "mmr:1_21_4/jungle_mineshaft/end_4",
+        "processors": "minecraft:empty",
+        "locations": {
+          "1.21-1.21.3": "mmr:1_21_0/jungle_mineshaft/end_4",
+          "1.21.4-26.3": "mmr:1_21_4/jungle_mineshaft/end_4"
+        }
       }
     },
     {
       "weight": 7,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/long_end_1",
-        "processors": "mmr:jungle_mineshaft_spawner"
+        "location": "mmr:1_21_4/jungle_mineshaft/long_end_1",
+        "processors": "mmr:jungle_mineshaft_spawner",
+        "locations": {
+          "1.21-1.21.3": "mmr:1_21_0/jungle_mineshaft/long_end_1",
+          "1.21.4-26.3": "mmr:1_21_4/jungle_mineshaft/long_end_1"
+        }
       }
     },
     {
       "weight": 11,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/special_crossing_3",
-        "processors": "mmr:jungle_mineshaft_spawner"
+        "location": "mmr:1_21_5/jungle_mineshaft/special_crossing_3",
+        "processors": "mmr:jungle_mineshaft_spawner",
+        "locations": {
+          "1.21-1.21.4": "mmr:1_21_0/jungle_mineshaft/special_crossing_3",
+          "1.21.5-26.3": "mmr:1_21_5/jungle_mineshaft/special_crossing_3"
+        }
       }
     },
     {
@@ -280,73 +385,97 @@
         "location": "mmr:1_21_9/jungle_mineshaft/special_crossing_4",
         "processors": "mmr:jungle_mineshaft_spawner",
         "locations": {
-          "1.21-1.21.8": "mmr:jungle_mineshaft/special_crossing_4",
-          "1.21.9-1.21.11": "mmr:1_21_9/jungle_mineshaft/special_crossing_4",
-          "26.1-26.2": "mmr:1_21_9/jungle_mineshaft/special_crossing_4"
+          "1.21-1.21.4": "mmr:1_21_0/jungle_mineshaft/special_crossing_4",
+          "1.21.5-1.21.8": "mmr:1_21_5/jungle_mineshaft/special_crossing_4",
+          "1.21.9-26.3": "mmr:1_21_9/jungle_mineshaft/special_crossing_4"
         }
       }
     },
     {
       "weight": 12,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/special_crossing_nether_portal",
-        "processors": "mmr:jungle_mineshaft_spawner"
+        "location": "mmr:1_21_5/jungle_mineshaft/special_crossing_nether_portal",
+        "processors": "mmr:jungle_mineshaft_spawner",
+        "locations": {
+          "1.21-1.21.4": "mmr:1_21_0/jungle_mineshaft/special_crossing_nether_portal",
+          "1.21.5-26.3": "mmr:1_21_5/jungle_mineshaft/special_crossing_nether_portal"
+        }
       }
     },
     {
       "weight": 15,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/staircase_1",
-        "processors": "mmr:jungle_mineshaft_spawner"
+        "location": "mmr:1_21_4/jungle_mineshaft/staircase_1",
+        "processors": "mmr:jungle_mineshaft_spawner",
+        "locations": {
+          "1.21-1.21.3": "mmr:1_21_0/jungle_mineshaft/staircase_1",
+          "1.21.4-26.3": "mmr:1_21_4/jungle_mineshaft/staircase_1"
+        }
       }
     },
     {
       "weight": 15,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/staircase_2",
-        "processors": "mmr:jungle_mineshaft_spawner"
+        "location": "mmr:1_21_0/jungle_mineshaft/staircase_2",
+        "processors": "mmr:jungle_mineshaft_spawner",
+        "locations": {
+          "1.21-26.3": "mmr:1_21_0/jungle_mineshaft/staircase_2"
+        }
       }
     },
     {
       "weight": 15,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/staircase_3",
-        "processors": "mmr:jungle_mineshaft_spawner"
+        "location": "mmr:1_21_0/jungle_mineshaft/staircase_3",
+        "processors": "mmr:jungle_mineshaft_spawner",
+        "locations": {
+          "1.21-26.3": "mmr:1_21_0/jungle_mineshaft/staircase_3"
+        }
       }
     },
     {
       "weight": 65,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/round_staircase_1",
-        "processors": "mmr:jungle_mineshaft_spawner"
+        "location": "mmr:1_21_0/jungle_mineshaft/round_staircase_1",
+        "processors": "mmr:jungle_mineshaft_spawner",
+        "locations": {
+          "1.21-26.3": "mmr:1_21_0/jungle_mineshaft/round_staircase_1"
+        }
       }
     },
     {
       "weight": 65,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/round_staircase_2",
-        "processors": "mmr:jungle_mineshaft_spawner"
+        "location": "mmr:1_21_0/jungle_mineshaft/round_staircase_2",
+        "processors": "mmr:jungle_mineshaft_spawner",
+        "locations": {
+          "1.21-26.3": "mmr:1_21_0/jungle_mineshaft/round_staircase_2"
+        }
       }
     },
     {
       "weight": 8,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:jungle_mineshaft/straight_drop",
-        "processors": "minecraft:empty"
+        "location": "mmr:1_21_4/jungle_mineshaft/straight_drop",
+        "processors": "minecraft:empty",
+        "locations": {
+          "1.21-1.21.3": "mmr:1_21_0/jungle_mineshaft/straight_drop",
+          "1.21.4-26.3": "mmr:1_21_4/jungle_mineshaft/straight_drop"
+        }
       }
     }
   ]

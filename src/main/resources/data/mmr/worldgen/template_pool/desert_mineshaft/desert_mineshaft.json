@@ -10,9 +10,10 @@
         "location": "mmr:1_21_9/desert_mineshaft/mineshaft_entrance",
         "processors": "mmr:street_desert",
         "locations": {
-          "1.21-1.21.8": "mmr:desert_mineshaft/mineshaft_entrance",
-          "1.21.9-1.21.11": "mmr:1_21_9/desert_mineshaft/mineshaft_entrance",
-          "26.1-26.2": "mmr:1_21_9/desert_mineshaft/mineshaft_entrance"
+          "1.21-1.21.4": "mmr:1_21_0/desert_mineshaft/mineshaft_entrance",
+          "1.21.5": "mmr:1_21_5/desert_mineshaft/mineshaft_entrance",
+          "1.21.6-1.21.8": "mmr:1_21_6/desert_mineshaft/mineshaft_entrance",
+          "1.21.9-26.3": "mmr:1_21_9/desert_mineshaft/mineshaft_entrance"
         }
       }
     }

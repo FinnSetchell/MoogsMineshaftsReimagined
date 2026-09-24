@@ -1,0 +1,20 @@
+{
+  "name": "mmr:mobs/desert/parrot",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mmr:1_21_5/mobs/desert/parrot",
+        "locations": {
+          "1.21-1.21.1": "mmr:1_21_0/mobs/desert/parrot",
+          "1.21.2-1.21.4": "mmr:1_21_2/mobs/desert/parrot",
+          "1.21.5-26.3": "mmr:1_21_5/mobs/desert/parrot"
+        },
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

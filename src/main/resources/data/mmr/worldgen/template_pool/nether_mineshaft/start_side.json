@@ -7,7 +7,7 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:nether_mineshaft/mineshaft_entrance_stairs",
+        "location": "mmr:1_21_0/nether_mineshaft/mineshaft_entrance_stairs",
         "processors": "mmr:nether_mineshaft_no_basalt",
         "enhanced_terrain_adaptation": {
           "kernel_size": 9,
@@ -21,6 +21,9 @@
             "bottom": 0,
             "z": 2
           }
+        },
+        "locations": {
+          "1.21-26.3": "mmr:1_21_0/nether_mineshaft/mineshaft_entrance_stairs"
         }
       }
     }
