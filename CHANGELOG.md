@@ -16,11 +16,15 @@
 - Mineshafts have fewer mobs standing around in them
 - The regular mineshaft's bogged spawners are now skeleton spawners
 - Every structure has been rebuilt for each Minecraft version it supports, fixing a range of small visual and loading problems
+- Mineshaft tunnels no longer adapt the surface terrain. This fixes the large flat areas by mineshaft entrances
+- Underground tunnels are now wrapped in stone instead of breaking into caves
 
 ### Fixed
 - Parrots are back in the desert mineshaft room
 - Item frames and paintings now appear correctly on every version
 - Two rooms in the Nether mineshaft had empty spawners; they now spawn piglin brutes, wither skeletons and blazes
+- The minecart chest in the jungle mineshaft now has treasure in it
+- Cacti, carts and gold piles now appear beside the desert mineshaft's paths
 
 ---
 
