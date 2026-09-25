@@ -27,5 +27,9 @@
     "kernel_distance": 6,
     "top": "bury",
     "bottom": "bury"
+  },
+  "y_allowance": {
+    "min_y_allowed": -56,
+    "max_y_allowed": 50
   }
 }
