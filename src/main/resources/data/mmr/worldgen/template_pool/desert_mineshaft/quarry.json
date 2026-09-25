@@ -15,11 +15,11 @@
         "enhanced_terrain_adaptation": {
           "kernel_size": 24,
           "kernel_distance": 16,
-          "top": "bury",
+          "top": "carve",
           "bottom": "bury",
           "band": {
-            "bottom": 0,
-            "top": 7
+            "bottom": 9,
+            "top": 24
           }
         }
       }
