@@ -20,5 +20,9 @@
   "pools_that_ignore_boundaries": [
     "mmr:mesa_mineshaft/corridor_overflow"
   ],
-  "spawn_overrides": {}
+  "spawn_overrides": {},
+  "y_allowance": {
+    "min_y_allowed": -56,
+    "max_y_allowed": 50
+  }
 }
