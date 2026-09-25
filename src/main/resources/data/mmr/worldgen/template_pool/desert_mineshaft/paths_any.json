@@ -12,6 +12,12 @@
         "locations": {
           "1.20-1.20.4": "mmr:1_20_0/desert_mineshaft/path_short_straight",
           "1.20.5-1.20.6": "mmr:1_20_5/desert_mineshaft/path_short_straight"
+        },
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury"
         }
       }
     },
@@ -25,6 +31,12 @@
         "locations": {
           "1.20-1.20.4": "mmr:1_20_0/desert_mineshaft/path_medium_straight",
           "1.20.5-1.20.6": "mmr:1_20_5/desert_mineshaft/path_medium_straight"
+        },
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury"
         }
       }
     },
@@ -38,6 +50,12 @@
         "locations": {
           "1.20-1.20.4": "mmr:1_20_0/desert_mineshaft/path_long_straight",
           "1.20.5-1.20.6": "mmr:1_20_5/desert_mineshaft/path_long_straight"
+        },
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury"
         }
       }
     },
@@ -51,6 +69,12 @@
         "locations": {
           "1.20-1.20.4": "mmr:1_20_0/desert_mineshaft/path_small_corner",
           "1.20.5-1.20.6": "mmr:1_20_5/desert_mineshaft/path_small_corner"
+        },
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury"
         }
       }
     },
@@ -64,6 +88,12 @@
         "locations": {
           "1.20-1.20.4": "mmr:1_20_0/desert_mineshaft/path_large_corner_1",
           "1.20.5-1.20.6": "mmr:1_20_5/desert_mineshaft/path_large_corner_1"
+        },
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury"
         }
       }
     },
@@ -77,6 +107,12 @@
         "locations": {
           "1.20-1.20.4": "mmr:1_20_0/desert_mineshaft/path_large_corner_2",
           "1.20.5-1.20.6": "mmr:1_20_5/desert_mineshaft/path_large_corner_2"
+        },
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury"
         }
       }
     },
@@ -90,6 +126,12 @@
         "locations": {
           "1.20-1.20.4": "mmr:1_20_0/desert_mineshaft/path_three_way",
           "1.20.5-1.20.6": "mmr:1_20_5/desert_mineshaft/path_three_way"
+        },
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury"
         }
       }
     },
@@ -103,6 +145,12 @@
         "locations": {
           "1.20-1.20.4": "mmr:1_20_0/desert_mineshaft/path_crossing_1",
           "1.20.5-1.20.6": "mmr:1_20_5/desert_mineshaft/path_crossing_1"
+        },
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury"
         }
       }
     },
@@ -116,6 +164,12 @@
         "locations": {
           "1.20-1.20.4": "mmr:1_20_0/desert_mineshaft/path_crossing_2",
           "1.20.5-1.20.6": "mmr:1_20_5/desert_mineshaft/path_crossing_2"
+        },
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury"
         }
       }
     },
@@ -129,6 +183,12 @@
         "locations": {
           "1.20-1.20.4": "mmr:1_20_0/desert_mineshaft/path_end",
           "1.20.5-1.20.6": "mmr:1_20_5/desert_mineshaft/path_end"
+        },
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury"
         }
       }
     }

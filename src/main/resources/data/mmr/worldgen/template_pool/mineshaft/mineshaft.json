@@ -12,7 +12,13 @@
           "1.20-1.20.4": "mmr:1_20_0/mineshaft/entrance",
           "1.20.5-1.20.6": "mmr:1_20_5/mineshaft/entrance"
         },
-        "processors": "minecraft:empty"
+        "processors": "minecraft:empty",
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury"
+        }
       }
     }
   ]

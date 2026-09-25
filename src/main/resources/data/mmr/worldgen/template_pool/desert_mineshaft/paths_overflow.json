@@ -12,6 +12,12 @@
         "locations": {
           "1.20-1.20.4": "mmr:1_20_0/desert_mineshaft/path_end",
           "1.20.5-1.20.6": "mmr:1_20_5/desert_mineshaft/path_end"
+        },
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury"
         }
       }
     }
