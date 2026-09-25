@@ -24,5 +24,11 @@
   "y_allowance": {
     "min_y_allowed": -56,
     "max_y_allowed": 50
+  },
+  "enhanced_terrain_adaptation": {
+    "kernel_size": 12,
+    "kernel_distance": 6,
+    "top": "bury",
+    "bottom": "bury"
   }
 }
