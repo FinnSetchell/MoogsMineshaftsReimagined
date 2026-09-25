@@ -16,7 +16,8 @@
           "kernel_size": 24,
           "kernel_distance": 16,
           "top": "carve",
-          "bottom": "bury"
+          "bottom": "bury",
+          "bottom_offset": 1.0
         }
       }
     }
