@@ -11,12 +11,18 @@
   "liquid_settings": "ignore_waterlogging",
   "biomes": "#c:is_jungle",
   "step": "surface_structures",
-  "terrain_adaptation": "beard_thin",
+  "terrain_adaptation": "none",
   "start_height": {
     "absolute": 0
   },
   "pools_that_ignore_boundaries": [
     "mmr:jungle_mineshaft/tunnels_overflow"
   ],
-  "spawn_overrides": {}
+  "spawn_overrides": {},
+  "enhanced_terrain_adaptation": {
+    "kernel_size": 12,
+    "kernel_distance": 6,
+    "top": "bury",
+    "bottom": "bury"
+  }
 }

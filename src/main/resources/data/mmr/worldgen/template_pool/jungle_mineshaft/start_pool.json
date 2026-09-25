@@ -12,6 +12,12 @@
         "locations": {
           "1.21-1.21.3": "mmr:1_21_0/jungle_mineshaft/start_room",
           "1.21.4-26.3": "mmr:1_21_4/jungle_mineshaft/start_room"
+        },
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury"
         }
       }
     }

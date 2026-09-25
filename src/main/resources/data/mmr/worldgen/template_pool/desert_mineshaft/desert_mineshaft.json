@@ -14,6 +14,12 @@
           "1.21.5": "mmr:1_21_5/desert_mineshaft/mineshaft_entrance",
           "1.21.6-1.21.8": "mmr:1_21_6/desert_mineshaft/mineshaft_entrance",
           "1.21.9-26.3": "mmr:1_21_9/desert_mineshaft/mineshaft_entrance"
+        },
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury"
         }
       }
     }

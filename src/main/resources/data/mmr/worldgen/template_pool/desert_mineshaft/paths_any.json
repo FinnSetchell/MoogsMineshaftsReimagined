@@ -11,6 +11,12 @@
         "processors": "mmr:street_desert",
         "locations": {
           "1.21-26.3": "mmr:1_21_0/desert_mineshaft/path_short_straight"
+        },
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury"
         }
       }
     },
@@ -23,6 +29,12 @@
         "processors": "mmr:street_desert",
         "locations": {
           "1.21-26.3": "mmr:1_21_0/desert_mineshaft/path_medium_straight"
+        },
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury"
         }
       }
     },
@@ -35,6 +47,12 @@
         "processors": "mmr:street_desert",
         "locations": {
           "1.21-26.3": "mmr:1_21_0/desert_mineshaft/path_long_straight"
+        },
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury"
         }
       }
     },
@@ -47,6 +65,12 @@
         "processors": "mmr:street_desert",
         "locations": {
           "1.21-26.3": "mmr:1_21_0/desert_mineshaft/path_small_corner"
+        },
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury"
         }
       }
     },
@@ -59,6 +83,12 @@
         "processors": "mmr:street_desert",
         "locations": {
           "1.21-26.3": "mmr:1_21_0/desert_mineshaft/path_large_corner_1"
+        },
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury"
         }
       }
     },
@@ -71,6 +101,12 @@
         "processors": "mmr:street_desert",
         "locations": {
           "1.21-26.3": "mmr:1_21_0/desert_mineshaft/path_large_corner_2"
+        },
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury"
         }
       }
     },
@@ -83,6 +119,12 @@
         "processors": "mmr:street_desert",
         "locations": {
           "1.21-26.3": "mmr:1_21_0/desert_mineshaft/path_three_way"
+        },
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury"
         }
       }
     },
@@ -95,6 +137,12 @@
         "processors": "mmr:street_desert",
         "locations": {
           "1.21-26.3": "mmr:1_21_0/desert_mineshaft/path_crossing_1"
+        },
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury"
         }
       }
     },
@@ -107,6 +155,12 @@
         "processors": "mmr:street_desert",
         "locations": {
           "1.21-26.3": "mmr:1_21_0/desert_mineshaft/path_crossing_2"
+        },
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury"
         }
       }
     },
@@ -119,6 +173,12 @@
         "processors": "mmr:street_desert",
         "locations": {
           "1.21-26.3": "mmr:1_21_0/desert_mineshaft/path_end"
+        },
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury"
         }
       }
     }

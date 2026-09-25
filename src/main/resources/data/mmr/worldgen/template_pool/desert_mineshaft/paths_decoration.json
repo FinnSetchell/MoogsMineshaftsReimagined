@@ -13,6 +13,12 @@
           "1.21-1.21.4": "mmr:1_21_0/desert_mineshaft/path_decoration_cactus",
           "1.21.5-1.21.8": "mmr:1_21_5/desert_mineshaft/path_decoration_cactus",
           "1.21.9-26.3": "mmr:1_21_9/desert_mineshaft/path_decoration_cactus"
+        },
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury"
         }
       }
     },
@@ -26,6 +32,12 @@
         "locations": {
           "1.21-1.21.4": "mmr:1_21_0/desert_mineshaft/path_decoration_cart",
           "1.21.5-26.3": "mmr:1_21_5/desert_mineshaft/path_decoration_cart"
+        },
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury"
         }
       }
     },
@@ -38,6 +50,12 @@
         "processors": "minecraft:empty",
         "locations": {
           "1.21-26.3": "mmr:1_21_0/desert_mineshaft/path_decoration_gold"
+        },
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury"
         }
       }
     }

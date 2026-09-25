@@ -21,5 +21,11 @@
   "pools_that_ignore_boundaries": [
     "mmr:snowy_mineshaft/corridor_overflow"
   ],
-  "spawn_overrides": {}
+  "spawn_overrides": {},
+  "enhanced_terrain_adaptation": {
+    "kernel_size": 12,
+    "kernel_distance": 6,
+    "top": "bury",
+    "bottom": "bury"
+  }
 }
