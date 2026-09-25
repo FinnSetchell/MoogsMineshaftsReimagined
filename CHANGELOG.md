@@ -8,6 +8,7 @@
 - Villagers now have a mix of jobs, including unemployed villagers, nitwits and children, and new trades every time
 - Armour stands in the regular mineshaft now wear random armour
 - Structure preview links in Moog's Structure Lib's config screen
+- Mineshafts now sometimes generate entirely underground, with no entrance on the surface
 
 ### Changed
 - Horses, donkeys, parrots and villagers look different every time a mineshaft generates
