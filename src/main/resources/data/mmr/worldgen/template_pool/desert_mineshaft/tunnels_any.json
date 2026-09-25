@@ -300,7 +300,8 @@
         "location": "mmr:1_21_9/desert_mineshaft/special_crossing_3",
         "processors": "minecraft:empty",
         "locations": {
-          "1.21-1.21.4": "mmr:1_21_0/desert_mineshaft/special_crossing_3",
+          "1.21-1.21.1": "mmr:1_21_0/desert_mineshaft/special_crossing_3",
+          "1.21.2-1.21.4": "mmr:1_21_2/desert_mineshaft/special_crossing_3",
           "1.21.5-1.21.8": "mmr:1_21_5/desert_mineshaft/special_crossing_3",
           "1.21.9-26.3": "mmr:1_21_9/desert_mineshaft/special_crossing_3"
         }
