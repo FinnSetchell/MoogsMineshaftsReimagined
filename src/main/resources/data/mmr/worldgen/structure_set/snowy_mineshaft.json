@@ -3,6 +3,10 @@
     {
       "structure": "mmr:snowy_mineshaft",
       "weight": 1
+    },
+    {
+      "structure": "mmr:snowy_mineshaft_underground",
+      "weight": 1
     }
   ],
   "placement": {
