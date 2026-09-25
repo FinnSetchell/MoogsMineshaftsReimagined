@@ -3,6 +3,10 @@
     {
       "structure": "mmr:desert_mineshaft",
       "weight": 1
+    },
+    {
+      "structure": "mmr:desert_mineshaft_underground",
+      "weight": 1
     }
   ],
   "placement": {

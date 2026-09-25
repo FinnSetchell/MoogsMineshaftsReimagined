@@ -1,0 +1,18 @@
+{
+  "name": "mmr:snowy_mineshaft/underground_start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "projection": "rigid",
+        "location": "mmr:1_21_0/snowy_mineshaft/start_crossing",
+        "processors": "minecraft:empty",
+        "locations": {
+          "1.21-26.3": "mmr:1_21_0/snowy_mineshaft/start_crossing"
+        }
+      }
+    }
+  ]
+}

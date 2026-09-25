@@ -3,6 +3,10 @@
     {
       "structure": "mmr:mineshaft",
       "weight": 1
+    },
+    {
+      "structure": "mmr:mineshaft_underground",
+      "weight": 1
     }
   ],
   "placement": {

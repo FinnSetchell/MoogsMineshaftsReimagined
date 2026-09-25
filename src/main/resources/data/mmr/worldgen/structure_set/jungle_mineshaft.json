@@ -3,6 +3,10 @@
     {
       "structure": "mmr:jungle_mineshaft",
       "weight": 1
+    },
+    {
+      "structure": "mmr:jungle_mineshaft_underground",
+      "weight": 1
     }
   ],
   "placement": {

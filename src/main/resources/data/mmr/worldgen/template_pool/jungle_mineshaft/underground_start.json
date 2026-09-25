@@ -1,0 +1,19 @@
+{
+  "name": "mmr:jungle_mineshaft/underground_start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "projection": "rigid",
+        "location": "mmr:1_21_5/jungle_mineshaft/start_crossing",
+        "processors": "minecraft:empty",
+        "locations": {
+          "1.21-1.21.4": "mmr:1_21_0/jungle_mineshaft/start_crossing",
+          "1.21.5-26.3": "mmr:1_21_5/jungle_mineshaft/start_crossing"
+        }
+      }
+    }
+  ]
+}
