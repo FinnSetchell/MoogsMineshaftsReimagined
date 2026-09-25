@@ -1,6 +1,38 @@
 {
   "structures": {
     "mod_name": "Moog's Mineshafts Reimagined",
-    "mod_slug": "mineshafts-reimagined"
+    "mod_slug": "mineshafts-reimagined",
+    "entries": [
+      {
+        "structure": "mmr:desert_mineshaft",
+        "name": "Desert Mineshaft",
+        "spacing_key": "mmr:desert_mineshaft"
+      },
+      {
+        "structure": "mmr:jungle_mineshaft",
+        "name": "Jungle Mineshaft",
+        "spacing_key": "mmr:jungle_mineshaft"
+      },
+      {
+        "structure": "mmr:mesa_mineshaft",
+        "name": "Mesa Mineshaft",
+        "spacing_key": "mmr:mesa_mineshaft"
+      },
+      {
+        "structure": "mmr:mineshaft",
+        "name": "Mineshaft",
+        "spacing_key": "mmr:mineshaft"
+      },
+      {
+        "structure": "mmr:nether_mineshaft",
+        "name": "Nether Mineshaft",
+        "spacing_key": "mmr:nether_mineshaft"
+      },
+      {
+        "structure": "mmr:snowy_mineshaft",
+        "name": "Snowy Mineshaft",
+        "spacing_key": "mmr:snowy_mineshaft"
+      }
+    ]
   }
 }
