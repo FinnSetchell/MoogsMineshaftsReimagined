@@ -10,6 +10,9 @@
 - Armour stands in the regular mineshaft now wear random armour
 - Structure preview links in Moog's Structure Lib's config screen
 - Mineshafts now sometimes generate entirely underground, with no entrance on the surface
+- The mesa mineshaft now sometimes has a surface entrance, with a trial room, a trapped chest and armour stands in gold armour
+- An option in Moog's Structure Lib's config screen that replaces vanilla mineshafts with Moog's, about as common as vanilla ones were
+  - With it on, some chests hold vanilla mineshaft loot, so loot added by other mods shows up there too
 
 ### Changed
 - Horses, donkeys, parrots and villagers look different every time a mineshaft generates
@@ -18,6 +21,7 @@
 - Every structure has been rebuilt for each Minecraft version it supports, fixing a range of small visual and loading problems
 - Mineshaft tunnels no longer adapt the surface terrain. This fixes the large flat areas by mineshaft entrances
 - Underground tunnels are now wrapped in stone instead of breaking into caves
+- The regular underground mineshaft can now appear in most overworld biomes
 
 ### Fixed
 - Parrots are back in the desert mineshaft room
@@ -25,6 +29,7 @@
 - Two rooms in the Nether mineshaft had empty spawners; they now spawn piglin brutes, wither skeletons and blazes
 - The minecart chest in the jungle mineshaft now has treasure in it
 - Cacti, carts and gold piles now appear beside the desert mineshaft's paths
+- The suspicious sand in the desert mineshaft now has loot
 
 ---
 
