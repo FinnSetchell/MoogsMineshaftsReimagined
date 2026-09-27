@@ -99,7 +99,7 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "location": "mmr:1_20_5/mineshaft/straight_8",
-        "processors": "minecraft:empty",
+        "processors": "mmr:vanilla_mineshaft_loot",
         "locations": {
           "1.20-1.20.4": "mmr:1_20_0/mineshaft/straight_8",
           "1.20.5-1.20.6": "mmr:1_20_5/mineshaft/straight_8"
@@ -112,7 +112,7 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "location": "mmr:1_20_5/mineshaft/straight_9",
-        "processors": "minecraft:empty",
+        "processors": "mmr:vanilla_mineshaft_loot",
         "locations": {
           "1.20-1.20.4": "mmr:1_20_0/mineshaft/straight_9",
           "1.20.5-1.20.6": "mmr:1_20_5/mineshaft/straight_9"
@@ -166,8 +166,7 @@
         "location": "mmr:1_20_5/mineshaft/intersection_1",
         "processors": "minecraft:empty",
         "locations": {
-          "1.20-1.20.2": "mmr:1_20_0/mineshaft/intersection_1",
-          "1.20.3-1.20.4": "mmr:1_20_3/mineshaft/intersection_1",
+          "1.20-1.20.4": "mmr:1_20_0/mineshaft/intersection_1",
           "1.20.5-1.20.6": "mmr:1_20_5/mineshaft/intersection_1"
         }
       }
@@ -180,8 +179,7 @@
         "location": "mmr:1_20_5/mineshaft/intersection_2",
         "processors": "mmr:spawner_creeper",
         "locations": {
-          "1.20-1.20.2": "mmr:1_20_0/mineshaft/intersection_2",
-          "1.20.3-1.20.4": "mmr:1_20_3/mineshaft/intersection_2",
+          "1.20-1.20.4": "mmr:1_20_0/mineshaft/intersection_2",
           "1.20.5-1.20.6": "mmr:1_20_5/mineshaft/intersection_2"
         }
       }
@@ -194,8 +192,7 @@
         "location": "mmr:1_20_5/mineshaft/intersection_3",
         "processors": "minecraft:empty",
         "locations": {
-          "1.20-1.20.2": "mmr:1_20_0/mineshaft/intersection_3",
-          "1.20.3-1.20.4": "mmr:1_20_3/mineshaft/intersection_3",
+          "1.20-1.20.4": "mmr:1_20_0/mineshaft/intersection_3",
           "1.20.5-1.20.6": "mmr:1_20_5/mineshaft/intersection_3"
         }
       }
@@ -208,8 +205,7 @@
         "location": "mmr:1_20_5/mineshaft/intersection_4",
         "processors": "minecraft:empty",
         "locations": {
-          "1.20-1.20.2": "mmr:1_20_0/mineshaft/intersection_4",
-          "1.20.3-1.20.4": "mmr:1_20_3/mineshaft/intersection_4",
+          "1.20-1.20.4": "mmr:1_20_0/mineshaft/intersection_4",
           "1.20.5-1.20.6": "mmr:1_20_5/mineshaft/intersection_4"
         }
       }
@@ -220,7 +216,7 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "location": "mmr:1_20_5/mineshaft/intersection_5",
-        "processors": "minecraft:empty",
+        "processors": "mmr:vanilla_mineshaft_loot",
         "locations": {
           "1.20-1.20.2": "mmr:1_20_0/mineshaft/intersection_5",
           "1.20.3-1.20.4": "mmr:1_20_3/mineshaft/intersection_5",
@@ -432,7 +428,7 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "location": "mmr:1_20_5/mineshaft/corner_5",
-        "processors": "minecraft:empty",
+        "processors": "mmr:vanilla_mineshaft_loot",
         "locations": {
           "1.20-1.20.4": "mmr:1_20_0/mineshaft/corner_5",
           "1.20.5-1.20.6": "mmr:1_20_5/mineshaft/corner_5"
@@ -445,7 +441,7 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "location": "mmr:1_20_5/mineshaft/corner_6",
-        "processors": "minecraft:empty",
+        "processors": "mmr:vanilla_mineshaft_loot",
         "locations": {
           "1.20-1.20.4": "mmr:1_20_0/mineshaft/corner_6",
           "1.20.5-1.20.6": "mmr:1_20_5/mineshaft/corner_6"

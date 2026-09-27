@@ -164,7 +164,7 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "location": "mmr:1_20_5/jungle_mineshaft/corner_4",
-        "processors": "minecraft:empty",
+        "processors": "mmr:vanilla_mineshaft_loot",
         "locations": {
           "1.20-1.20.4": "mmr:1_20_0/jungle_mineshaft/corner_4",
           "1.20.5-1.20.6": "mmr:1_20_5/jungle_mineshaft/corner_4"
@@ -346,7 +346,7 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "location": "mmr:1_20_5/jungle_mineshaft/end_3",
-        "processors": "minecraft:empty",
+        "processors": "mmr:vanilla_mineshaft_loot",
         "locations": {
           "1.20-1.20.4": "mmr:1_20_0/jungle_mineshaft/end_3",
           "1.20.5-1.20.6": "mmr:1_20_5/jungle_mineshaft/end_3"
