@@ -8,7 +8,7 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "location": "mmr:1_21_4/desert_mineshaft/straight_1",
-        "processors": "minecraft:empty",
+        "processors": "mmr:vanilla_mineshaft_loot",
         "locations": {
           "1.21-1.21.3": "mmr:1_21_0/desert_mineshaft/straight_1",
           "1.21.4-26.3": "mmr:1_21_4/desert_mineshaft/straight_1"
@@ -70,7 +70,7 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "location": "mmr:1_21_4/desert_mineshaft/straight_6",
-        "processors": "minecraft:empty",
+        "processors": "mmr:vanilla_mineshaft_loot",
         "locations": {
           "1.21-1.21.3": "mmr:1_21_0/desert_mineshaft/straight_6",
           "1.21.4-26.3": "mmr:1_21_4/desert_mineshaft/straight_6"
@@ -83,7 +83,7 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "location": "mmr:1_21_0/desert_mineshaft/straight_7",
-        "processors": "minecraft:empty",
+        "processors": "mmr:vanilla_mineshaft_loot",
         "locations": {
           "1.21-26.3": "mmr:1_21_0/desert_mineshaft/straight_7"
         }
@@ -95,7 +95,7 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "location": "mmr:1_21_4/desert_mineshaft/straight_8",
-        "processors": "minecraft:empty",
+        "processors": "mmr:vanilla_mineshaft_loot",
         "locations": {
           "1.21-1.21.3": "mmr:1_21_0/desert_mineshaft/straight_8",
           "1.21.4-26.3": "mmr:1_21_4/desert_mineshaft/straight_8"
@@ -108,7 +108,7 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "location": "mmr:1_21_4/desert_mineshaft/long_straight_1",
-        "processors": "minecraft:empty",
+        "processors": "mmr:vanilla_mineshaft_loot",
         "locations": {
           "1.21-1.21.3": "mmr:1_21_0/desert_mineshaft/long_straight_1",
           "1.21.4-26.3": "mmr:1_21_4/desert_mineshaft/long_straight_1"
@@ -121,7 +121,7 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "location": "mmr:1_21_0/desert_mineshaft/corner_1",
-        "processors": "minecraft:empty",
+        "processors": "mmr:vanilla_mineshaft_loot",
         "locations": {
           "1.21-26.3": "mmr:1_21_0/desert_mineshaft/corner_1"
         }
@@ -133,7 +133,7 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "location": "mmr:1_21_0/desert_mineshaft/corner_2",
-        "processors": "minecraft:empty",
+        "processors": "mmr:vanilla_mineshaft_loot",
         "locations": {
           "1.21-26.3": "mmr:1_21_0/desert_mineshaft/corner_2"
         }
@@ -157,7 +157,7 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "location": "mmr:1_21_0/desert_mineshaft/corner_4",
-        "processors": "minecraft:empty",
+        "processors": "mmr:vanilla_mineshaft_loot",
         "locations": {
           "1.21-26.3": "mmr:1_21_0/desert_mineshaft/corner_4"
         }
@@ -313,7 +313,7 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "location": "mmr:1_21_9/desert_mineshaft/special_crossing_4",
-        "processors": "minecraft:empty",
+        "processors": "mmr:vanilla_mineshaft_loot",
         "locations": {
           "1.21-1.21.3": "mmr:1_21_0/desert_mineshaft/special_crossing_4",
           "1.21.4": "mmr:1_21_4/desert_mineshaft/special_crossing_4",
@@ -377,7 +377,7 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "location": "mmr:1_21_0/desert_mineshaft/round_staircase_1",
-        "processors": "minecraft:empty",
+        "processors": "mmr:vanilla_mineshaft_loot",
         "locations": {
           "1.21-26.3": "mmr:1_21_0/desert_mineshaft/round_staircase_1"
         }

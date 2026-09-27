@@ -1,12 +1,41 @@
 {
   "processors": [
     {
+      "processor_type": "moogs_structures:vanilla_loot_swap_processor",
+      "modid": "mmr",
+      "vanilla_key": "mineshaft",
+      "seed_strategy": "randomize",
+      "loot_table_mapping": {
+        "mmr:desert_mineshaft/miner_chest": "minecraft:chests/abandoned_mineshaft",
+        "mmr:desert_mineshaft/miner_chest_2": "minecraft:chests/abandoned_mineshaft",
+        "mmr:jungle_mineshaft/miner_chest": "minecraft:chests/abandoned_mineshaft",
+        "mmr:jungle_mineshaft/miner_chest_2": "minecraft:chests/abandoned_mineshaft",
+        "mmr:snowy_mineshaft/miner_chest": "minecraft:chests/abandoned_mineshaft",
+        "mmr:snowy_mineshaft/miner_chest_2": "minecraft:chests/abandoned_mineshaft",
+        "mmr:mesa_mineshaft/miner_chest": "minecraft:chests/abandoned_mineshaft",
+        "mmr:mesa_mineshaft/miner_chest_2": "minecraft:chests/abandoned_mineshaft",
+        "mmr:mineshaft/uncommon": "minecraft:chests/abandoned_mineshaft"
+      }
+    },
+    {
       "processor_type": "moogs_structures:spawner_randomizing_processor",
       "weighted_entities": [
-        { "entity": "minecraft:husk", "weight": 4 },
-        { "entity": "minecraft:zombie", "weight": 2 },
-        { "entity": "minecraft:bogged", "weight": 2 },
-        { "entity": "minecraft:cave_spider", "weight": 2 }
+        {
+          "entity": "minecraft:husk",
+          "weight": 4
+        },
+        {
+          "entity": "minecraft:zombie",
+          "weight": 2
+        },
+        {
+          "entity": "minecraft:bogged",
+          "weight": 2
+        },
+        {
+          "entity": "minecraft:cave_spider",
+          "weight": 2
+        }
       ],
       "min_spawn_delay": 300,
       "max_spawn_delay": 900,

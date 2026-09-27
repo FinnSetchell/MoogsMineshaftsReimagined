@@ -34,5 +34,25 @@
         "spacing_key": "mmr:snowy_mineshaft"
       }
     ]
-  }
+  },
+  "presets": [
+    {
+      "id": "replace_mineshafts",
+      "name": "Replace Mineshafts",
+      "description": "Replace vanilla mineshafts with Moog's mineshafts. Every overworld mineshaft becomes about as common as the vanilla ones were.",
+      "default_enabled": false,
+      "replacements": [
+        {
+          "vanilla_key": "mineshaft",
+          "vanilla_structure": "minecraft:mineshaft",
+          "replacement_structure": "mmr:mineshaft_underground"
+        },
+        {
+          "vanilla_key": "mineshaft_mesa",
+          "vanilla_structure": "minecraft:mineshaft_mesa",
+          "replacement_structure": "mmr:mesa_mineshaft_underground"
+        }
+      ]
+    }
+  ]
 }

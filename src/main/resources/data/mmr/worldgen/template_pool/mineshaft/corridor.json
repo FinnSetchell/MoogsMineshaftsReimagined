@@ -94,7 +94,7 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "location": "mmr:1_21_4/mineshaft/straight_8",
-        "processors": "minecraft:empty",
+        "processors": "mmr:vanilla_mineshaft_loot",
         "locations": {
           "1.21-1.21.3": "mmr:1_21_0/mineshaft/straight_8",
           "1.21.4-26.3": "mmr:1_21_4/mineshaft/straight_8"
@@ -107,7 +107,7 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "location": "mmr:1_21_4/mineshaft/straight_9",
-        "processors": "minecraft:empty",
+        "processors": "mmr:vanilla_mineshaft_loot",
         "locations": {
           "1.21-1.21.3": "mmr:1_21_0/mineshaft/straight_9",
           "1.21.4-26.3": "mmr:1_21_4/mineshaft/straight_9"
@@ -209,7 +209,7 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "location": "mmr:1_21_5/mineshaft/intersection_5",
-        "processors": "minecraft:empty",
+        "processors": "mmr:vanilla_mineshaft_loot",
         "locations": {
           "1.21-1.21.4": "mmr:1_21_0/mineshaft/intersection_5",
           "1.21.5-26.3": "mmr:1_21_5/mineshaft/intersection_5"
@@ -409,7 +409,7 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "location": "mmr:1_21_0/mineshaft/corner_5",
-        "processors": "minecraft:empty",
+        "processors": "mmr:vanilla_mineshaft_loot",
         "locations": {
           "1.21-26.3": "mmr:1_21_0/mineshaft/corner_5"
         }
@@ -421,7 +421,7 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
         "location": "mmr:1_21_0/mineshaft/corner_6",
-        "processors": "minecraft:empty",
+        "processors": "mmr:vanilla_mineshaft_loot",
         "locations": {
           "1.21-26.3": "mmr:1_21_0/mineshaft/corner_6"
         }

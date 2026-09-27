@@ -16,15 +16,6 @@
         "mmr:mesa_mineshaft/miner_chest_2": "minecraft:chests/abandoned_mineshaft",
         "mmr:mineshaft/uncommon": "minecraft:chests/abandoned_mineshaft"
       }
-    },
-    {
-      "processor_type": "moogs_structures:spawner_randomizing_processor",
-      "weighted_entities": [
-        {
-          "entity": "minecraft:creeper",
-          "weight": 1
-        }
-      ]
     }
   ]
 }
