@@ -6,11 +6,23 @@
       "weight": 1,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
-        "projection": "rigid",
-        "location": "mmr:1_21_0/mesa_mineshaft/start_crossing",
-        "processors": "minecraft:empty",
+        "location": "mmr:26_3_0/mesa_mineshaft/entrance",
         "locations": {
-          "1.21-26.3": "mmr:1_21_0/mesa_mineshaft/start_crossing"
+          "1.21-1.21.1": "mmr:1_21_0/mesa_mineshaft/entrance",
+          "1.21.2-1.21.3": "mmr:1_21_2/mesa_mineshaft/entrance",
+          "1.21.4": "mmr:1_21_4/mesa_mineshaft/entrance",
+          "1.21.5-1.21.8": "mmr:1_21_5/mesa_mineshaft/entrance",
+          "1.21.9-26.2": "mmr:1_21_9/mesa_mineshaft/entrance",
+          "26.3": "mmr:26_3_0/mesa_mineshaft/entrance"
+        },
+        "processors": "mmr:mesa_mineshaft_entrance",
+        "projection": "rigid",
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury",
+          "bottom_offset": 1.0
         }
       }
     }

@@ -1,0 +1,18 @@
+{
+  "name": "mmr:mesa_mineshaft/entrance_shaft",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mmr:1_21_0/mesa_mineshaft/entrance_shaft",
+        "locations": {
+          "1.21-26.3": "mmr:1_21_0/mesa_mineshaft/entrance_shaft"
+        },
+        "processors": "mmr:vanilla_mineshaft_loot",
+        "projection": "rigid"
+      }
+    }
+  ]
+}
