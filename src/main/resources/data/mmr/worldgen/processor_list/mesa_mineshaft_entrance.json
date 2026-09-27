@@ -1,0 +1,662 @@
+{
+  "processors": [
+    {
+      "processor_type": "moogs_structures:vanilla_loot_swap_processor",
+      "modid": "mmr",
+      "vanilla_key": "mineshaft",
+      "seed_strategy": "randomize",
+      "loot_table_mapping": {
+        "mmr:desert_mineshaft/miner_chest": "minecraft:chests/abandoned_mineshaft",
+        "mmr:desert_mineshaft/miner_chest_2": "minecraft:chests/abandoned_mineshaft",
+        "mmr:jungle_mineshaft/miner_chest": "minecraft:chests/abandoned_mineshaft",
+        "mmr:jungle_mineshaft/miner_chest_2": "minecraft:chests/abandoned_mineshaft",
+        "mmr:snowy_mineshaft/miner_chest": "minecraft:chests/abandoned_mineshaft",
+        "mmr:snowy_mineshaft/miner_chest_2": "minecraft:chests/abandoned_mineshaft",
+        "mmr:mesa_mineshaft/miner_chest": "minecraft:chests/abandoned_mineshaft",
+        "mmr:mesa_mineshaft/miner_chest_2": "minecraft:chests/abandoned_mineshaft",
+        "mmr:mineshaft/uncommon": "minecraft:chests/abandoned_mineshaft"
+      }
+    },
+    {
+      "processor_type": "moogs_structures:equip_armor_stand_processor",
+      "armor_sets": [
+        {
+          "armor": {
+            "head": {
+              "id": "minecraft:golden_helmet",
+              "count": 1,
+              "Count": 1
+            },
+            "chest": {
+              "id": "minecraft:golden_chestplate",
+              "count": 1,
+              "Count": 1
+            },
+            "legs": {
+              "id": "minecraft:golden_leggings",
+              "count": 1,
+              "Count": 1
+            },
+            "feet": {
+              "id": "minecraft:golden_boots",
+              "count": 1,
+              "Count": 1
+            }
+          },
+          "weight": 2
+        },
+        {
+          "armor": {
+            "head": {
+              "id": "minecraft:golden_helmet",
+              "count": 1,
+              "components": {
+                "minecraft:trim": {
+                  "pattern": "minecraft:dune",
+                  "material": "minecraft:redstone"
+                }
+              },
+              "Count": 1,
+              "tag": {
+                "Trim": {
+                  "pattern": "minecraft:dune",
+                  "material": "minecraft:redstone"
+                }
+              }
+            },
+            "chest": {
+              "id": "minecraft:golden_chestplate",
+              "count": 1,
+              "components": {
+                "minecraft:trim": {
+                  "pattern": "minecraft:dune",
+                  "material": "minecraft:redstone"
+                }
+              },
+              "Count": 1,
+              "tag": {
+                "Trim": {
+                  "pattern": "minecraft:dune",
+                  "material": "minecraft:redstone"
+                }
+              }
+            },
+            "legs": {
+              "id": "minecraft:golden_leggings",
+              "count": 1,
+              "components": {
+                "minecraft:trim": {
+                  "pattern": "minecraft:dune",
+                  "material": "minecraft:redstone"
+                }
+              },
+              "Count": 1,
+              "tag": {
+                "Trim": {
+                  "pattern": "minecraft:dune",
+                  "material": "minecraft:redstone"
+                }
+              }
+            },
+            "feet": {
+              "id": "minecraft:golden_boots",
+              "count": 1,
+              "components": {
+                "minecraft:trim": {
+                  "pattern": "minecraft:dune",
+                  "material": "minecraft:redstone"
+                }
+              },
+              "Count": 1,
+              "tag": {
+                "Trim": {
+                  "pattern": "minecraft:dune",
+                  "material": "minecraft:redstone"
+                }
+              }
+            }
+          },
+          "weight": 1
+        },
+        {
+          "armor": {
+            "head": {
+              "id": "minecraft:golden_helmet",
+              "count": 1,
+              "components": {
+                "minecraft:trim": {
+                  "pattern": "minecraft:rib",
+                  "material": "minecraft:copper"
+                }
+              },
+              "Count": 1,
+              "tag": {
+                "Trim": {
+                  "pattern": "minecraft:rib",
+                  "material": "minecraft:copper"
+                }
+              }
+            },
+            "chest": {
+              "id": "minecraft:golden_chestplate",
+              "count": 1,
+              "components": {
+                "minecraft:trim": {
+                  "pattern": "minecraft:rib",
+                  "material": "minecraft:copper"
+                }
+              },
+              "Count": 1,
+              "tag": {
+                "Trim": {
+                  "pattern": "minecraft:rib",
+                  "material": "minecraft:copper"
+                }
+              }
+            },
+            "legs": {
+              "id": "minecraft:golden_leggings",
+              "count": 1,
+              "components": {
+                "minecraft:trim": {
+                  "pattern": "minecraft:rib",
+                  "material": "minecraft:copper"
+                }
+              },
+              "Count": 1,
+              "tag": {
+                "Trim": {
+                  "pattern": "minecraft:rib",
+                  "material": "minecraft:copper"
+                }
+              }
+            },
+            "feet": {
+              "id": "minecraft:golden_boots",
+              "count": 1,
+              "components": {
+                "minecraft:trim": {
+                  "pattern": "minecraft:rib",
+                  "material": "minecraft:copper"
+                }
+              },
+              "Count": 1,
+              "tag": {
+                "Trim": {
+                  "pattern": "minecraft:rib",
+                  "material": "minecraft:copper"
+                }
+              }
+            }
+          },
+          "weight": 1
+        },
+        {
+          "armor": {
+            "head": {
+              "id": "minecraft:golden_helmet",
+              "count": 1,
+              "components": {
+                "minecraft:trim": {
+                  "pattern": "minecraft:wayfinder",
+                  "material": "minecraft:emerald"
+                }
+              },
+              "Count": 1,
+              "tag": {
+                "Trim": {
+                  "pattern": "minecraft:wayfinder",
+                  "material": "minecraft:emerald"
+                }
+              }
+            },
+            "chest": {
+              "id": "minecraft:golden_chestplate",
+              "count": 1,
+              "components": {
+                "minecraft:trim": {
+                  "pattern": "minecraft:wayfinder",
+                  "material": "minecraft:emerald"
+                }
+              },
+              "Count": 1,
+              "tag": {
+                "Trim": {
+                  "pattern": "minecraft:wayfinder",
+                  "material": "minecraft:emerald"
+                }
+              }
+            },
+            "legs": {
+              "id": "minecraft:golden_leggings",
+              "count": 1,
+              "components": {
+                "minecraft:trim": {
+                  "pattern": "minecraft:wayfinder",
+                  "material": "minecraft:emerald"
+                }
+              },
+              "Count": 1,
+              "tag": {
+                "Trim": {
+                  "pattern": "minecraft:wayfinder",
+                  "material": "minecraft:emerald"
+                }
+              }
+            },
+            "feet": {
+              "id": "minecraft:golden_boots",
+              "count": 1,
+              "components": {
+                "minecraft:trim": {
+                  "pattern": "minecraft:wayfinder",
+                  "material": "minecraft:emerald"
+                }
+              },
+              "Count": 1,
+              "tag": {
+                "Trim": {
+                  "pattern": "minecraft:wayfinder",
+                  "material": "minecraft:emerald"
+                }
+              }
+            }
+          },
+          "weight": 1
+        },
+        {
+          "armor": {
+            "head": {
+              "id": "minecraft:golden_helmet",
+              "count": 1,
+              "components": {
+                "minecraft:trim": {
+                  "pattern": "minecraft:raiser",
+                  "material": "minecraft:lapis"
+                }
+              },
+              "Count": 1,
+              "tag": {
+                "Trim": {
+                  "pattern": "minecraft:raiser",
+                  "material": "minecraft:lapis"
+                }
+              }
+            },
+            "chest": {
+              "id": "minecraft:golden_chestplate",
+              "count": 1,
+              "components": {
+                "minecraft:trim": {
+                  "pattern": "minecraft:raiser",
+                  "material": "minecraft:lapis"
+                }
+              },
+              "Count": 1,
+              "tag": {
+                "Trim": {
+                  "pattern": "minecraft:raiser",
+                  "material": "minecraft:lapis"
+                }
+              }
+            },
+            "legs": {
+              "id": "minecraft:golden_leggings",
+              "count": 1,
+              "components": {
+                "minecraft:trim": {
+                  "pattern": "minecraft:raiser",
+                  "material": "minecraft:lapis"
+                }
+              },
+              "Count": 1,
+              "tag": {
+                "Trim": {
+                  "pattern": "minecraft:raiser",
+                  "material": "minecraft:lapis"
+                }
+              }
+            },
+            "feet": {
+              "id": "minecraft:golden_boots",
+              "count": 1,
+              "components": {
+                "minecraft:trim": {
+                  "pattern": "minecraft:raiser",
+                  "material": "minecraft:lapis"
+                }
+              },
+              "Count": 1,
+              "tag": {
+                "Trim": {
+                  "pattern": "minecraft:raiser",
+                  "material": "minecraft:lapis"
+                }
+              }
+            }
+          },
+          "weight": 1
+        },
+        {
+          "armor": {
+            "head": {
+              "id": "minecraft:golden_helmet",
+              "count": 1,
+              "components": {
+                "minecraft:trim": {
+                  "pattern": "minecraft:shaper",
+                  "material": "minecraft:iron"
+                }
+              },
+              "Count": 1,
+              "tag": {
+                "Trim": {
+                  "pattern": "minecraft:shaper",
+                  "material": "minecraft:iron"
+                }
+              }
+            },
+            "chest": {
+              "id": "minecraft:golden_chestplate",
+              "count": 1,
+              "components": {
+                "minecraft:trim": {
+                  "pattern": "minecraft:shaper",
+                  "material": "minecraft:iron"
+                }
+              },
+              "Count": 1,
+              "tag": {
+                "Trim": {
+                  "pattern": "minecraft:shaper",
+                  "material": "minecraft:iron"
+                }
+              }
+            },
+            "legs": {
+              "id": "minecraft:golden_leggings",
+              "count": 1,
+              "components": {
+                "minecraft:trim": {
+                  "pattern": "minecraft:shaper",
+                  "material": "minecraft:iron"
+                }
+              },
+              "Count": 1,
+              "tag": {
+                "Trim": {
+                  "pattern": "minecraft:shaper",
+                  "material": "minecraft:iron"
+                }
+              }
+            },
+            "feet": {
+              "id": "minecraft:golden_boots",
+              "count": 1,
+              "components": {
+                "minecraft:trim": {
+                  "pattern": "minecraft:shaper",
+                  "material": "minecraft:iron"
+                }
+              },
+              "Count": 1,
+              "tag": {
+                "Trim": {
+                  "pattern": "minecraft:shaper",
+                  "material": "minecraft:iron"
+                }
+              }
+            }
+          },
+          "weight": 1
+        },
+        {
+          "armor": {
+            "head": {
+              "id": "minecraft:golden_helmet",
+              "count": 1,
+              "components": {
+                "minecraft:trim": {
+                  "pattern": "minecraft:host",
+                  "material": "minecraft:quartz"
+                }
+              },
+              "Count": 1,
+              "tag": {
+                "Trim": {
+                  "pattern": "minecraft:host",
+                  "material": "minecraft:quartz"
+                }
+              }
+            },
+            "chest": {
+              "id": "minecraft:golden_chestplate",
+              "count": 1,
+              "components": {
+                "minecraft:trim": {
+                  "pattern": "minecraft:host",
+                  "material": "minecraft:quartz"
+                }
+              },
+              "Count": 1,
+              "tag": {
+                "Trim": {
+                  "pattern": "minecraft:host",
+                  "material": "minecraft:quartz"
+                }
+              }
+            },
+            "legs": {
+              "id": "minecraft:golden_leggings",
+              "count": 1,
+              "components": {
+                "minecraft:trim": {
+                  "pattern": "minecraft:host",
+                  "material": "minecraft:quartz"
+                }
+              },
+              "Count": 1,
+              "tag": {
+                "Trim": {
+                  "pattern": "minecraft:host",
+                  "material": "minecraft:quartz"
+                }
+              }
+            },
+            "feet": {
+              "id": "minecraft:golden_boots",
+              "count": 1,
+              "components": {
+                "minecraft:trim": {
+                  "pattern": "minecraft:host",
+                  "material": "minecraft:quartz"
+                }
+              },
+              "Count": 1,
+              "tag": {
+                "Trim": {
+                  "pattern": "minecraft:host",
+                  "material": "minecraft:quartz"
+                }
+              }
+            }
+          },
+          "weight": 1
+        },
+        {
+          "armor": {
+            "head": {
+              "id": "minecraft:golden_helmet",
+              "count": 1,
+              "components": {
+                "minecraft:trim": {
+                  "pattern": "minecraft:coast",
+                  "material": "minecraft:diamond"
+                }
+              },
+              "Count": 1,
+              "tag": {
+                "Trim": {
+                  "pattern": "minecraft:coast",
+                  "material": "minecraft:diamond"
+                }
+              }
+            },
+            "chest": {
+              "id": "minecraft:golden_chestplate",
+              "count": 1,
+              "components": {
+                "minecraft:trim": {
+                  "pattern": "minecraft:coast",
+                  "material": "minecraft:diamond"
+                }
+              },
+              "Count": 1,
+              "tag": {
+                "Trim": {
+                  "pattern": "minecraft:coast",
+                  "material": "minecraft:diamond"
+                }
+              }
+            },
+            "legs": {
+              "id": "minecraft:golden_leggings",
+              "count": 1,
+              "components": {
+                "minecraft:trim": {
+                  "pattern": "minecraft:coast",
+                  "material": "minecraft:diamond"
+                }
+              },
+              "Count": 1,
+              "tag": {
+                "Trim": {
+                  "pattern": "minecraft:coast",
+                  "material": "minecraft:diamond"
+                }
+              }
+            },
+            "feet": {
+              "id": "minecraft:golden_boots",
+              "count": 1,
+              "components": {
+                "minecraft:trim": {
+                  "pattern": "minecraft:coast",
+                  "material": "minecraft:diamond"
+                }
+              },
+              "Count": 1,
+              "tag": {
+                "Trim": {
+                  "pattern": "minecraft:coast",
+                  "material": "minecraft:diamond"
+                }
+              }
+            }
+          },
+          "weight": 1
+        },
+        {
+          "armor": {
+            "head": {
+              "id": "minecraft:golden_helmet",
+              "count": 1,
+              "components": {
+                "minecraft:trim": {
+                  "pattern": "minecraft:sentry",
+                  "material": "minecraft:amethyst"
+                }
+              },
+              "Count": 1,
+              "tag": {
+                "Trim": {
+                  "pattern": "minecraft:sentry",
+                  "material": "minecraft:amethyst"
+                }
+              }
+            },
+            "chest": {
+              "id": "minecraft:golden_chestplate",
+              "count": 1,
+              "components": {
+                "minecraft:trim": {
+                  "pattern": "minecraft:sentry",
+                  "material": "minecraft:amethyst"
+                }
+              },
+              "Count": 1,
+              "tag": {
+                "Trim": {
+                  "pattern": "minecraft:sentry",
+                  "material": "minecraft:amethyst"
+                }
+              }
+            },
+            "legs": {
+              "id": "minecraft:golden_leggings",
+              "count": 1,
+              "components": {
+                "minecraft:trim": {
+                  "pattern": "minecraft:sentry",
+                  "material": "minecraft:amethyst"
+                }
+              },
+              "Count": 1,
+              "tag": {
+                "Trim": {
+                  "pattern": "minecraft:sentry",
+                  "material": "minecraft:amethyst"
+                }
+              }
+            },
+            "feet": {
+              "id": "minecraft:golden_boots",
+              "count": 1,
+              "components": {
+                "minecraft:trim": {
+                  "pattern": "minecraft:sentry",
+                  "material": "minecraft:amethyst"
+                }
+              },
+              "Count": 1,
+              "tag": {
+                "Trim": {
+                  "pattern": "minecraft:sentry",
+                  "material": "minecraft:amethyst"
+                }
+              }
+            }
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "processor_type": "moogs_structures:spawner_randomizing_processor",
+      "weighted_entities": [
+        {
+          "entity": "minecraft:skeleton",
+          "weight": 3
+        },
+        {
+          "entity": "minecraft:zombie",
+          "weight": 2
+        },
+        {
+          "entity": "minecraft:cave_spider",
+          "weight": 2
+        },
+        {
+          "entity": "minecraft:husk",
+          "weight": 1
+        }
+      ],
+      "min_spawn_delay": 300,
+      "max_spawn_delay": 900,
+      "spawn_count": 2,
+      "max_nearby_entities": 4,
+      "required_player_range": 14,
+      "spawn_range": 4
+    }
+  ]
+}
