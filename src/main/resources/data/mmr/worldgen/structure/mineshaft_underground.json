@@ -3,7 +3,7 @@
   "start_pool": "mmr:mineshaft/underground_start",
   "size": 17,
   "max_distance_from_center": 80,
-  "cannot_spawn_in_liquid": true,
+  "cannot_spawn_in_liquid": false,
   "liquid_settings": "ignore_waterlogging",
   "biomes": "#mmr:has_structure/mineshaft_underground",
   "step": "underground_structures",
@@ -14,7 +14,7 @@
       "above_bottom": 20
     },
     "max_inclusive": {
-      "absolute": 40
+      "absolute": 10
     }
   },
   "pools_that_ignore_boundaries": [
@@ -29,6 +29,6 @@
   },
   "y_allowance": {
     "min_y_allowed": -56,
-    "max_y_allowed": 50
+    "max_y_allowed": 25
   }
 }
