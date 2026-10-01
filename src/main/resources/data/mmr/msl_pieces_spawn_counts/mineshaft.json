@@ -1,0 +1,44 @@
+{
+  "pieces_spawn_counts": [
+    {
+      "nbt_piece_name": "mmr:1_21_0/mineshaft/intersection_5",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "mmr:1_21_5/mineshaft/intersection_5",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "mmr:26_3_0/mineshaft/intersection_5",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "mmr:1_21_0/mineshaft/intersection_8",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "mmr:1_21_0/mineshaft/intersection_9",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "mmr:1_21_0/mineshaft/intersection_10",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "mmr:1_21_2/mineshaft/intersection_10",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "mmr:1_21_4/mineshaft/intersection_10",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "mmr:1_21_5/mineshaft/intersection_10",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "mmr:1_21_9/mineshaft/intersection_10",
+      "never_spawn_more_than_this_many": 1
+    }
+  ]
+}

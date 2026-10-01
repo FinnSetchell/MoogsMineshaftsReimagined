@@ -2,9 +2,10 @@
 
 ---
 
-## [1.0.4] - 2026-06-24
+## [1.1.0] - 2026-10-01
 
 ### Added
+- Three new mineshafts: the dark oak mineshaft, the mushroom mineshaft and the deep dark mineshaft
 - Added Minecraft 26.3 support
 - Villagers now have a mix of jobs, including unemployed villagers, nitwits and children, and new trades every time
 - Armour stands in the regular mineshaft now wear random armour
@@ -13,6 +14,7 @@
 - The mesa mineshaft now sometimes has a surface entrance, with a trial room, a trapped chest and armour stands in gold armour
 - An option in Moog's Structure Lib's config screen that replaces vanilla mineshafts with Moog's, about as common as vanilla ones were
   - With it on, some chests hold vanilla mineshaft loot, so loot added by other mods shows up there too
+- Advancements for discovering each kind of mineshaft, and a challenge for finding them all
 
 ### Changed
 - Horses, donkeys, parrots and villagers look different every time a mineshaft generates
@@ -22,6 +24,10 @@
 - Mineshaft tunnels no longer adapt the surface terrain. This fixes the large flat areas by mineshaft entrances
 - Underground tunnels are now wrapped in stone instead of breaking into caves
 - The regular underground mineshaft can now appear in most overworld biomes
+- Mineshafts now spread out about as far as vanilla mineshafts, with more tunnels and branches
+- Special rooms turn up much more often, but never more than once or twice in the same mineshaft. This includes the warden prison and sculk pit in the deep dark mineshaft, the big rooms in the regular mineshaft, the special crossings in the desert, jungle and Nether mineshafts, the dog room in the snowy mineshaft and the large dead ends in the mushroom mineshaft
+- Mineshafts no longer generate on top of vanilla mineshafts
+- The regular and mesa mineshafts have fewer tunnel junctions, so they're less of a maze
 
 ### Fixed
 - Parrots are back in the desert mineshaft room
@@ -30,6 +36,14 @@
 - The minecart chest in the jungle mineshaft now has treasure in it
 - Cacti, carts and gold piles now appear beside the desert mineshaft's paths
 - The suspicious sand in the desert mineshaft now has loot
+- The Nether mineshaft's mess hall can now generate
+- A few jungle and Nether tunnels that could never generate now do, including the jungle drop shaft
+
+![dark oak mineshaft](https://i.moogsmods.com/images/6f4c3584293d4be886fee57b70f4385f.png)
+![deep dark mineshaft](https://i.moogsmods.com/images/9607415efe5c46c0ac3ee565ffc56a20.png)
+![mushroom mineshaft](https://i.moogsmods.com/images/33d6390f8e3c476d94ce8835d9175b6c.png)
+![underground view of 3 mineshafts](https://i.moogsmods.com/images/92bdc2bed6884456b0d2de4321215ac0.png)
+![configuration settings for mmr](https://i.moogsmods.com/images/842f6eb882e9486ea5292d52b66d3cc0.png)
 
 ---
 

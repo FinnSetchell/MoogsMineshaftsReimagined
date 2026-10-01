@@ -1,0 +1,64 @@
+{
+  "parent": "mmr:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_ingot"
+    },
+    "title": {
+      "translate": "advancements.mmr.mesa_mineshaft.title",
+      "fallback": "Gold in the wasteland"
+    },
+    "description": {
+      "translate": "advancements.mmr.mesa_mineshaft.description",
+      "fallback": "Discover a Mesa Mineshaft"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mesa_mineshaft": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "structures": [
+                  "mmr:mesa_mineshaft"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "mesa_mineshaft_underground": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "structures": [
+                  "mmr:mesa_mineshaft_underground"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "mesa_mineshaft",
+      "mesa_mineshaft_underground"
+    ]
+  ]
+}

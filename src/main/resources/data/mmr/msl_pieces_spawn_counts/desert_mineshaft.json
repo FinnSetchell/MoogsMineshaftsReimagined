@@ -1,6 +1,86 @@
 {
   "pieces_spawn_counts": [
     {
+      "nbt_piece_name": "mmr:1_21_0/desert_mineshaft/special_crossing_1",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "mmr:1_21_5/desert_mineshaft/special_crossing_1",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "mmr:1_21_0/desert_mineshaft/special_crossing_2",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "mmr:1_21_2/desert_mineshaft/special_crossing_2",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "mmr:1_21_5/desert_mineshaft/special_crossing_2",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "mmr:1_21_6/desert_mineshaft/special_crossing_2",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "mmr:1_21_9/desert_mineshaft/special_crossing_2",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "mmr:1_21_0/desert_mineshaft/special_crossing_3",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "mmr:1_21_2/desert_mineshaft/special_crossing_3",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "mmr:1_21_5/desert_mineshaft/special_crossing_3",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "mmr:1_21_9/desert_mineshaft/special_crossing_3",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "mmr:1_21_0/desert_mineshaft/special_crossing_4",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "mmr:1_21_4/desert_mineshaft/special_crossing_4",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "mmr:1_21_5/desert_mineshaft/special_crossing_4",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "mmr:1_21_9/desert_mineshaft/special_crossing_4",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "mmr:1_21_0/desert_mineshaft/special_crossing_5",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "mmr:1_21_0/desert_mineshaft/special_corner_1",
+      "never_spawn_more_than_this_many": 2
+    },
+    {
+      "nbt_piece_name": "mmr:1_21_0/desert_mineshaft/special_corner_2",
+      "never_spawn_more_than_this_many": 2
+    },
+    {
+      "nbt_piece_name": "mmr:1_21_5/desert_mineshaft/special_corner_2",
+      "never_spawn_more_than_this_many": 2
+    },
+    {
+      "nbt_piece_name": "mmr:1_21_0/desert_mineshaft/tnt_corner_1",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
       "nbt_piece_name": "mmr:1_21_0/desert_mineshaft/path_decoration_cactus",
       "never_spawn_more_than_this_many": 1
     },

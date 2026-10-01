@@ -1,0 +1,64 @@
+{
+  "parent": "mmr:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:rail"
+    },
+    "title": {
+      "translate": "advancements.mmr.mineshaft.title",
+      "fallback": "Mind the carts"
+    },
+    "description": {
+      "translate": "advancements.mmr.mineshaft.description",
+      "fallback": "Discover a Mineshaft"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mineshaft": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "structures": [
+                  "mmr:mineshaft"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "mineshaft_underground": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "structures": [
+                  "mmr:mineshaft_underground"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "mineshaft",
+      "mineshaft_underground"
+    ]
+  ]
+}

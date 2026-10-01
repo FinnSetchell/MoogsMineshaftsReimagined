@@ -1,0 +1,16 @@
+{
+  "pieces_spawn_counts": [
+    {
+      "nbt_piece_name": "mmr:1_21_0/snowy_mineshaft/dog_intersection",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "mmr:1_21_5/snowy_mineshaft/dog_intersection",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "mmr:1_21_9/snowy_mineshaft/dog_intersection",
+      "never_spawn_more_than_this_many": 1
+    }
+  ]
+}

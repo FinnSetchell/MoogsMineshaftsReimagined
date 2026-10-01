@@ -1,0 +1,20 @@
+{
+  "name": "mmr:dark_oak_mineshaft/entrance_lower_stairs",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mmr:26_3_0/dark_oak_mineshaft/entrance_lower_stairs",
+        "locations": {
+          "1.21-1.21.3": "mmr:1_21_0/dark_oak_mineshaft/entrance_lower_stairs",
+          "1.21.4-26.2": "mmr:1_21_4/dark_oak_mineshaft/entrance_lower_stairs",
+          "26.3": "mmr:26_3_0/dark_oak_mineshaft/entrance_lower_stairs"
+        },
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

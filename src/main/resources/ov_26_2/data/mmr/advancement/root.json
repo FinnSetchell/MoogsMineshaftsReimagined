@@ -1,0 +1,330 @@
+{
+  "parent": "minecraft:adventure/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.mmr.root.title",
+      "fallback": "Watch your step"
+    },
+    "description": {
+      "translate": "advancements.mmr.root.description",
+      "fallback": "Discover one of Moog's Mineshafts"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mineshaft": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "structures": [
+                  "mmr:mineshaft"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "mineshaft_underground": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "structures": [
+                  "mmr:mineshaft_underground"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "desert_mineshaft": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "structures": [
+                  "mmr:desert_mineshaft"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "desert_mineshaft_underground": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "structures": [
+                  "mmr:desert_mineshaft_underground"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "snowy_mineshaft": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "structures": [
+                  "mmr:snowy_mineshaft"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "snowy_mineshaft_underground": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "structures": [
+                  "mmr:snowy_mineshaft_underground"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "jungle_mineshaft": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "structures": [
+                  "mmr:jungle_mineshaft"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "jungle_mineshaft_underground": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "structures": [
+                  "mmr:jungle_mineshaft_underground"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "mesa_mineshaft": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "structures": [
+                  "mmr:mesa_mineshaft"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "mesa_mineshaft_underground": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "structures": [
+                  "mmr:mesa_mineshaft_underground"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "dark_oak_mineshaft": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "structures": [
+                  "mmr:dark_oak_mineshaft"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "dark_oak_mineshaft_underground": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "structures": [
+                  "mmr:dark_oak_mineshaft_underground"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "mushroom_mineshaft": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "structures": [
+                  "mmr:mushroom_mineshaft"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "mushroom_mineshaft_underground": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "structures": [
+                  "mmr:mushroom_mineshaft_underground"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "deep_dark_mineshaft_underground": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "structures": [
+                  "mmr:deep_dark_mineshaft_underground"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "nether_mineshaft": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "structures": [
+                  "mmr:nether_mineshaft"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "mineshaft",
+      "mineshaft_underground",
+      "desert_mineshaft",
+      "desert_mineshaft_underground",
+      "snowy_mineshaft",
+      "snowy_mineshaft_underground",
+      "jungle_mineshaft",
+      "jungle_mineshaft_underground",
+      "mesa_mineshaft",
+      "mesa_mineshaft_underground",
+      "dark_oak_mineshaft",
+      "dark_oak_mineshaft_underground",
+      "mushroom_mineshaft",
+      "mushroom_mineshaft_underground",
+      "deep_dark_mineshaft_underground",
+      "nether_mineshaft"
+    ]
+  ]
+}

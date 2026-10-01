@@ -1,0 +1,27 @@
+{
+  "name": "mmr:dark_oak_mineshaft/entrance_east",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mmr:1_21_9/dark_oak_mineshaft/entrance_east",
+        "locations": {
+          "1.21-1.21.4": "mmr:1_21_0/dark_oak_mineshaft/entrance_east",
+          "1.21.5-1.21.8": "mmr:1_21_5/dark_oak_mineshaft/entrance_east",
+          "1.21.9-26.3": "mmr:1_21_9/dark_oak_mineshaft/entrance_east"
+        },
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury",
+          "bottom_offset": 1.0
+        }
+      }
+    }
+  ]
+}

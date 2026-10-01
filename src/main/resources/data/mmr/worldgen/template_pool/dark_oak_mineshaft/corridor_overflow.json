@@ -1,0 +1,18 @@
+{
+  "name": "mmr:dark_oak_mineshaft/corridor_overflow",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mmr:1_21_0/dark_oak_mineshaft/dead_end_6",
+        "locations": {
+          "1.21-26.3": "mmr:1_21_0/dark_oak_mineshaft/dead_end_6"
+        },
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

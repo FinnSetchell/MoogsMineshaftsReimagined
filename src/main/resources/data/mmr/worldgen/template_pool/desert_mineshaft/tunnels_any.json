@@ -192,10 +192,11 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:1_21_0/desert_mineshaft/special_corner_2",
+        "location": "mmr:1_21_5/desert_mineshaft/special_corner_2",
         "processors": "minecraft:empty",
         "locations": {
-          "1.21-26.3": "mmr:1_21_0/desert_mineshaft/special_corner_2"
+          "1.21-1.21.4": "mmr:1_21_0/desert_mineshaft/special_corner_2",
+          "1.21.5-26.3": "mmr:1_21_5/desert_mineshaft/special_corner_2"
         }
       }
     },
@@ -264,7 +265,7 @@
       }
     },
     {
-      "weight": 6,
+      "weight": 10,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
@@ -277,7 +278,7 @@
       }
     },
     {
-      "weight": 6,
+      "weight": 10,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
@@ -293,7 +294,7 @@
       }
     },
     {
-      "weight": 5,
+      "weight": 16,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
@@ -308,7 +309,7 @@
       }
     },
     {
-      "weight": 6,
+      "weight": 10,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
@@ -323,7 +324,7 @@
       }
     },
     {
-      "weight": 5,
+      "weight": 16,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",

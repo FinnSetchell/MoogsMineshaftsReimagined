@@ -1,0 +1,60 @@
+{
+  "parent": "mmr:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:dark_oak_log"
+    },
+    "title": {
+      "translate": "advancements.mmr.dark_oak_mineshaft.title",
+      "fallback": "Under new management"
+    },
+    "description": {
+      "translate": "advancements.mmr.dark_oak_mineshaft.description",
+      "fallback": "Discover a Dark Oak Mineshaft, now run by illagers"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dark_oak_mineshaft": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "structures": [
+                "mmr:dark_oak_mineshaft"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "dark_oak_mineshaft_underground": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "structures": [
+                "mmr:dark_oak_mineshaft_underground"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "dark_oak_mineshaft",
+      "dark_oak_mineshaft_underground"
+    ]
+  ]
+}

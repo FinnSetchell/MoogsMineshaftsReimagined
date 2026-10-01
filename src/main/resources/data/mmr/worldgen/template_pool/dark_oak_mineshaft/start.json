@@ -1,0 +1,29 @@
+{
+  "name": "mmr:dark_oak_mineshaft/start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mmr:26_3_0/dark_oak_mineshaft/entrance",
+        "locations": {
+          "1.21-1.21.3": "mmr:1_21_0/dark_oak_mineshaft/entrance",
+          "1.21.4": "mmr:1_21_4/dark_oak_mineshaft/entrance",
+          "1.21.5-1.21.8": "mmr:1_21_5/dark_oak_mineshaft/entrance",
+          "1.21.9-26.2": "mmr:1_21_9/dark_oak_mineshaft/entrance",
+          "26.3": "mmr:26_3_0/dark_oak_mineshaft/entrance"
+        },
+        "processors": "mmr:vanilla_mineshaft_loot",
+        "projection": "rigid",
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury",
+          "bottom_offset": 1.0
+        }
+      }
+    }
+  ]
+}

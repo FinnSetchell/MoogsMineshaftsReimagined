@@ -1,0 +1,60 @@
+{
+  "parent": "mmr:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:jungle_log"
+    },
+    "title": {
+      "translate": "advancements.mmr.jungle_mineshaft.title",
+      "fallback": "Between the trees and the parrots"
+    },
+    "description": {
+      "translate": "advancements.mmr.jungle_mineshaft.description",
+      "fallback": "Discover a Jungle Mineshaft"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "jungle_mineshaft": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "structures": [
+                "mmr:jungle_mineshaft"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "jungle_mineshaft_underground": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "structures": [
+                "mmr:jungle_mineshaft_underground"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "jungle_mineshaft",
+      "jungle_mineshaft_underground"
+    ]
+  ]
+}

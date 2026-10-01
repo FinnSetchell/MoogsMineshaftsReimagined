@@ -152,72 +152,77 @@
       }
     },
     {
-      "weight": 37,
+      "weight": 18,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:1_21_5/mineshaft/intersection_1",
+        "location": "mmr:26_3_0/mineshaft/intersection_1",
         "processors": "minecraft:empty",
         "locations": {
           "1.21-1.21.4": "mmr:1_21_0/mineshaft/intersection_1",
-          "1.21.5-26.3": "mmr:1_21_5/mineshaft/intersection_1"
+          "1.21.5-26.2": "mmr:1_21_5/mineshaft/intersection_1",
+          "26.3": "mmr:26_3_0/mineshaft/intersection_1"
         }
       }
     },
     {
-      "weight": 14,
+      "weight": 7,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:1_21_5/mineshaft/intersection_2",
+        "location": "mmr:26_3_0/mineshaft/intersection_2",
         "processors": "mmr:spawner_creeper",
         "locations": {
           "1.21-1.21.4": "mmr:1_21_0/mineshaft/intersection_2",
-          "1.21.5-26.3": "mmr:1_21_5/mineshaft/intersection_2"
+          "1.21.5-26.2": "mmr:1_21_5/mineshaft/intersection_2",
+          "26.3": "mmr:26_3_0/mineshaft/intersection_2"
         }
       }
     },
     {
-      "weight": 36,
+      "weight": 18,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:1_21_5/mineshaft/intersection_3",
+        "location": "mmr:26_3_0/mineshaft/intersection_3",
         "processors": "minecraft:empty",
         "locations": {
           "1.21-1.21.4": "mmr:1_21_0/mineshaft/intersection_3",
-          "1.21.5-26.3": "mmr:1_21_5/mineshaft/intersection_3"
+          "1.21.5-26.2": "mmr:1_21_5/mineshaft/intersection_3",
+          "26.3": "mmr:26_3_0/mineshaft/intersection_3"
         }
       }
     },
     {
-      "weight": 25,
+      "weight": 12,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:1_21_5/mineshaft/intersection_4",
+        "location": "mmr:26_3_0/mineshaft/intersection_4",
         "processors": "minecraft:empty",
         "locations": {
           "1.21-1.21.4": "mmr:1_21_0/mineshaft/intersection_4",
-          "1.21.5-26.3": "mmr:1_21_5/mineshaft/intersection_4"
+          "1.21.5-26.2": "mmr:1_21_5/mineshaft/intersection_4",
+          "26.3": "mmr:26_3_0/mineshaft/intersection_4"
         }
       }
     },
     {
-      "weight": 14,
+      "weight": 30,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mmr:1_21_5/mineshaft/intersection_5",
+        "location": "mmr:26_3_0/mineshaft/intersection_5",
         "processors": "mmr:vanilla_mineshaft_loot",
         "locations": {
           "1.21-1.21.4": "mmr:1_21_0/mineshaft/intersection_5",
-          "1.21.5-26.3": "mmr:1_21_5/mineshaft/intersection_5"
+          "1.21.5-26.2": "mmr:1_21_5/mineshaft/intersection_5",
+          "26.3": "mmr:26_3_0/mineshaft/intersection_5"
         }
       }
     },
     {
-      "weight": 14,
+      "weight": 7,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
@@ -229,7 +234,7 @@
       }
     },
     {
-      "weight": 16,
+      "weight": 8,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
@@ -241,7 +246,7 @@
       }
     },
     {
-      "weight": 13,
+      "weight": 26,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
@@ -253,7 +258,7 @@
       }
     },
     {
-      "weight": 13,
+      "weight": 26,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
@@ -265,7 +270,7 @@
       }
     },
     {
-      "weight": 12,
+      "weight": 45,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",

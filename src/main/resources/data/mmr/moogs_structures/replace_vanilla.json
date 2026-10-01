@@ -4,6 +4,11 @@
     "mod_slug": "mineshafts-reimagined",
     "entries": [
       {
+        "structure": "mmr:dark_oak_mineshaft",
+        "name": "Dark Oak Mineshaft",
+        "spacing_key": "mmr:dark_oak_mineshaft"
+      },
+      {
         "structure": "mmr:desert_mineshaft",
         "name": "Desert Mineshaft",
         "spacing_key": "mmr:desert_mineshaft"
@@ -22,6 +27,11 @@
         "structure": "mmr:mineshaft",
         "name": "Mineshaft",
         "spacing_key": "mmr:mineshaft"
+      },
+      {
+        "structure": "mmr:mushroom_mineshaft",
+        "name": "Mushroom Mineshaft",
+        "spacing_key": "mmr:mushroom_mineshaft"
       },
       {
         "structure": "mmr:nether_mineshaft",
