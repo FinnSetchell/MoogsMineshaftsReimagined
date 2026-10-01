@@ -3,7 +3,7 @@
   "fallback": "mmr:mesa_mineshaft/corridor_overflow",
   "elements": [
     {
-      "weight": 28,
+      "weight": 14,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
@@ -16,7 +16,7 @@
       }
     },
     {
-      "weight": 28,
+      "weight": 14,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
@@ -29,7 +29,7 @@
       }
     },
     {
-      "weight": 28,
+      "weight": 14,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
@@ -42,7 +42,7 @@
       }
     },
     {
-      "weight": 28,
+      "weight": 14,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
@@ -341,7 +341,7 @@
       }
     },
     {
-      "weight": 14,
+      "weight": 7,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",

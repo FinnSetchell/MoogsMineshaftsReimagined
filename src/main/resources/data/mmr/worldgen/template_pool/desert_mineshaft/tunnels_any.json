@@ -276,7 +276,7 @@
       }
     },
     {
-      "weight": 6,
+      "weight": 10,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
@@ -289,7 +289,7 @@
       }
     },
     {
-      "weight": 6,
+      "weight": 10,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
@@ -303,7 +303,7 @@
       }
     },
     {
-      "weight": 5,
+      "weight": 16,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
@@ -316,7 +316,7 @@
       }
     },
     {
-      "weight": 6,
+      "weight": 10,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
@@ -330,7 +330,7 @@
       }
     },
     {
-      "weight": 5,
+      "weight": 16,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",

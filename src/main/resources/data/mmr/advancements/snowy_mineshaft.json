@@ -1,0 +1,55 @@
+{
+  "parent": "mmr:root",
+  "display": {
+    "icon": {
+      "item": "minecraft:snow_block",
+      "id": "minecraft:snow_block"
+    },
+    "title": {
+      "translate": "advancements.mmr.snowy_mineshaft.title",
+      "fallback": "Hey look! An igloo!"
+    },
+    "description": {
+      "translate": "advancements.mmr.snowy_mineshaft.description",
+      "fallback": "Discover a Snowy Mineshaft"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "snowy_mineshaft": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "mmr:snowy_mineshaft",
+            "structures": [
+              "mmr:snowy_mineshaft"
+            ]
+          }
+        }
+      }
+    },
+    "snowy_mineshaft_underground": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "mmr:snowy_mineshaft_underground",
+            "structures": [
+              "mmr:snowy_mineshaft_underground"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "snowy_mineshaft",
+      "snowy_mineshaft_underground"
+    ]
+  ]
+}

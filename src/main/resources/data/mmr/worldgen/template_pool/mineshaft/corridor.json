@@ -159,7 +159,7 @@
       }
     },
     {
-      "weight": 37,
+      "weight": 18,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "weight": 14,
+      "weight": 7,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
@@ -185,7 +185,7 @@
       }
     },
     {
-      "weight": 36,
+      "weight": 18,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
@@ -198,7 +198,7 @@
       }
     },
     {
-      "weight": 25,
+      "weight": 12,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
@@ -211,7 +211,7 @@
       }
     },
     {
-      "weight": 14,
+      "weight": 30,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
@@ -225,7 +225,7 @@
       }
     },
     {
-      "weight": 14,
+      "weight": 7,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
@@ -239,7 +239,7 @@
       }
     },
     {
-      "weight": 16,
+      "weight": 8,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
@@ -252,7 +252,7 @@
       }
     },
     {
-      "weight": 13,
+      "weight": 26,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
@@ -265,7 +265,7 @@
       }
     },
     {
-      "weight": 13,
+      "weight": 26,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
@@ -278,7 +278,7 @@
       }
     },
     {
-      "weight": 12,
+      "weight": 45,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",

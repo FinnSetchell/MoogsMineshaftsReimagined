@@ -1,0 +1,41 @@
+{
+  "parent": "mmr:root",
+  "display": {
+    "icon": {
+      "item": "minecraft:sculk_shrieker",
+      "id": "minecraft:sculk_shrieker"
+    },
+    "title": {
+      "translate": "advancements.mmr.deep_dark_mineshaft.title",
+      "fallback": "Tread lightly"
+    },
+    "description": {
+      "translate": "advancements.mmr.deep_dark_mineshaft.description",
+      "fallback": "Discover a Deep Dark Mineshaft"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "deep_dark_mineshaft_underground": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "mmr:deep_dark_mineshaft_underground",
+            "structures": [
+              "mmr:deep_dark_mineshaft_underground"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "deep_dark_mineshaft_underground"
+    ]
+  ]
+}

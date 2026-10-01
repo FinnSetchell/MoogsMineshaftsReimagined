@@ -419,7 +419,7 @@
       }
     },
     {
-      "weight": 28,
+      "weight": 50,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",

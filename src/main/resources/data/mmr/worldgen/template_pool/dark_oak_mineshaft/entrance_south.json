@@ -1,0 +1,26 @@
+{
+  "name": "mmr:dark_oak_mineshaft/entrance_south",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mmr:1_20_5/dark_oak_mineshaft/entrance_south",
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/dark_oak_mineshaft/entrance_south",
+          "1.20.5-1.20.6": "mmr:1_20_5/dark_oak_mineshaft/entrance_south"
+        },
+        "processors": "mmr:vanilla_mineshaft_loot",
+        "projection": "rigid",
+        "enhanced_terrain_adaptation": {
+          "kernel_size": 24,
+          "kernel_distance": 16,
+          "top": "carve",
+          "bottom": "bury",
+          "bottom_offset": 1.0
+        }
+      }
+    }
+  ]
+}

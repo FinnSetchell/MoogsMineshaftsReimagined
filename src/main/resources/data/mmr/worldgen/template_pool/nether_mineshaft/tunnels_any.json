@@ -253,19 +253,13 @@
       "weight": 10,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
-        "projection": "rigid",
         "location": "mmr:1_20_5/nether_mineshaft/straight_5",
-        "processors": "mmr:nether_mineshaft_no_basalt",
-        "enhanced_terrain_adaptation": {
-          "kernel_size": 5,
-          "kernel_distance": 4,
-          "top": "bury",
-          "bottom": "bury"
-        },
         "locations": {
           "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/straight_5",
           "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/straight_5"
-        }
+        },
+        "processors": "mmr:nether_mineshaft_no_basalt",
+        "projection": "rigid"
       }
     },
     {
@@ -554,7 +548,7 @@
       }
     },
     {
-      "weight": 8,
+      "weight": 12,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
@@ -573,7 +567,7 @@
       }
     },
     {
-      "weight": 8,
+      "weight": 12,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
@@ -592,7 +586,7 @@
       }
     },
     {
-      "weight": 4,
+      "weight": 8,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
@@ -611,7 +605,7 @@
       }
     },
     {
-      "weight": 5,
+      "weight": 25,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
@@ -630,7 +624,7 @@
       }
     },
     {
-      "weight": 5,
+      "weight": 25,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
@@ -651,22 +645,16 @@
       }
     },
     {
-      "weight": 3,
+      "weight": 30,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
-        "projection": "rigid",
         "location": "mmr:1_20_5/nether_mineshaft/mess_hall",
-        "processors": "mmr:nether_mineshaft_no_basalt",
-        "enhanced_terrain_adaptation": {
-          "kernel_size": 5,
-          "kernel_distance": 4,
-          "top": "bury",
-          "bottom": "bury"
-        },
         "locations": {
           "1.20-1.20.4": "mmr:1_20_0/nether_mineshaft/mess_hall",
           "1.20.5-1.20.6": "mmr:1_20_5/nether_mineshaft/mess_hall"
-        }
+        },
+        "processors": "mmr:nether_mineshaft_no_basalt",
+        "projection": "rigid"
       }
     }
   ]

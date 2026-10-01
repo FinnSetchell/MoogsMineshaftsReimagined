@@ -1,0 +1,41 @@
+{
+  "parent": "mmr:root",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherrack",
+      "id": "minecraft:netherrack"
+    },
+    "title": {
+      "translate": "advancements.mmr.nether_mineshaft.title",
+      "fallback": "Mining in the heat"
+    },
+    "description": {
+      "translate": "advancements.mmr.nether_mineshaft.description",
+      "fallback": "Discover a Nether Mineshaft"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "nether_mineshaft": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "mmr:nether_mineshaft",
+            "structures": [
+              "mmr:nether_mineshaft"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "nether_mineshaft"
+    ]
+  ]
+}
