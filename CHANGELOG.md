@@ -11,7 +11,7 @@
 - Structure preview links in Moog's Structure Lib's config screen
 - Mineshafts now sometimes generate entirely underground, with no entrance on the surface
 - The mesa mineshaft now sometimes has a surface entrance, with a trial room, a trapped chest and armour stands in gold armour
-- An option in Moog's Structure Lib's config screen that replaces vanilla mineshafts with Moog's, about as common as vanilla ones were
+- An option in Moog's Structure Lib's config screen that replaces vanilla mineshafts with Moog's
   - With it on, some chests hold vanilla mineshaft loot, so loot added by other mods shows up there too
 - Advancements for discovering each kind of mineshaft, and a challenge for finding them all
 
