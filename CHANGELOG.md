@@ -6,7 +6,7 @@
 
 ### Fixed
 - Enchanted loot in some chests can now roll treasure enchantments such as Mending, as it does on newer versions
-- The enchanted boots in the snowy mineshaft's first chest now only roll Frost Walker, Depth Strider or Feather Falling, as they do on newer versions
+- Enchanted boots in the snowy mineshaft's entrance chest now roll the same enchantments as on newer versions
 
 ---
 
