@@ -17,7 +17,14 @@
                 "max": 3
               }
             }
-          ]
+          ],
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "min": 1,
+              "max": 3
+            }
+          }
         },
         {
           "type": "minecraft:item",
@@ -31,7 +38,14 @@
                 "max": 3
               }
             }
-          ]
+          ],
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "min": 1,
+              "max": 3
+            }
+          }
         },
         {
           "type": "minecraft:item",
@@ -45,7 +59,14 @@
                 "max": 6
               }
             }
-          ]
+          ],
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "min": 3,
+              "max": 6
+            }
+          }
         },
         {
           "type": "minecraft:item",
@@ -59,7 +80,14 @@
                 "max": 2
               }
             }
-          ]
+          ],
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "min": 1,
+              "max": 2
+            }
+          }
         },
         {
           "type": "minecraft:item",
@@ -75,7 +103,16 @@
               },
               "options": "#minecraft:on_random_loot"
             }
-          ]
+          ],
+          "modifier": {
+            "type": "minecraft:enchant_with_levels",
+            "levels": {
+              "type": "minecraft:uniform",
+              "min": 25,
+              "max": 35
+            },
+            "options": "#minecraft:on_random_loot"
+          }
         },
         {
           "type": "minecraft:item",
@@ -86,7 +123,11 @@
               "function": "minecraft:set_count",
               "count": 1
             }
-          ]
+          ],
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": 1
+          }
         },
         {
           "type": "minecraft:item",
@@ -100,7 +141,14 @@
                 "max": 5
               }
             }
-          ]
+          ],
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "min": 2,
+              "max": 5
+            }
+          }
         },
         {
           "type": "minecraft:item",
@@ -134,7 +182,14 @@
                 "max": 5
               }
             }
-          ]
+          ],
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "min": 2,
+              "max": 5
+            }
+          }
         },
         {
           "type": "minecraft:item",
@@ -148,7 +203,14 @@
                 "max": 4
               }
             }
-          ]
+          ],
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "min": 2,
+              "max": 4
+            }
+          }
         },
         {
           "type": "minecraft:item",
@@ -162,7 +224,14 @@
                 "max": 2
               }
             }
-          ]
+          ],
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "min": 1,
+              "max": 2
+            }
+          }
         },
         {
           "type": "minecraft:item",
@@ -176,7 +245,14 @@
                 "max": 4
               }
             }
-          ]
+          ],
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "min": 2,
+              "max": 4
+            }
+          }
         },
         {
           "type": "minecraft:item",
@@ -190,7 +266,14 @@
                 "max": 6
               }
             }
-          ]
+          ],
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "min": 3,
+              "max": 6
+            }
+          }
         },
         {
           "type": "minecraft:item",
@@ -204,7 +287,14 @@
                 "max": 4
               }
             }
-          ]
+          ],
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "min": 2,
+              "max": 4
+            }
+          }
         },
         {
           "type": "minecraft:item",
@@ -218,7 +308,14 @@
                 "max": 2
               }
             }
-          ]
+          ],
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "min": 1,
+              "max": 2
+            }
+          }
         },
         {
           "type": "minecraft:item",
@@ -228,7 +325,10 @@
             {
               "function": "minecraft:enchant_randomly"
             }
-          ]
+          ],
+          "modifier": {
+            "type": "minecraft:enchant_randomly"
+          }
         },
         {
           "type": "minecraft:item",
@@ -253,7 +353,14 @@
                 "max": 6
               }
             }
-          ]
+          ],
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "min": 3,
+              "max": 6
+            }
+          }
         },
         {
           "type": "minecraft:item",
@@ -267,7 +374,14 @@
                 "max": 6
               }
             }
-          ]
+          ],
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "min": 3,
+              "max": 6
+            }
+          }
         },
         {
           "type": "minecraft:item",
@@ -281,7 +395,14 @@
                 "max": 2
               }
             }
-          ]
+          ],
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "min": 1,
+              "max": 2
+            }
+          }
         },
         {
           "type": "minecraft:item",
@@ -307,7 +428,16 @@
               },
               "options": "#minecraft:on_random_loot"
             }
-          ]
+          ],
+          "modifier": {
+            "type": "minecraft:enchant_with_levels",
+            "levels": {
+              "type": "minecraft:uniform",
+              "min": 20,
+              "max": 30
+            },
+            "options": "#minecraft:on_random_loot"
+          }
         }
       ]
     },
@@ -331,7 +461,14 @@
                 "max": 2
               }
             }
-          ]
+          ],
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "min": 1,
+              "max": 2
+            }
+          }
         },
         {
           "type": "minecraft:item",
@@ -345,7 +482,14 @@
                 "max": 3
               }
             }
-          ]
+          ],
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "min": 1,
+              "max": 3
+            }
+          }
         },
         {
           "type": "minecraft:item",
@@ -359,7 +503,14 @@
                 "max": 3
               }
             }
-          ]
+          ],
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "min": 1,
+              "max": 3
+            }
+          }
         },
         {
           "type": "minecraft:item",
@@ -373,7 +524,14 @@
                 "max": 6
               }
             }
-          ]
+          ],
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "min": 2,
+              "max": 6
+            }
+          }
         }
       ]
     }
