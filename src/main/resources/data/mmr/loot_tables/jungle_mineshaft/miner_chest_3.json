@@ -26,7 +26,7 @@
                 "min": 15,
                 "max": 25
               },
-              "options": "#minecraft:on_random_loot"
+              "treasure": true
             }
           ]
         },
