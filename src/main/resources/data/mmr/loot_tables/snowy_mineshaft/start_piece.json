@@ -381,7 +381,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
-              "options": [
+              "enchantments": [
                 "minecraft:frost_walker",
                 "minecraft:depth_strider",
                 "minecraft:feather_falling"
@@ -396,7 +396,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
-              "options": [
+              "enchantments": [
                 "minecraft:frost_walker",
                 "minecraft:feather_falling"
               ]
