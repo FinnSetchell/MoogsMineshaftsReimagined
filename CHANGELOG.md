@@ -7,6 +7,7 @@
 ### Fixed
 - Enchanted loot in some chests can now roll treasure enchantments such as Mending, as it does on newer versions
 - Enchanted boots in the snowy mineshaft's entrance chest now roll the same enchantments as on newer versions
+- Fixed the mod not loading on NeoForge 1.20.5
 
 ---
 
