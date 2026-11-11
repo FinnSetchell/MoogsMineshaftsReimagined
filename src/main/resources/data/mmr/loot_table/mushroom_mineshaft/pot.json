@@ -6,12 +6,12 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 54
+          "weight": 80
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:coal",
-          "weight": 8,
+          "name": "minecraft:gold_nugget",
+          "weight": 55,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -28,66 +28,20 @@
               "type": "minecraft:uniform",
               "min": 1,
               "max": 3
-            }
-          }
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:torch",
-          "weight": 8,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              }
-            }
-          ],
-          "modifier": {
-            "type": "minecraft:set_count",
-            "count": {
-              "type": "minecraft:uniform",
-              "min": 1,
-              "max": 3
-            }
-          }
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:string",
-          "weight": 6,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 2
-              }
-            }
-          ],
-          "modifier": {
-            "type": "minecraft:set_count",
-            "count": {
-              "type": "minecraft:uniform",
-              "min": 1,
-              "max": 2
             }
           }
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_nugget",
-          "weight": 6,
+          "weight": 50,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 1,
-                "max": 4
+                "min": 2,
+                "max": 5
               }
             }
           ],
@@ -95,38 +49,15 @@
             "type": "minecraft:set_count",
             "count": {
               "type": "minecraft:uniform",
-              "min": 1,
-              "max": 4
+              "min": 2,
+              "max": 5
             }
           }
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:gold_nugget",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 3
-              }
-            }
-          ],
-          "modifier": {
-            "type": "minecraft:set_count",
-            "count": {
-              "type": "minecraft:uniform",
-              "min": 1,
-              "max": 3
-            }
-          }
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:bread",
-          "weight": 5,
+          "name": "minecraft:emerald",
+          "weight": 35,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -149,14 +80,14 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:arrow",
-          "weight": 4,
+          "weight": 25,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2,
-                "max": 6
+                "max": 4
               }
             }
           ],
@@ -165,21 +96,21 @@
             "count": {
               "type": "minecraft:uniform",
               "min": 2,
-              "max": 6
+              "max": 4
             }
           }
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:flint",
-          "weight": 3,
+          "name": "minecraft:coal",
+          "weight": 30,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
-                "max": 2
+                "max": 3
               }
             }
           ],
@@ -188,19 +119,29 @@
             "count": {
               "type": "minecraft:uniform",
               "min": 1,
-              "max": 2
+              "max": 3
             }
           }
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:emerald",
-          "weight": 1
+          "name": "minecraft:gunpowder",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ],
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": 1
+          }
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:red_mushroom",
-          "weight": 5,
+          "weight": 15,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -223,7 +164,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:brown_mushroom",
-          "weight": 5,
+          "weight": 15,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -241,6 +182,84 @@
               "min": 1,
               "max": 3
             }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone_meal",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              }
+            }
+          ],
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 2,
+              "max": 4
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mushroom_stew",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:miner_pottery_sherd",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:plenty_pottery_sherd",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sheaf_pottery_sherd",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:prize_pottery_sherd",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raw_gold",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ],
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": 1
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ],
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": 1
           }
         }
       ]
