@@ -249,6 +249,38 @@
           ]
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "mmr:on_snowy_mineshaft_maps",
+              "decoration": "red_x",
+              "zoom": 2,
+              "search_radius": 38,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "filled_map.mmr.snowy_mineshaft_map",
+                "fallback": "Snowy Mineshaft Map"
+              },
+              "target": "item_name"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 5
+        }
+      ]
     }
   ],
   "random_sequence": "mmr:mushroom_mineshaft/treasure_3"

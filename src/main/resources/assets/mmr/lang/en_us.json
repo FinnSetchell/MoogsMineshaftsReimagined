@@ -27,5 +27,11 @@
   "advancements.mmr.nether_mineshaft.title": "Mining in the heat",
   "advancements.mmr.nether_mineshaft.description": "Discover a Nether Mineshaft",
   "advancements.mmr.all_mineshafts.title": "Seen one, seen them all",
-  "advancements.mmr.all_mineshafts.description": "Discover every kind of Moog's Mineshaft"
+  "advancements.mmr.all_mineshafts.description": "Discover every kind of Moog's Mineshaft",
+  "filled_map.mmr.mesa_mineshaft_map": "Mesa Mineshaft Map",
+  "filled_map.mmr.jungle_mineshaft_map": "Jungle Mineshaft Map",
+  "filled_map.mmr.dark_oak_mineshaft_map": "Dark Oak Mineshaft Map",
+  "filled_map.mmr.deep_dark_mineshaft_map": "Deep Dark Mineshaft Map",
+  "filled_map.mmr.snowy_mineshaft_map": "Snowy Mineshaft Map",
+  "filled_map.mmr.desert_mineshaft_map": "Desert Mineshaft Map"
 }
