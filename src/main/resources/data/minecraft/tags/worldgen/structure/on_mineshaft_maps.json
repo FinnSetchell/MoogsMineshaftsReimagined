@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "mmr:mineshaft",
+      "required": false
+    },
+    {
+      "id": "mmr:mineshaft_underground",
+      "required": false
+    }
+  ]
+}

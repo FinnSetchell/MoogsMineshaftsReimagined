@@ -538,6 +538,71 @@
           }
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "mmr:on_jungle_mineshaft_maps",
+              "decoration": "red_x",
+              "zoom": 2,
+              "search_radius": 40,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "filled_map.mmr.jungle_mineshaft_map",
+                "fallback": "Jungle Mineshaft Map"
+              },
+              "target": "item_name"
+            }
+          ],
+          "modifier": [
+            {
+              "type": "minecraft:set_item",
+              "item": "minecraft:buried_mineshaft_map"
+            },
+            {
+              "type": "minecraft:exploration_map",
+              "destination": "#mmr:on_jungle_mineshaft_maps",
+              "decoration": "red_x",
+              "zoom": 2,
+              "search_radius": 40,
+              "skip_existing_chunks": false
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:map_id": {}
+                }
+              },
+              "on_fail": {
+                "type": "minecraft:discard"
+              }
+            },
+            {
+              "type": "minecraft:set_name",
+              "name": {
+                "translate": "filled_map.mmr.jungle_mineshaft_map",
+                "fallback": "Jungle Mineshaft Map"
+              },
+              "target": "item_name"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 5
+        }
+      ]
     }
   ],
   "random_sequence": "mmr:mesa_mineshaft/treasure"
