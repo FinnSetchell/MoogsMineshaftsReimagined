@@ -9,7 +9,7 @@
   "allowed_terrain_height_range": 10,
   "valid_biome_radius_check": 1,
   "liquid_settings": "ignore_waterlogging",
-  "biomes": "#c:is_badlands",
+  "biomes": "#mmr:is_badlands",
   "step": "surface_structures",
   "terrain_adaptation": "none",
   "start_height": {
