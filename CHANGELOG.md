@@ -4,10 +4,15 @@
 
 ## [1.1.1]
 
+### Added
+- Treasure chests in the desert, mesa, jungle, dark oak, mushroom and snowy mineshafts can hold a map to another kind of mineshaft
+  - Rare chests in the regular mineshaft can hold a map to the desert, mesa, jungle, dark oak, deep dark or snowy mineshaft
+
 ### Fixed
 - Enchanted loot in some chests can now roll treasure enchantments such as Mending, as it does on newer versions
 - Enchanted boots in the snowy mineshaft's entrance chest now roll the same enchantments as on newer versions
 - Fixed the mod not loading on NeoForge 1.20.5
+- The pots in the dark oak, deep dark and mushroom mineshafts now hold loot, including pottery sherds
 
 ---
 
