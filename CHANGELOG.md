@@ -4,8 +4,15 @@
 
 ## [1.1.1]
 
+### Added
+- Treasure chests in the desert, mesa, jungle, dark oak, mushroom and snowy mineshafts can hold a map to another kind of mineshaft
+  - Rare chests in the regular mineshaft can hold a map to the desert, mesa, jungle, dark oak, deep dark or snowy mineshaft
+- On Minecraft 26.3, buried mineshaft maps can also lead to this mod's regular mineshaft
+
 ### Fixed
 - Chests on Minecraft 26.3 now give full stacks and enchanted items, the same as on older versions
+- The pots in the dark oak, deep dark and mushroom mineshafts now hold loot, including pottery sherds
+- The desert, jungle, mesa, snowy, nether and regular mineshafts now generate on Forge for Minecraft 1.21 and on early Forge builds for 1.21.1
 
 ---
 
