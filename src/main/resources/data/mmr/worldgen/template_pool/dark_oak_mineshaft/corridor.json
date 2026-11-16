@@ -437,7 +437,8 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "location": "mmr:1_21_9/dark_oak_mineshaft/library_corridor_1",
         "locations": {
-          "1.21-1.21.8": "mmr:1_21_0/dark_oak_mineshaft/library_corridor_1",
+          "1.21-1.21.4": "mmr:1_21_0/dark_oak_mineshaft/library_corridor_1",
+          "1.21.5-1.21.8": "mmr:1_21_5/dark_oak_mineshaft/library_corridor_1",
           "1.21.9-26.3": "mmr:1_21_9/dark_oak_mineshaft/library_corridor_1"
         },
         "processors": "mmr:vanilla_mineshaft_loot",
