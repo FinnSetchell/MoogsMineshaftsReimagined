@@ -18,6 +18,8 @@ Moog's Mineshafts Reimagined replaces Minecraft's abandoned mineshafts with larg
 
 A different mineshaft generates depending on the biome above it.
 
+By default, it replaces the vanilla mineshafts. This can be turned off in Moog's Structure Lib's config.
+
 [![Browse every structure live in 3D](https://i.moogsmods.com/images/f8fe835413394a76b10a678afefea30f.png)](https://previews.moogsmods.com/mineshafts-reimagined/1.21.1/)
 
 **REQUIRED**
