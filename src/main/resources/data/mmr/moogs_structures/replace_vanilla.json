@@ -50,12 +50,42 @@
       "id": "replace_mineshafts",
       "name": "Replace Mineshafts",
       "description": "Replace vanilla mineshafts with Moog's mineshafts. Every overworld mineshaft becomes about as common as the vanilla ones were.",
-      "default_enabled": false,
+      "default_enabled": true,
       "replacements": [
         {
           "vanilla_key": "mineshaft",
           "vanilla_structure": "minecraft:mineshaft",
           "replacement_structure": "mmr:mineshaft_underground"
+        },
+        {
+          "vanilla_key": "mineshaft_dark_oak",
+          "vanilla_structure": "minecraft:mineshaft",
+          "replacement_structure": "mmr:dark_oak_mineshaft_underground"
+        },
+        {
+          "vanilla_key": "mineshaft_deep_dark",
+          "vanilla_structure": "minecraft:mineshaft",
+          "replacement_structure": "mmr:deep_dark_mineshaft_underground"
+        },
+        {
+          "vanilla_key": "mineshaft_desert",
+          "vanilla_structure": "minecraft:mineshaft",
+          "replacement_structure": "mmr:desert_mineshaft_underground"
+        },
+        {
+          "vanilla_key": "mineshaft_jungle",
+          "vanilla_structure": "minecraft:mineshaft",
+          "replacement_structure": "mmr:jungle_mineshaft_underground"
+        },
+        {
+          "vanilla_key": "mineshaft_mushroom",
+          "vanilla_structure": "minecraft:mineshaft",
+          "replacement_structure": "mmr:mushroom_mineshaft_underground"
+        },
+        {
+          "vanilla_key": "mineshaft_snowy",
+          "vanilla_structure": "minecraft:mineshaft",
+          "replacement_structure": "mmr:snowy_mineshaft_underground"
         },
         {
           "vanilla_key": "mineshaft_mesa",
