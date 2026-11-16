@@ -407,11 +407,13 @@
       "weight": 10,
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
-        "location": "mmr:1_21_9/dark_oak_mineshaft/messhall",
+        "location": "mmr:26_3_0/dark_oak_mineshaft/messhall",
         "locations": {
           "1.21-1.21.3": "mmr:1_21_0/dark_oak_mineshaft/messhall",
-          "1.21.4-1.21.8": "mmr:1_21_4/dark_oak_mineshaft/messhall",
-          "1.21.9-26.3": "mmr:1_21_9/dark_oak_mineshaft/messhall"
+          "1.21.4": "mmr:1_21_4/dark_oak_mineshaft/messhall",
+          "1.21.5-1.21.8": "mmr:1_21_5/dark_oak_mineshaft/messhall",
+          "1.21.9-26.2": "mmr:1_21_9/dark_oak_mineshaft/messhall",
+          "26.3": "mmr:26_3_0/dark_oak_mineshaft/messhall"
         },
         "processors": "mmr:vanilla_mineshaft_loot",
         "projection": "rigid"
