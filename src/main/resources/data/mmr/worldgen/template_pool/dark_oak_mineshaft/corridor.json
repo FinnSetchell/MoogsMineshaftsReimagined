@@ -402,6 +402,47 @@
         "processors": "minecraft:empty",
         "projection": "rigid"
       }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mmr:1_21_9/dark_oak_mineshaft/messhall",
+        "locations": {
+          "1.21-1.21.3": "mmr:1_21_0/dark_oak_mineshaft/messhall",
+          "1.21.4-1.21.8": "mmr:1_21_4/dark_oak_mineshaft/messhall",
+          "1.21.9-26.3": "mmr:1_21_9/dark_oak_mineshaft/messhall"
+        },
+        "processors": "mmr:vanilla_mineshaft_loot",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mmr:1_21_9/dark_oak_mineshaft/prison",
+        "locations": {
+          "1.21-1.21.3": "mmr:1_21_0/dark_oak_mineshaft/prison",
+          "1.21.4-1.21.8": "mmr:1_21_4/dark_oak_mineshaft/prison",
+          "1.21.9-26.3": "mmr:1_21_9/dark_oak_mineshaft/prison"
+        },
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mmr:1_21_9/dark_oak_mineshaft/library_corridor_1",
+        "locations": {
+          "1.21-1.21.8": "mmr:1_21_0/dark_oak_mineshaft/library_corridor_1",
+          "1.21.9-26.3": "mmr:1_21_9/dark_oak_mineshaft/library_corridor_1"
+        },
+        "processors": "mmr:vanilla_mineshaft_loot",
+        "projection": "rigid"
+      }
     }
   ]
 }
