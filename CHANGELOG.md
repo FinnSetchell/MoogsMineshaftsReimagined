@@ -7,12 +7,20 @@
 ### Added
 - Treasure chests in the desert, mesa, jungle, dark oak, mushroom and snowy mineshafts can hold a map to another kind of mineshaft
   - Rare chests in the regular mineshaft can hold a map to the desert, mesa, jungle, dark oak, deep dark or snowy mineshaft
+- The dark oak mineshaft can now have a mess hall, a prison and a library
+- The mushroom mineshaft has a new large dead end with a jail cell
 
 ### Fixed
 - Enchanted loot in some chests can now roll treasure enchantments such as Mending, as it does on newer versions
 - Enchanted boots in the snowy mineshaft's entrance chest now roll the same enchantments as on newer versions
 - Fixed the mod not loading on NeoForge 1.20.5
 - The pots in the dark oak, deep dark and mushroom mineshafts now hold loot, including pottery sherds
+- Underground mineshafts no longer dig into the bedrock or break up through the ground and the sea floor, as on newer versions
+- The mesa mineshaft's surface entrance no longer generates high up on badlands plateaus, as on newer versions
+- Villagers in mineshafts are no longer all masters: they now come at every level, with trades to match
+
+### Changed
+- Now requires Moog's Structure Lib 4.0.0 or newer
 
 ---
 
