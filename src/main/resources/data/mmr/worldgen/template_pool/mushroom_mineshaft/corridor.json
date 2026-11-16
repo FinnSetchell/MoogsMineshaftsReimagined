@@ -447,6 +447,19 @@
         "processors": "mmr:vanilla_mineshaft_loot",
         "projection": "rigid"
       }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mmr:1_20_5/mushroom_mineshaft/dead_end_large_3",
+        "locations": {
+          "1.20-1.20.4": "mmr:1_20_0/mushroom_mineshaft/dead_end_large_3",
+          "1.20.5-1.20.6": "mmr:1_20_5/mushroom_mineshaft/dead_end_large_3"
+        },
+        "processors": "mmr:vanilla_mineshaft_loot",
+        "projection": "rigid"
+      }
     }
   ]
 }
