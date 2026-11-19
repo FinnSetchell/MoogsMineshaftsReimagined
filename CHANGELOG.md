@@ -9,6 +9,7 @@
   - Rare chests in the regular mineshaft can hold a map to the desert, mesa, jungle, dark oak, deep dark or snowy mineshaft
 - The dark oak mineshaft can now have a mess hall, a prison and a library
 - The mushroom mineshaft has a new large dead end with a jail cell
+- The chest in the warden's cell in the deep dark mineshaft now holds loot worth the fight
 
 ### Fixed
 - Enchanted loot in some chests can now roll treasure enchantments such as Mending, as it does on newer versions
