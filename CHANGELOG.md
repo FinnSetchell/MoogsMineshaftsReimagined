@@ -10,6 +10,7 @@
 - On Minecraft 26.3, buried mineshaft maps can also lead to this mod's regular mineshaft
 - The dark oak mineshaft can now have a mess hall, a prison and a library
 - The mushroom mineshaft has a new large dead end with a jail cell
+- The chest in the warden's cell in the deep dark mineshaft now holds loot worth the fight
 
 ### Fixed
 - Chests on Minecraft 26.3 now give full stacks and enchanted items, the same as on older versions
