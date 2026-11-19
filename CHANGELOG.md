@@ -24,6 +24,8 @@
 
 ### Changed
 - Now requires Moog's Structure Lib 4.0.0 or newer
+- Some of the quartz and gold ore in the Nether mineshaft is now ancient debris
+- The Nether mineshaft now generates lower and mostly buried in netherrack, so it no longer breaks through the Nether roof
 
 ---
 
