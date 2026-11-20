@@ -21,6 +21,7 @@
 - Empty chests at the mesa mineshaft's surface entrance now hold loot, as on newer versions
   - The two chests that stand in for vaults hold the vaults' loot
 - Villagers in mineshafts are no longer all masters: they now come at every level, with trades to match
+- Chests in the mineshafts that couldn't be opened because of a block above them now open
 
 ### Changed
 - Now requires Moog's Structure Lib 4.0.0 or newer
