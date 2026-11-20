@@ -19,7 +19,7 @@
 - Underground mineshafts no longer dig into the bedrock or break up through the ground and the sea floor, as on newer versions
 - The mesa mineshaft's surface entrance no longer generates high up on badlands plateaus, as on newer versions
 - Empty chests at the mesa mineshaft's surface entrance now hold loot, as on newer versions
-  - The two chests that stand in for vaults hold the vaults' loot
+  - The two barrels that stand in for vaults hold the vaults' loot
 - Villagers in mineshafts are no longer all masters: they now come at every level, with trades to match
 - Chests in the mineshafts that couldn't be opened because of a block above them now open
 
