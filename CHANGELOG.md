@@ -17,6 +17,7 @@
 - The pots in the dark oak, deep dark and mushroom mineshafts now hold loot, including pottery sherds
 - The desert, jungle, mesa, snowy, nether and regular mineshafts now generate on Forge for Minecraft 1.21 and on early Forge builds for 1.21.1
 - Villagers in mineshafts are no longer all masters: they now come at every level, with trades to match
+- Chests in the mineshafts that couldn't be opened because of a block above them now open
 
 ### Changed
 - Now requires Moog's Structure Lib 4.0.0 or newer
